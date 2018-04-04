@@ -17,7 +17,7 @@ Gallium-Arsenid: 2 Zoll, 3 Zoll, 100 mm, 125 mm und 150 mm – 200 mm tech
 Wafern der geometrische Verschnitt kleiner wird, können die ICs kostengünstiger produziert werden.
 Um die Ausbeute zu maximieren, werden die Wafer in Reinräumen produziert. 
 
-<i>Quellle: <a href="https://de.wikipedia.org/wiki/Wafer"<Wikipedia</a> Aprill 2018</i>
+<i>Quelle: <a href="https://de.wikipedia.org/wiki/Wafer">Wikipedia</a> Aprill 2018</i>
 </p>
 
 <h3>Funktionsweise</h3>
