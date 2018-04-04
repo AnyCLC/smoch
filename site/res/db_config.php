@@ -6,7 +6,7 @@
  * and open the template in the editor.
  */
 
- $db = mysqli_connect("localhost", "smochuser", "****"        , "smoch");
+ $db = mysqli_connect("localhost", "smochuser", "1234"        , "smoch");
   if(!$db)
   {
    exit("Verbindungsfehler: " . mysqli_connect_error());

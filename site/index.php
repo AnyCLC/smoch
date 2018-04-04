@@ -85,7 +85,16 @@ Date:  20.03.2018
                     <?php
                     include_once './artikel_html/' . $IDurl . '.php';
                     ?>
-                    
+<?php
+if(! empty ($modellObj) && strlen($modellObj) > 0) {
+    echo "<hr />\n";
+    echo "<br />Im <b>SANTIS Museum of Computing History</b> bestaunen Sie: <b><span style='color: #036;'>" . $modellObj;
+    if(! empty($jahrzahlObj)) {
+        echo " aus dem Jahr $jahrzahlObj";
+            }
+    echo "</span></b>.<br />\n";
+    }
+?>
                 </div>
                 
             </div>
