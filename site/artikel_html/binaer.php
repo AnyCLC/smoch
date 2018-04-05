@@ -6,9 +6,11 @@
 
 <h3>Aufbau</h3>
 <p>
-Das Binärsystem (auch Zweiersystem oder Dualsystem genannt) ist ein Stellenwertsystem wie unser gewohntes Dezimalsystem. Die Darstellung von Zahlen haben jedoch nur zwei Ziffern. Die Ziffern sind 0 und 1.<br>
+Das Binärsystem (auch Zweiersystem oder Dualsystem genannt) ist ein Stellenwertsystem wie unser gewohntes Dezimalsystem.
+    Die Darstellung von Zahlen haben jedoch nur zwei Ziffern. Die Ziffern sind 0 und 1.<br>
 </p>
 <table class='tabelle'>
+    <tr> <td>Dezimal</td> <td></td><td>Binäre Darstellung</td></tr>
 	<tr> <td> 0</td> <td>&#8702;</td> <td>    0</td> </tr> 
 	<tr> <td> 1</td> <td>&#8702;</td> <td>    1</td> </tr> 
 	<tr> <td> 2</td> <td>&#8702;</td> <td>   10</td> </tr> 
@@ -29,7 +31,7 @@ Das Binärsystem (auch Zweiersystem oder Dualsystem genannt) ist ein Stellenwert
 
 <h3>Funktionsweise</h3>
 <p>
-Man kann mit dem Binärsystem auch rechnen:<br>
+Man kann im Binärsystem rechnen:<br>
 </p>
 <p>Addition</p>
 <table class='tabelle'>
@@ -38,6 +40,7 @@ Man kann mit dem Binärsystem auch rechnen:<br>
 	<tr> <td>               </td> <td>               </td> <td>1              </td> <td>1              </td> <td>=</td> </tr> 
 	<tr> <td>1              </td> <td>1              </td> <td>1              </td> <td>0              </td> <td> </td> </tr> 
 </table>
+      
       <p>Dabei bezeichnet die oberste Zeile den Übertrag (carry). Die folgende Tabelle zeigt dieselbe Rechnung im Dezimalsystem.</p>
 <table class='tabelle'>
 	<tr> <td>               </td> <td>               </td> <td>1              </td> <td>1              </td> <td>+</td> </tr> 
@@ -50,7 +53,7 @@ Man kann mit dem Binärsystem auch rechnen:<br>
 <h3>Verwendung</h3>
 <p>
 Bei der Entwicklung von elektronischen Rechenmaschinen erlangte das Dualsystem grosse Bedeutung, denn in der Digitaltechnik werden Zahlen durch elektronische Zustände dargestellt.<br>
-Bevorzugt werden zwei komplementiere Zustände wie z. B. Strom an / Strom aus. Auf diese Weise konnten einfache Schaltungen realisiert werden.<br>
+Bevorzugt werden zwei komplementäre Zustände wie z. B. Strom an / Strom aus. Auf diese Weise konnten einfache Schaltungen realisiert werden.<br>
 </p>
 <h3>Weitere Informationen</h3>
 <p>

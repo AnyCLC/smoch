@@ -1,5 +1,5 @@
 <h3> Aufbau </h3>
-<p> Ein Integrierter Schaltkreis, besteht im Wesentlichen, aus diversen elektronischen Komponenten, auf kleinstem Raum. </p>
+<p> Ein Integrierter Schaltkreis besteht im Wesentlichen aus diversen elektronischen Komponenten auf kleinstem Raum. </p>
 
 
 <h3>Funktionsweise</h3><br>

@@ -2,7 +2,7 @@
 <p>
 Geometrischer Aufbau einer CD:
 </p>
-<table>
+<table class="tabelle">
 <tr>
 <td>Merkmal</td>
 <td>CD: gelocht</td>
@@ -67,6 +67,7 @@ nm) befindet sich noch eine Schutzlackschicht, um das Aluminium vor äußeren Ei
 <br><br>
 <i>Quelle: <a href="https://de.wikipedia.org/wiki/Compact_Disc">Wikipedia</a> (März 2018) </i>
 </p>
+            
 <h3>Funktionsweise</h3>
 <p>
 Die Informationen der CD, das sogenannte „Programm“, sind auf einer spiralförmig nach außen verlaufenden Spur angeordnet; sie belegen maximal 85 % der
@@ -78,7 +79,7 @@ von der spiegelnden Unterseite her. Die Geschwindigkeit, mit der die Daten einge
 so geregelt, dass eine vorgegebene Datenrate eingehalten wird. Die Datenspur hat eine konstante Bahngeschwindigkeit (engl. constant linear velocity, CLV). Dadurch ergibt sich bei nach außen fahrendem Abtastsystem eine Drosselung der Drehzahl. Bei Verfahren ähnlich der
 Analogschallplatte spricht man hingegen von konstanter Winkelgeschwindigkeit (CAV).
 </p>
-<table>
+<table class='tabelle'>
 <tr>
 <td>Technische Angaben</td>
 <td>Werte</td>
@@ -110,7 +111,7 @@ Analogschallplatte spricht man hingegen von konstanter Winkelgeschwindigkeit (CA
 
 <h3>Verwendung</h3>
 <p>
-Die CD wurde in ganz vielen verschiedenen Einsatzgebieten eingesetzt.
+Die CD wurde in ganz vielen verschiedenen Einsatzgebieten verwendet.
 </p>
 <ul>
 <li>CD als Backup: <br>Die CD wurde als Backup-Medium verwendet um Daten langfristig sichern zu können.</li>

@@ -1,12 +1,13 @@
 <h3>Aufbau</h3>
 <p>
-Eine Amphore oder auch Amphora (griech. Für "zweihenkliges Tongefäss") ist ein Krug mit zwei Henkeln. Sie besteht meistens aus Ton, aber auch aus Metall (Bronze, Silber, Gold).<br>
+Eine Amphore oder auch Amphora (griech. Für "zweihenkliges Tongefäss") ist ein Krug mit zwei Henkeln.
+Sie besteht meistens aus Ton, aber auch aus Metall (Bronze, Silber, Gold).<br>
 Durch diese zwei Henkel sollte das Tragen erleichtert werden. Amphoren zählt man als antike Vasen.</p>
 
 <?php includeImage(); ?>
 <h3>Funktionsweise</h3>
 <p>
-Die Amphore war auch ein Hohlmaß im römischen Reich. Eine Amphora betrug c. a. 26 Liter.<br>
+Die Amphore war auch ein Hohlmaß im römischen Reich. Eine Amphora betrug ca. 26 Liter.<br>
 </p>
 
 <h3>Verwendung</h3>

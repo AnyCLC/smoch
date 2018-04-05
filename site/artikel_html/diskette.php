@@ -31,6 +31,7 @@ Teflon-beschichtetem (oder ähnlichem) Gewebe ausgestattet, um die Reibung zu mi
 <br><br>
 <i>Quelle: <a href="https://de.wikipedia.org/wiki/Diskette">Wikipedia</a> (März 2018)</i>
 </p>
+     
 <h3>Verwendung</h3>
 <p>
 Die Diskette wird Hauptsächlich in der Datenübertragung und Sicherung verwendet.
