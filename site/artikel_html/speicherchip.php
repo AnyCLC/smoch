@@ -1,6 +1,6 @@
 <h3>Aufbau</h3>
 <p>
-Der Speicherchip im Museum ist ein: <br>
+Der große Speicherchip im Museum ist ein: <br>
 (8629ek99 41265-15, Micro uPD41256 DRAM, n-Kanal Silikon Transistor, Speicherchip mit 8 mal 1 MB)<br>
 Ein DRAM besteht aus Speicherzellen, die auf der Oberfläche eines <a href="https://de.wikipedia.org/wiki/Die_(Halbleitertechnik)">Dies</a> in einer ausgeklügelten hierarchischen Struktur angeordnet und verdrahtet sind. <br>
 Während die innere Struktur herstellerspezifisch aufgebaut ist, ist die von außen sichtbare logische Struktur vom Industriegremium JEDEC normiert. Dadurch wird sichergestellt, dass sich Chips unterschiedlicher Hersteller und verschiedener Größen nach dem immer gleichen Schema ansprechen lassen. </p>
@@ -62,7 +62,7 @@ verlötet, die erheblich weniger Platz benötigten.</p>
 
 <h3>Weitere Informationen</h3>
 <p>
-Im Museum sind die folgenden Speicherchips vorhanden:
+Im Museum sind daneben die folgenden Speicherchips vorhanden:
 <table class='tabelle'>
 <tr><td>Bezeichnung</td><td>Beschreibung</td></tr>
 <tr><td>MM5270J</td><td>dynamic 4Mbit RAM</td></tr>
