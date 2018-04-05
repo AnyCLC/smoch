@@ -8,7 +8,7 @@ license header dingens
 
 #headwrapper {
 	display         : block                    ;
-	background-image: url(../img/title_pcb.jpg);
+	background-image: url(../src_images/title_pcb.jpg);
 	background-size : cover                    ;
 }
 
