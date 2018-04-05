@@ -8,7 +8,7 @@
 <p>
 Das Binärsystem (auch Zweiersystem oder Dualsystem genannt) ist ein Stellenwertsystem wie unser gewohntes Dezimalsystem. Die Darstellung von Zahlen haben jedoch nur zwei Ziffern. Die Ziffern sind 0 und 1.<br>
 </p>
-<table>
+<table class='tabelle'>
 	<tr> <td> 0</td> <td>&#8702;</td> <td>    0</td> </tr> 
 	<tr> <td> 1</td> <td>&#8702;</td> <td>    1</td> </tr> 
 	<tr> <td> 2</td> <td>&#8702;</td> <td>   10</td> </tr> 
@@ -32,7 +32,7 @@ Das Binärsystem (auch Zweiersystem oder Dualsystem genannt) ist ein Stellenwert
 Man kann mit dem Binärsystem auch rechnen:<br>
 </p>
 <p>Addition</p>
-<table>
+<table class='tabelle'>
 	<tr> <td class="carry"> </td> <td class="carry">1</td> <td class="carry">1</td> <td class="carry"> </td> </tr> 
 	<tr> <td>1              </td> <td>0              </td> <td>1              </td> <td>1              </td> <td>+</td> </tr> 
 	<tr> <td>               </td> <td>               </td> <td>1              </td> <td>1              </td> <td>=</td> </tr> 
