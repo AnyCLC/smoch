@@ -1,35 +1,39 @@
 <h3>Aufbau</h3>
 <p>
-Eine Festplatte ist ein Speichermedium um grosse Datenmängen abzuspeichern.
+Eine Festplatte ist ein Speichermedium, um grosse Datenmengen abzuspeichern.
 Es gibt sie intern als Hauptspeichermedium jedes Computers, oder als externes Medium zur Datensicherung oder Datenauslagerung.
-Es gibt auch verschiedene Varianten der Festplatte.
+Es gibt verschiedene Varianten der Festplatte.
 </p>
 <?php includeImage(); ?>
+
 <ul>
-<li>Die Bekannteste ist die HDD (Hard Disk Drive). Sie besitzt eine rotierende Magnetscheibe die durch einen sich bewegenden Lesekopf abgelesen wird, ähnlich wie bei einem Plattenspieler.</li>
-<li>In den Letzten Jaheren kam die SSD (Solid-State-Drive) immer mehr auf, Sie besitzt keine bewegenden Teile mehr, sie benutzt einen Flashspeicher. Imgrunde ein grosser USB-Stick.  </li>
+<li>Die bekannteste ist die HDD (Hard Disk Drive). Sie besitzt eine rotierende Magnetscheibe die durch einen sich bewegenden Lesekopf ausgelesen wird, ähnlich wie bei einem Plattenspieler.</li>
+<li>In den Letzten Jaheren kam die SSD (Solid-State-Drive) immer mehr auf, Sie besitzt keine bewegenden Teile mehr, sie benutzt einen Flashspeicher. Dies entspricht im Grunde einem grossen USB-Stick.  </li>
 </ul>
-Die Vorteile der SSD gegenüber der HDD sind folgende:
+
+     <p>Die Vorteile der SSD gegenüber der HDD sind folgende:</p>
+     
 <ul>
-<li>Schnelleres lesen und abspeicherung der Daten</li>
+<li>Schnelleres Lesen und schnellere Abspeicherung der Daten.</li>
 <li>Die Daten sind sicherer, da es keinen Lesekopf gibt, der auf die Magnetscheibe prallen kann.</li>
 </ul>
-Die Nachteile sind:
+     
+<p>Die Nachteile sind:</p>
 <ul>
-<li>Hoher Preis, wobei dieser langsam sinkt.</li>
+     <li>Hoher Preis; wobei dieser langsam sinkt.</li>
 </ul>
 
 <h3>Funktionsweise</h3>
 <p>
-Die Funktionsweise der HDD oder SSD ist in den Grundzügen gleich.
-Es können Daten gespeichert und ausgelesen werden.
-
-</p>
+Die Nutzung der HDD oder SSD ist in den Grundzügen gleich.
+Es können Daten gespeichert und ausgelesen werden.</p>
+     
 <h3>Verwendung</h3>
 <p>
 Verwendet werden Festplatten als Speichermedium vieler Daten.
 Externe Festplatten dienen auch als Backupspeicher.
 </p>
+     
 <h3>Weitere Informationen</h3>
 <p>
 Weitere Informationen finden Sie 
