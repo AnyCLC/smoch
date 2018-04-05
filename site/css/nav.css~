@@ -1,0 +1,261 @@
+/*
+license header dingens
+*/
+/* 
+    Created on : 19.03.2018, 15:46:42
+    Author     : nathan.peray, daniel.frei
+*/
+
+html, body {
+    color: #FFF;
+    background-color: #FFFFFE;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5;
+}
+body {}
+
+.articlewrapper img {
+    width: 50%;
+    max-width: 25em;
+    min-width: 15em;
+    display: block;
+    margin: 1em auto;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    color: #1e6b8c;
+}
+
+/* div for content */
+#content {
+    margin: 0 auto;
+    width: auto;
+    max-width: 65em;
+}
+
+#headwrapper {
+    display: block;
+    background-image: url(../img/title_pcb.jpg);
+    background-size: cover;
+}
+.gradient {
+    background: linear-gradient(rgba(0,0,0,.2), rgba(0,33,71,.8));
+    background-size: cover;
+    margin: -1em 0;
+    padding: 1em;
+}
+
+#headwrapper,
+#footwrapper {
+    max-width: 100em;
+    margin: 0 auto;
+    background-color: #002147;
+}
+#headwrapper,
+#articlewrapper,
+#footwrapper {
+    padding: 1em 0;
+}
+
+.headtitle,
+.articletitle {
+    display: block;
+    max-width: calc(50% - 1em);
+    font-size: 150%;
+}
+
+#headwrapper {
+    color: #FFF;
+    background-color: #002147;
+}
+
+.arrow {
+    display: block;
+}
+/* navigation */
+.navwrapper {
+    display: block;
+    font-size: 120%;
+}
+.navlink {
+    display: block;
+    width: 100%;
+}
+.topnav {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 3em;
+    border-top: 1px solid transparent;
+    background-color: #FFFFFE;
+}
+
+.navlast {
+    text-align: left;
+}
+.navtitle {
+    display: table-cell;
+    text-align: left;
+    padding-left: 1em;
+    border-left: 1px solid #FFF;
+}
+.navjahr {
+    display: table-cell;
+    text-align: right;
+    padding-right: 1em;
+    border-right: 1px solid #FFF;
+}
+.navnext {
+    text-align: right;
+}
+
+.navnext,
+.navlast {
+    display: table-cell;
+    min-width: 1em;
+    text-decoration: none;
+    
+/* Effeect! */
+    transition-duration: .2s;
+    transition-property: color, background-color;
+}
+.navnext,
+.navtitle,
+.navjahr,
+.navlast {
+    background-color: #002147;
+    color: #FFFFFF;
+    font-size: 1em;
+    vertical-align: middle;
+}
+
+.navlast:hover,
+.navnext:hover {
+    background-color: transparent;
+    color: #002147;
+    cursor: pointer;
+}
+.navlast:active,
+.navnext:active {}
+
+/* hide accessible text, display only '�' and '�' */
+
+/* Article */
+h3,h4,h5,h6 {
+  margin-bottom: 1em;
+  margin-top: 2em;
+  font-weight: bold;
+  line-height: 1.2;
+}
+h3 {font-size: 1.5em;}
+h4 {font-size: 1.3em; text-decoration: underline;}
+h5 {font-size: 1.2em; font-style: italic;}
+h6 {font-size: 1.1em; margin-bottom: .5rem;}
+
+#articlewrapper {
+    margin: 0;
+    padding: .5em 1.5em;
+    background-color: #FFFFFE;
+    color: #703820;
+    border-left: 1px solid lightgrey;
+    border-right: 1px solid lightgrey;
+    box-shadow: 0 -9px 0px 0px white, 0 9px 0px 0px white, -12px 0 11px -13px lightgrey, 12px 0 11px -13px lightgrey;
+}
+#articlewrapper ul {
+    padding-bottom: 2em;
+    list-style-type: square;
+}
+
+
+/* Footer */
+#footwrapper a {
+    color: #FFFFFE;
+}
+#footwrapper div {
+    display: inline-block;
+    position: relative;
+    white-space: nowrap;
+    min-width: 10em;
+    margin: -0.3em 1em;
+}
+.centercolumn {
+    margin: 0 auto;
+}
+
+.adress,
+.hours,
+.etc {
+    width: 28%;
+    vertical-align: top;
+}
+.impressum {
+    font-size: 80%;
+    vertical-align: bottom;
+    float: right;
+}
+
+
+/* assorted sundry in queries */
+/* smaller than */
+@media screen and (max-width: 30em) {
+    body                                {font-size: 90%;}
+    img                                 {width: 100%;}
+    .navlast                            {padding-left: 1em;}
+    .navnext                            {padding-right: 1em;}
+    .navlast, .navnext                  {width: 16%;}
+    .navlast,.navnext,.navjahr          {font-size: .9em;}
+    #articlewrapper                     {padding: .5em;}
+    
+/* entferne seiten titel */
+    .navtitle                           {display: none; padding-right: 0;}
+    .navjahr                            {border-left: 1px solid #FFF; text-align: center; padding-left: 0;}
+/* zeige nur artikel-titel */
+    .headtitle                          {display: none;}
+    .articletitle                       {float: unset; white-space: nowrap; display: unset;}
+    
+/* footer */
+    #footwrapper .fax                   {display: none;}
+    #footwrapper .etc                   {margin-bottom: .5em;}
+}
+
+
+/* NOT smaller than */
+@media not screen and (max-width: 30em) {
+    img                                 {display: inline-block; float: right; margin: 1em;}
+    
+/* show just document-title */
+    .articletitle                       {display: none;}
+    
+/* footer */
+    #footwrapper .tel                   {pointer-events: none; cursor: default; color: #FFFFFE;}
+}
+
+
+/* bigger than */
+@media screen and (min-width: 45em) {
+    body                                {font-size: 110%;}
+    .topnav                             {height: 2em;}
+    .navlast                            {padding-left: 2em;}
+    .navnext                            {padding-right: 2em;}
+    .navlast, .navnext                  {width: 2.3em;}
+    
+/* big borderless */
+    body                                {border-left: unset; border-right: unset;}
+    #content                            {box-shadow: unset;}
+    #articlewrapper                     {margin: 0 2em;}
+
+/* gap inbetween just if in desktop, cause ugly otherwise */
+    #headwrapper                        {margin: 0 auto .5em;}
+    #footwrapper                        {margin: 1em auto 0;}
+    .navwrapper                         {margin-bottom: .5em;}
+}
+
+@media print {
+/* article and nothing else */
+    #headwrapper, #footwrapper, .navnext, .navlast
+                                        {display: none;}
+    #articlewrapper                     {margin: 0 -1em !important; background-color: #FFF !important; color: #454545 !important;}
+    .navtitle, .navjahr                 {background-color: inherit !important; color: #703820 !important; border-bottom: 1px solid #703820;}
+}

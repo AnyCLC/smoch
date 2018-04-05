@@ -63,7 +63,7 @@ verlötet, die erheblich weniger Platz benötigten.</p>
 <h3>Weitere Informationen</h3>
 <p>
 Im Museum sind die folgenden Speicherchips vorhanden:
-<table>
+<table class='tabelle'>
 <tr><td>Bezeichnung</td><td>Beschreibung</td></tr>
 <tr><td>MM5270J</td><td>dynamic 4Mbit RAM</td></tr>
 <tr><td>P51C256H</td><td>dynamic 256KB RAM</td></tr>

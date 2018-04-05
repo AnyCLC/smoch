@@ -1,0 +1,373 @@
+/**
+ * Autor: Luca Schulz lsch
+ * Datum: 10.12.2014
+ */
+
+
+body {
+    background-image        : url("img/Wallpaper.jpg")                          ;
+    -webkit-background-size : cover                                             ;
+    -moz-background-size    : cover                                             ;
+    background-size         : cover                                             ;
+}
+
+.klassenfoto {
+  position     : absolute;
+  left         : 1600px;
+  top          :  550px;
+  height       :  100px;
+}
+
+.titel {
+    background-color        : #376092                                           ;
+    border-radius           : 20px                                              ;
+    left                    : 400px                                             ;
+    position                : absolute                                          ;
+    top                     : 40px                                              ;
+    width                   : 1450px                                            ;
+    max-width               : 1450px                                            ;
+    height                  : 100px                                             ;
+    border-style            : solid                                             ;
+    border-width            : 2px                                               ;
+    border-color            : black                                             ;
+}
+
+h1 {
+    position                : absolute                                          ;
+    top                     : -25px                                             ;
+    left                    : 150px                                             ;
+    font-size               : 60px                                              ;
+    vertical-align          : center                                            ;
+    font-family             : High Tower Text, serif                            ;
+    color                   : white                                             ;
+}
+
+h2 {
+    position                : relative                                          ;
+    top                     : -32px                                             ;
+    font-size               : 45pt                                              ;
+    font-family             : High Tower Text, serif                            ;
+    color                   : white                                             ;
+/*	text-align				: center        	; */
+    left                    : 100px                                             ; 
+}
+
+.jahreszahl {
+    position                : absolute                                          ;
+    top                     : 0px                                               ;
+    left                    : 970px                                             ;
+    font-size               : 45pt                                              ;
+    vertical-align          : center                                            ;
+    font-family             : High Tower Text, serif                            ;
+}
+
+.logo {
+    position                : absolute                                          ;
+    top                     : 40px                                              ;
+    left                    : 30px                                              ;
+    height                  : 135px                                             ;
+    width                   : 350px                                             ;
+}
+
+.SantisLogo {
+	position				: absolute											;
+	top						: 200px												;
+	left 					: 30px												;
+	height					: 107px												;
+	width 					: 500px												;
+}
+
+.home {
+    position                : absolute                                          ;
+    top                     : 60px                                              ;
+    left                    : 450px                                             ;
+    height                  : 50px                                              ;
+    width                   : 47px                                              ;
+}
+
+.links {
+    position                : absolute                                          ;
+    top                     : 50px                                              ;
+    left                    : 1350px                                            ;
+    height                  : 80px                                              ;
+    width                   : 72px                                              ;
+}
+
+.rechts {
+    position                : absolute                                          ;
+    top                     : 50px                                              ;
+    left                    : 1730px                                            ;
+    height                  : 80px                                              ;
+    width                   : 72px                                              ;
+}
+
+.hauptblock {
+    background-color        : #558ED5                                           ;
+    position                : absolute                                          ;
+    top                     : 240px                                             ;
+    left                    : 60px                                              ;
+    height                  : 600px                                             ;
+    width                   : 1785px                                            ;
+    border-radius           : 60px                                              ;
+    border-style            : solid                                             ;
+    border-width            : 2px                                               ;
+    border-color            : black                                             ;
+    overflow                : auto                                              ;
+}
+
+p {
+    padding-left            : 700px                                             ;
+    padding-top             : 20px                                              ;
+    padding-right           : 10px                                              ;
+    font-family             : Verdana, Arial                                    ;
+    font-size               : 15pt                                              ;
+}
+
+.bild {
+    position                : absolute                                          ;
+    top                     : 45px                                              ;
+    left                    : 70px                                              ;
+    height                  : 450px                                             ;
+    width                   : 450px                                             ;
+    border-radius           : 20px                                              ;
+}
+
+.hauptbild {
+    position                : absolute                                          ;
+    top                     : 230px                                             ;
+    left                    : 60px                                              ;
+    height                  : 180px                                             ;
+    width                   : 1796px                                            ;
+    border-color            : black                                             ;
+    border-width            : 2px                                               ;
+    border-style            : solid                                             ;
+    border-radius           : 20px                                              ;
+}
+
+.bildbeschreibung {
+    position                : absolute;
+    left                    : 90px                                              ;
+    top                     : 500px                                             ;
+    font-family             : Verdana, Arial                                    ;
+    font-size               : 15pt                                              ;
+}
+
+footer {
+    font-style              : italic                                            ;
+    border-color            : black                                             ;
+    border-style            : solid                                             ;
+    border-width            : 2px                                               ;
+    text-align              : center                                            ;
+    padding                 : 15px                                              ;
+    background-color        : #31859C                                           ;
+    position                : absolute                                          ;
+    top                     : 900px                                             ;
+    left                    : 60px                                              ;
+    height                  : 25px                                              ;
+    width                   : 1755px                                            ;
+    border-radius           : 10px                                              ;
+    color                   : white                                             ;
+}
+
+.hauptnav {
+    background-color        : #558ED5                                           ;
+    position                : absolute                                          ;
+    top                     : 440px                                             ;
+    left                    : 60px                                              ;
+    height                  : 400px                                             ;
+    width                   : 600px                                             ;
+    border-radius           : 20px                                              ;
+    border-style            : solid                                             ;
+    border-width            : 2px                                               ;
+    border-color            : black                                             ;
+}
+
+.rechnen {
+    position                : absolute                                          ;
+    top                     : 10px                                              ;
+    left                    : -650px                                            ;
+    font-family             : Verdana                                           ;
+    font-size               : 15pt                                              ;
+}
+
+.speichern {
+    position                : absolute                                          ;
+    top                     : 10px                                              ;
+    left                    : -380px                                            ;
+    font-family             : Verdana                                           ;
+    font-size               : 15pt                                              ;
+}
+
+.speichernz {
+    position                : absolute                                          ;
+    top                     : 70px                                              ;
+    left                    : 305px                                             ;
+    font-family             : Verdana                                           ;
+    font-size               : 15pt                                              ;
+    z-index                 : 100                                               ;
+}
+
+.rechnenz {
+    position                : absolute                                          ;
+    top                     : 70px                                              ;
+    left                    : 37px                                              ;
+    font-family             : Verdana                                           ;
+    font-size               : 15pt                                              ;
+    z-index                 : 100                                               ;
+}
+
+.uebertitel1 {
+    position                : absolute                                          ;
+    top                     : 50px                                              ;
+    left                    : 50px                                              ;
+    font-size               : 20pt                                              ;
+    font-weight             : bold                                              ;
+}
+
+.uebertitel2 {
+    position                : absolute                                          ;
+    top                     : 50px                                              ;
+    left                    : 320px                                             ;
+    font-size               : 20pt                                              ;
+    font-weight             : bold                                              ;
+}
+
+.bereich {
+    position                : absolute                                          ;
+    top                     : 440px                                             ;
+    left                    : 700px                                             ;
+    width                   : 1160px                                            ;
+    height                  : 405px                                             ;
+    background-color        : #01A9DB                                           ;
+    opacity                 : 0.9                                               ;
+    filter                  : alpha(opacity=40)                                 ;
+    border-radius           : 20px                                              ;
+}
+
+.Oeffnungszeiten {
+    position				: absolute											;
+	left					: -670px											;
+	top						: 70px					     						;
+	color					: white											    ;
+}
+
+.Adresse {
+    position				: absolute											;
+	left					: -140px											;
+	top						: 70px					     						;
+	color					: white											    ;
+}
+
+.oeffnungszeitenTitel {
+    position				: absolute											;
+	left					: 30px											    ;
+	top						: 40px					     						;
+	color					: white										     	;
+	font-size               : 22pt                                              ;
+    font-family             : High Tower Text, serif                            ;
+	text-decoration			: underline											;
+}
+
+.link {
+    color                   : white                                             ;
+}
+
+.navlink {
+    text-decoration         : none                                              ;
+    color                   : black                                             ;
+    -webkit-transition      : all 0.3s ease                                     ;
+    transition              : all 0.3s ease                                     ;
+}
+
+a.navlink:hover {
+    color                   : purple                                            ;
+    text-shadow             : 15px 0 15px #fff                                  ;
+}
+.carry{
+	font-size:50%;
+}
+
+table {
+    padding-left            : 700px                                             ;
+    padding-top             : 20px                                              ;
+    font-family             : Verdana                                           ;
+    font-size               : 15pt                                              ;
+}
+
+.textkt1{
+position                    : absolute                                          ;
+top                         : 50px                                              ;
+left                        : 700px                                             ;
+resize                      : none                                              ;
+padding                     : 10px                                              ;
+height                      : 30px                                              ;
+width                       : 680px                                             ;
+}
+
+.textkt2{
+position                    : absolute                                          ;
+top                         : 130px                                             ;
+left                        : 700px                                             ;
+resize                      : none                                              ;
+padding                     : 10px                                              ;
+height                      : 30px                                              ;
+width                       : 680px                                             ;
+}
+
+.textkt3{
+position                    : absolute                                          ;
+top                         : 210px                                             ;
+left                        : 700px                                             ;
+resize                      : none                                              ;
+padding                     : 10px                                              ;
+height                      : 320px                                             ;
+width                       : 680px                                             ;
+}
+
+.submit{
+position                    : absolute                                          ;
+top                         : 530px                                             ;
+left                        : 1420px                                            ;
+border-style                : outset                                            ;
+border-color                : #424242                                           ;
+border-width                : 2px                                               ;
+font-weight                 : bold                                              ;
+background-color            : #D8D8D8                                           ;
+}
+
+.mail {
+position                    : absolute                                          ;
+left                        : 20px                                              ;
+top                         : 100px                                             ;
+}
+
+.hlink {
+	color					: white												;
+	text-decoration			: none												;
+}
+
+.poweredbysantis{
+ position   : absolute;
+ left       :   1490px;
+ top        :    168px;
+ font-weight: bold    ;
+ color      : white   ;
+}
+.poweredbysantis > a {
+ color: white; 
+}
+
+.besichtigung {
+ position                    : absolute   ;
+ top                         :    695px   ;
+ left                        :    122px   ;
+ resize                      : none       ;
+ padding                     : 10px       ;
+ height                      : 30px       ;
+ width                       : 900px      ;
+ color                       : white      ;
+ font-weight                 : bold       ;
+}
+.besichtigung > a {
+ color: white; 
+}

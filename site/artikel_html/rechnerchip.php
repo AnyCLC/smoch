@@ -14,7 +14,7 @@ Der Rechnerchip wird in unter anderem in der Computer Technik verwendet.
 <h3>Weitere Informationen</h3><br>
 <p>
 Im Museum sind die folgenden Rechnerchips vorhanden:
-<table>
+<table class='tabelle'>
 <tr><td>Bezeichnung</td><td>Beschreibung</td></tr>
 <tr><td>SAB 3011 P</td><td>16 Bit CPU</td></tr>
 <tr><td>P8242</td><td>30 A Stromnetzchip</td></tr>

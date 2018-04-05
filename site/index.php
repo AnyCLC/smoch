@@ -48,7 +48,11 @@ Date:  20.03.2018
         <meta name="keywords" content="<?php echo $keywords?>">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="../css/mainStyle.css">
+        <link rel="stylesheet" type="text/css" href="../css/header.css" >
+        <link rel="stylesheet" type="text/css" href="../css/footer.css" >
+        <link rel="stylesheet" type="text/css" href="../css/nav.css"    >
+        <link rel="stylesheet" type="text/css" href="../css/main.css"   >
+        <link rel="stylesheet" type="text/css" href="../css/content.css">
         <script src="../js/main.js"></script>
         <title><?php echo $titel ?></title>
     </head>

@@ -1,0 +1,20 @@
+/*
+license header dingens
+*/
+/* 
+    Created on : 19.03.2018, 15:46:42
+    Author     : nathan.peray, daniel.frei
+*/
+
+#headwrapper {
+    display: block;
+    background-image: url(../img/title_pcb.jpg);
+    background-size: cover;
+}
+
+
+#headwrapper {
+    color: #FFF;
+    background-color: #002147;
+}
+

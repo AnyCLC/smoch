@@ -1,0 +1,142 @@
+/*
+license header dingens
+*/
+/* 
+    Created on : 19.03.2018, 15:46:42
+    Author     : nathan.peray, daniel.frei
+*/
+
+
+.arrow {
+    display: block;
+}
+/* navigation */
+.navwrapper {
+    display: block;
+    font-size: 120%;
+}
+.navlink {
+    display: block;
+    width: 100%;
+}
+.topnav {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 3em;
+    border-top: 1px solid transparent;
+    background-color: #FFFFFE;
+}
+
+.navlast {
+    text-align: left;
+}
+.navtitle {
+    display: table-cell;
+    text-align: left;
+    padding-left: 1em;
+    border-left: 1px solid #FFF;
+}
+.navjahr {
+    display: table-cell;
+    text-align: right;
+    padding-right: 1em;
+    border-right: 1px solid #FFF;
+}
+.navnext {
+    text-align: right;
+}
+
+.navnext,
+.navlast {
+    display: table-cell;
+    min-width: 1em;
+    text-decoration: none;
+    
+/* Effeect! */
+    transition-duration: .2s;
+    transition-property: color, background-color;
+}
+.navnext,
+.navtitle,
+.navjahr,
+.navlast {
+    background-color: #002147;
+    color: #FFFFFF;
+    font-size: 1em;
+    vertical-align: middle;
+}
+
+.navlast:hover,
+.navnext:hover {
+    background-color: transparent;
+    color: #002147;
+    cursor: pointer;
+}
+.navlast:active,
+.navnext:active {}
+
+/* hide accessible text, display only '�' and '�' */
+
+/* assorted sundry in queries */
+/* smaller than */
+@media screen and (max-width: 30em) {
+    body                                {font-size: 90%;}
+    img                                 {width: 100%;}
+    .navlast                            {padding-left: 1em;}
+    .navnext                            {padding-right: 1em;}
+    .navlast, .navnext                  {width: 16%;}
+    .navlast,.navnext,.navjahr          {font-size: .9em;}
+    #articlewrapper                     {padding: .5em;}
+    
+/* entferne seiten titel */
+    .navtitle                           {display: none; padding-right: 0;}
+    .navjahr                            {border-left: 1px solid #FFF; text-align: center; padding-left: 0;}
+/* zeige nur artikel-titel */
+    .headtitle                          {display: none;}
+    .articletitle                       {float: unset; white-space: nowrap; display: unset;}
+    
+/* footer */
+    #footwrapper .fax                   {display: none;}
+    #footwrapper .etc                   {margin-bottom: .5em;}
+}
+
+
+/* NOT smaller than */
+@media not screen and (max-width: 30em) {
+    img                                 {display: inline-block; float: right; margin: 1em;}
+    
+/* show just document-title */
+    .articletitle                       {display: none;}
+    
+/* footer */
+    #footwrapper .tel                   {pointer-events: none; cursor: default; color: #FFFFFE;}
+}
+
+
+/* bigger than */
+@media screen and (min-width: 45em) {
+    body                                {font-size: 110%;}
+    .topnav                             {height: 2em;}
+    .navlast                            {padding-left: 2em;}
+    .navnext                            {padding-right: 2em;}
+    .navlast, .navnext                  {width: 2.3em;}
+    
+/* big borderless */
+    body                                {border-left: unset; border-right: unset;}
+    #content                            {box-shadow: unset;}
+    #articlewrapper                     {margin: 0 2em;}
+
+/* gap inbetween just if in desktop, cause ugly otherwise */
+    #headwrapper                        {margin: 0 auto .5em;}
+    #footwrapper                        {margin: 1em auto 0;}
+    .navwrapper                         {margin-bottom: .5em;}
+}
+
+@media print {
+/* article and nothing else */
+    #headwrapper, #footwrapper, .navnext, .navlast
+                                        {display: none;}
+    #articlewrapper                     {margin: 0 -1em !important; background-color: #FFF !important; color: #454545 !important;}
+    .navtitle, .navjahr                 {background-color: inherit !important; color: #703820 !important; border-bottom: 1px solid #703820;}
+}
