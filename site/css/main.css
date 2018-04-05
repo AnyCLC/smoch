@@ -2,52 +2,51 @@
 license header dingens
 */
 /* 
-    Created on : 19.03.2018, 15:46:42
-    Author     : nathan.peray, daniel.frei
+	Created on : 19.03.2018, 15:46:42
+	Author     : nathan.peray, daniel.frei
 */
 
 html, body {
-    color: #FFF;
-    background-color: #FFFFFE;
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5;
+	color           : #FFF                ;
+	background-color: #FFFFFE             ;
+	font-family     : 'Roboto', sans-serif;
+	line-height     :                  1.5; /* 1.5 px ???? */
 }
 
-/* body {}*/
-
 a {
-    text-decoration: none;
-    color: #1e6b8c;
+	text-decoration: none   ;
+	color          : #1e6b8c;
 }
 
 #headwrapper,
 #footwrapper {
-    max-width: 100em;
-    margin: 0 auto;
-    background-color: #002147;
+	max-width       :   100em;
+	margin          :  0 auto;
+	background-color: #002147;
 }
 
 #headwrapper,
 #articlewrapper,
 #footwrapper {
-    padding: 1em 0;
+	padding: 1em 0;
 }
 
 .headtitle,
 .articletitle {
-    display: block;
-    max-width: calc(50% - 1em);
-    font-size: 150%;
+	display  : block          ;
+	max-width: calc(50% - 1em);
+	font-size:            150%;
 }
 
-
-
 #articlewrapper {
-    margin: 0;
-    padding: .5em 1.5em;
-    background-color: #FFFFFE;
-    color: #703820;
-    border-left: 1px solid lightgrey;
-    border-right: 1px solid lightgrey;
-    box-shadow: 0 -9px 0px 0px white, 0 9px 0px 0px white, -12px 0 11px -13px lightgrey, 12px 0 11px -13px lightgrey;
+	margin          :               0    ;
+	padding         :          .5em 1.5em;
+	background-color: #FFFFFE            ;
+	color           : #703820            ;
+	border-left     : 1px solid lightgrey;
+	border-right    : 1px solid lightgrey;
+	box-shadow      :  0  -9px  0px   0px white    ,
+	                   0   9px  0px   0px white    ,
+	                 -12px 0   11px -13px lightgrey,
+	                  12px 0   11px -13px lightgrey;
 }

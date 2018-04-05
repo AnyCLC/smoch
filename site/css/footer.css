@@ -1,52 +1,60 @@
-/*
-license header dingens
-*/
-/* 
-    Created on : 19.03.2018, 15:46:42
-    Author     : nathan.peray, daniel.frei
-*/
+/**
+ *license header dingens
+ */
 
-
+/**
+ * Created on : 19.03.2018, 15:46:42
+ * Author     : nathan.peray, daniel.frei
+ */
 
 
 /* Footer */
 #footwrapper a {
-    color: #FFFFFE;
+	color: #FFFFFE;
 }
+
 #footwrapper div {
-    display: inline-block;
-    position: relative;
-    white-space: nowrap;
-    min-width: 10em;
-    margin: -0.3em 1em;
+	display    : inline-block;
+	position   : relative    ;
+	white-space: nowrap      ;
+	min-width  :         10em;
+	margin     :   -0.3em 1em;
 }
+
 .centercolumn {
-    margin: 0 auto;
+	margin: 0 auto;
 }
 
 .adress,
 .hours,
 .etc {
-    width: 28%;
-    vertical-align: top;
+	width         : 28%;
+	vertical-align: top;
 }
 .impressum {
-    font-size: 80%;
-    vertical-align: bottom;
-    float: right;
+	font-size     :    80%;
+	vertical-align: bottom;
+	float         : right ;
 }
-
-
 
 /* NOT smaller than */
 @media not screen and (max-width: 30em) {
-    img                                 {display: inline-block; float: right; margin: 1em;}
-    
-/* show just document-title */
-    .articletitle                       {display: none;}
-    
-/* footer */
-    #footwrapper .tel                   {pointer-events: none; cursor: default; color: #FFFFFE;}
-}
+	img {
+		display: inline-block;
+		float  : right       ;
+		margin :          1em;
+	}
 
+	/* show just document-title */
+	.articletitle {
+		display: none;
+	}
+
+	/* footer */
+	#footwrapper .tel {
+		pointer-events: none   ;
+		cursor        : default;
+		color         : #FFFFFE;
+	}
+}
 

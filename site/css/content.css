@@ -1,47 +1,48 @@
+/**
+ * CSS for content text.
+ */
 
 .articlewrapper img {
-    width: 50%;
-    max-width: 25em;
-    min-width: 15em;
-    display: block;
-    margin: 1em auto;
-    position: relative;
+	width    :     50% ;
+	max-width:     25em;
+	min-width:     15em;
+	display  : block   ;
+	margin   : 1em auto;
+	position : relative;
 }
 
 
 /* div for content */
 #content {
-    margin: 0 auto;
-    width: auto;
-    max-width: 65em;
+	margin   : 0 auto;
+	width    : auto  ;
+	max-width:   65em;
 }
 
 /* Article */
 h3,h4,h5,h6 {
-  margin-bottom: 1em;
-  margin-top: 2em;
-  font-weight: bold;
-  line-height: 1.2;
+	margin-bottom :  1em;
+	margin-top    :  2em;
+	font-weight   : bold;
+	line-height   :  1.2;
 }
 h3 {font-size: 1.5em;}
 h4 {font-size: 1.3em; text-decoration: underline;}
-h5 {font-size: 1.2em; font-style: italic;}
-h6 {font-size: 1.1em; margin-bottom: .5rem;}
-
+h5 {font-size: 1.2em; font-style     : italic   ;}
+h6 {font-size: 1.1em; margin-bottom  :     .5rem;}
 
 #articlewrapper ul {
-    padding-bottom: 2em;
-    list-style-type: square;
+	padding-bottom :    2em;
+	list-style-type: square;
 }
-
 
 .tabelle tr:first-child td {
-		font-weight: bold;
-		background-color: #eef;
+	font-weight     : bold;
+	background-color: #eef;
 }
 .tabelle tr:nth-child(odd) {
-		background-color: #ccf;
+	background-color: #ccf;
 }
 .tabelle tr:nth-child(even) {
-		background-color: #aad;
+	background-color: #aad;
 }
