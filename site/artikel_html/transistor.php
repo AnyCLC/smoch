@@ -15,8 +15,7 @@ Wenn der mittlere Metallstab unter Spannung ist, kann Strom von links nach recht
 <h3>Verwendung</h3>
 <p>
 Das Mainboard (auch Motherboard genannt) verwendet selbst Transistoren,
-jeder Prozessor enthält tausende von Transistoren.
-Jede Grafikkarte enthält somit auch tausende von Transistoren.</p>
+jeder Prozessor und jede Grafikkarte enthält tausende von Transistoren.</p>
 
 <h3>Weitere Informationen</h3>
 <p>

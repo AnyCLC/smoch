@@ -38,7 +38,8 @@ Man kann mit dem Binärsystem auch rechnen:<br>
 	<tr> <td>               </td> <td>               </td> <td>1              </td> <td>1              </td> <td>=</td> </tr> 
 	<tr> <td>1              </td> <td>1              </td> <td>1              </td> <td>0              </td> <td> </td> </tr> 
 </table>
-<table>
+      <p>Dabei bezeichnet die oberste Zeile den Übertrag (carry). Die folgende Tabelle zeigt dieselbe Rechnung im Dezimalsystem.</p>
+<table class='tabelle'>
 	<tr> <td>               </td> <td>               </td> <td>1              </td> <td>1              </td> <td>+</td> </tr> 
 	<tr> <td>               </td> <td>               </td> <td>               </td> <td>3              </td> <td>=</td> </tr> 
 	<tr> <td>               </td> <td>               </td> <td>1              </td> <td>4              </td> <td> </td> </tr> 
@@ -48,8 +49,8 @@ Man kann mit dem Binärsystem auch rechnen:<br>
 
 <h3>Verwendung</h3>
 <p>
-Bei der entwicklung von elektronischen Rechenmaschinen erlangte das Dualsystem grosse Bedeutung, denn in der Digitaltechnik wurden Zahlen durch elektronische zustände dargestellt.<br>
-Bevorzugt wurden Zwei komplementiere Zustände wie z.B. Strom an / Strom aus. Auf diese weise konnten einfache Schaltungen realisiert werden.<br>
+Bei der Entwicklung von elektronischen Rechenmaschinen erlangte das Dualsystem grosse Bedeutung, denn in der Digitaltechnik werden Zahlen durch elektronische Zustände dargestellt.<br>
+Bevorzugt werden zwei komplementiere Zustände wie z. B. Strom an / Strom aus. Auf diese Weise konnten einfache Schaltungen realisiert werden.<br>
 </p>
 <h3>Weitere Informationen</h3>
 <p>
