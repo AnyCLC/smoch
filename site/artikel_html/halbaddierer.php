@@ -4,7 +4,7 @@ Ein Halbaddierer (engl. half adder) ist ein Schaltnetz, das üblicherweise als d
 </p>
 <h3>Funktionsweise</h3>
 <p>
-Der Halbaddierer liefert die Grundlage fürs Rechnen mit dem Computer. Er wird gebraucht um zwei einstellige Dualziffern zu addieren, vermutlich wurde er Jahre 1937 im Zuse Z1 verwendet.
+Der Halbaddierer liefert die Grundlage fürs Rechnen mit dem Computer. Er wird gebraucht um zwei einstellige Dualziffern zu addieren, vermutlich wurde er im Jahre 1937, im Zuse Z1 verwendet.
 </p>
 <h3>Verwendung</h3>
 <p>

@@ -2,17 +2,17 @@
 <p>
 Eine Festplatte ist ein Speichermedium um grosse Datenmängen abzuspeichern.
 Es gibt sie intern als Hauptspeichermedium jedes Computers, oder als externes Medium zur Datensicherung oder Datenauslagerung.
-Es gibt auch verschiedene Warianten der Festplatte.
+Es gibt auch verschiedene Varianten der Festplatte.
 </p>
 <?php includeImage(); ?>
 <ul>
 <li>Die Bekannteste ist die HDD (Hard Disk Drive). Sie besitzt eine rotierende Magnetscheibe die durch einen sich bewegenden Lesekopf abgelesen wird, ähnlich wie bei einem Plattenspieler.</li>
-<li>In den Letzten Jaheren kam die SSD (Solid-State-Drive) immer mehr auf, Sie besitzt keine bewegenden Teile mehr, sie benutzt einen Flashspeicher imgrunde ein grosser USB-Stick.  </li>
+<li>In den Letzten Jaheren kam die SSD (Solid-State-Drive) immer mehr auf, Sie besitzt keine bewegenden Teile mehr, sie benutzt einen Flashspeicher. Imgrunde ein grosser USB-Stick.  </li>
 </ul>
-die Vorteile der SSD der HDD gegenüber sind folgende:
+Die Vorteile der SSD gegenüber der HDD sind folgende:
 <ul>
-<li>Schnellere Datenauslese und abspeicherung</li>
-<li>Die Daten sind sicherer, da der Lesekopf der HDD nicht mehr bewegt wird und auf die Magnetscheibe prallen kann.</li>
+<li>Schnelleres lesen und abspeicherung der Daten</li>
+<li>Die Daten sind sicherer, da es keinen Lesekopf gibt, der auf die Magnetscheibe prallen kann.</li>
 </ul>
 Die Nachteile sind:
 <ul>
@@ -21,8 +21,8 @@ Die Nachteile sind:
 
 <h3>Funktionsweise</h3>
 <p>
-Die Funktionsweise einer Festplatte ist egal ob HDD oder SSD in den Grundzügen gleich.
-Es werden Daten gespeichert, und Daten können wieder ausgelesen werden.
+Die Funktionsweise der HDD oder SSD ist in den Grundzügen gleich.
+Es können Daten gespeichert und ausgelesen werden.
 
 </p>
 <h3>Verwendung</h3>
