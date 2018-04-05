@@ -8,7 +8,7 @@ Er experimentierte in den folgenden Jahren mit verschiedenen Lochkartenformaten 
 
      <h3>Funktionsweise</h3>
 <p>
-Eine Lochkarte ist ein Spezialpapier gefertigter Datenträger, auf dem Datenerfassung und Speicherungen gemacht wurden. Im Papier wurden die Dateninhalte mit einem Lochcode abgebildet, die von elektro-mechanischen Geräten erzeugt und veraarbeitet wurden.<br>
+Eine Lochkarte ist ein Spezialpapier gefertigter Datenträger, auf dem Datenerfassung und Speicherungen gemacht wurden. Im Papier wurden die Dateninhalte mit einem Lochcode abgebildet, die von elektro-mechanischen Geräten erzeugt und verarbeitet wurden.<br>
 </p>
 
      <h3>Verwendung</h3>
