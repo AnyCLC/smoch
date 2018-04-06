@@ -1,15 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.7
+-- version 4.6.6deb5
 -- https://www.phpmyadmin.net/
 --
--- Host: 127.0.0.1
--- Erstellungszeit: 04. Apr 2018 um 12:46
--- Server-Version: 10.1.30-MariaDB
--- PHP-Version: 7.2.2
+-- Host: localhost:3306
+-- Generation Time: Apr 06, 2018 at 04:21 PM
+-- Server version: 5.7.21-0ubuntu0.17.10.1
+-- PHP Version: 7.1.15-0ubuntu0.17.10.1
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
-SET AUTOCOMMIT = 0;
-START TRANSACTION;
 SET time_zone = "+00:00";
 
 
@@ -25,7 +23,7 @@ SET time_zone = "+00:00";
 -- --------------------------------------------------------
 
 --
--- Tabellenstruktur für Tabelle `content`
+-- Table structure for table `content`
 --
 
 CREATE TABLE `content` (
@@ -46,24 +44,22 @@ CREATE TABLE `content` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
--- Daten für Tabelle `content`
+-- Dumping data for table `content`
 --
 
 INSERT INTO `content` (`ID`, `IDurl`, `Titel`, `Jahrzahl`, `Objekt_Jahr`, `Objekt_Modell`, `BildPfad`, `BildLegende`, `Vorher`, `Nachher`, `Vorhanden`, `Autor`, `Descriptions`, `Keywords`) VALUES
-(49, 'abakus', 'Abakus', '-2500', 'ca 1970', 'Chinesischer Abakus', 'abakus.png', 'Abakus', NULL, 'pascaline', 1, '', 'Die Geschichte des Abakus', 'chinesischer Zählrahmen'),
-(50, 'pascaline', 'Pascaline', '1642', '1652', 'Pascaline', 'pascaline.png', 'Pascaline', 'abakus', 'binaer', 0, '', 'Die Geschichte der Pascaline', 'Blaise Pascal, Mechanische Rechenmaschine'),
-(51, 'binaer', 'Binärsystem', '1697', '', '', 'binaer.png', 'Binärsystem', 'pascaline', 'babbage', 1, 'Lisa Kalberer, Philipp Gressly Freimann', 'Die Geschichte des Binärsystems', 'Leibniz, Dualsystem'),
-(52, 'babbage', 'Differenzenmaschine', '1822', '', 'Nachbildung im Da Vinci Museum Mailand', 'babbage.png', 'Differenzenmaschine', 'binaer', 'mechanik', 0, '', 'Die Geschichte der Differenzmaschine', 'Babbage'),
-(53, 'mechanik', 'Mechanischer Rechner', '1847', 'ca. 1950', 'Addiator', 'zahlenschieber.png', 'Zahlenschieber', 'babbage', 'relais', 1, '', 'Die Geschichte des menchanischen Rechners', ''),
-(54, 'relais', 'Relais', '1835', '', '', 'relais.png', 'Relais', 'mechanik', 'halbleiter', 1, '', 'Die Geschichte des Relais\'', ''),
-(55, 'halbleiter', 'Halbleiter', '1874', '', 'Element Silizium', 'halbleiter.png', 'Halbleiter', 'relais', 'transistor', 1, '', 'Die  Geschichte von Halbleitern', ''),
-(56, 'transistor', 'Transistor', '1934', '1997', 'Transistor BC', 'transistor.png', 'Transistor', 'halbleiter', 'halbaddierer', 1, '', 'Die Geschichte des Transistors', ''),
-(57, 'halbaddierer', 'Halbaddierer', '1937', '', '', 'halbaddierer.png', 'Halbaddierer', 'transistor', 'roehren', 1, '', 'Die Geschichte des Halbaddierers', ''),
-(58, 'roehren', 'Röhrenrechner', '1940', '', '', 'roehren.png', 'Röhrenrechner', 'halbaddierer', 'rechnerchip', 1, '', 'Die Geschichte des Röhrenrechners', ''),
-(59, 'rechnerchip', 'Rechnerchip', '1959', '', '', 'rechnerchip.png', 'Rechnerchip', 'roehren', 'integrierterRechner', 1, '', 'Die Geschichte des Rechenchips', ''),
-(60, 'integrierterRechner', 'Integrierter Schaltkreis', '1959', '', '', 'integrierter.png', 'Integrierter Schaltkreis', 'rechnerchip', 'rwafer', 1, '', 'Die Geschichte des integrierten Schaltkreises', ''),
-(61, 'rwafer', 'Wafer', '1960', '', '', 'wafer.png', 'Wafer', 'integrierterRechner', 'taschenrechner', 1, '', 'Die Geschichte des Wafers', ''),
-(62, 'taschenrechner', 'Taschenrechner', '1967', '', '', 'taschenrechner.png', 'Taschenrechner', 'rwafer', 'pc', 1, '', 'Die Geschichte des Taschenrechners', ''),
+(49, 'abakus', 'Abakus', '-2500', 'ca 1970', 'Chinesischer Abakus', 'abakus.png', 'Abakus', NULL, 'rechenschieber', 1, '', 'Die Geschichte des Abakus', 'chinesischer Zählrahmen'),
+(50, 'pascaline', 'Pascaline', '1642', '1652', 'Pascaline', 'pascaline.png', 'Pascaline', 'rechenschieber', 'binaer', 0, '', 'Die Geschichte der Pascaline', 'Blaise Pascal, Mechanische Rechenmaschine'),
+(51, 'binaer', 'Binärsystem', '1697', '', '', 'binaer.png', 'Binärsystem', 'pascaline', 'differenzenmaschine', 1, 'Lisa Kalberer, Philipp Gressly Freimann', 'Die Geschichte des Binärsystems', 'Leibniz, Dualsystem'),
+(52, 'differenzenmaschine', 'Differenzenmaschine', '1822', '', 'Nachbildung im Da Vinci Museum Mailand', 'babbage.png', 'Differenzenmaschine', 'binaer', 'addiator', 0, '', 'Die Geschichte der Differenzmaschine', 'Babbage'),
+(53, 'addiator', 'Mechanischer Rechner', '1847', 'ca. 1950', 'Addiator', 'zahlenschieber.png', 'Zahlenschieber', 'differenzenmaschine', 'relais', 1, '', 'Die Geschichte des menchanischen Rechners', ''),
+(54, 'relais', 'Relais', '1835', '', '', 'relais.png', 'Relais', 'addiator', 'notRelaisNachbau', 1, '', 'Die Geschichte des Relais\'', ''),
+(55, 'halbleiter', 'Halbleiter', '1874', '', 'Element Silizium', 'halbleiter.png', 'Halbleiter', 'notRelaisNachbau', 'transistor', 1, '', 'Die  Geschichte von Halbleitern', ''),
+(56, 'transistor', 'Transistor', '1934', '1997', 'Transistor BC', 'transistor.png', 'Transistor', 'halbleiter', 'notTransistorNachbau', 1, '', 'Die Geschichte des Transistors', ''),
+(57, 'halbaddierer', 'Halbaddierer', '1937', '', '', 'halbaddierer.png', 'Halbaddierer', 'notTransistorNachbau', 'volladdiererRelaisNachbau', 1, '', 'Die Geschichte des Halbaddierers', ''),
+(58, 'roehre', 'Röhrenrechner', '1940', '', '', 'roehren.png', 'Röhrenrechner', 'volladdiererTransistorNachbau', 'rechnerchip', 1, '', 'Die Geschichte des Röhrenrechners', ''),
+(59, 'rechnerchip', 'Rechnerchip', '1959', '', '', 'rechnerchip.png', 'Rechnerchip', 'roehre', 'taschenrechner', 1, '', 'Die Geschichte des Rechenchips', ''),
+(62, 'taschenrechner', 'Taschenrechner', '1967', '', '', 'taschenrechner.png', 'Taschenrechner', 'rechnerchip', 'pc', 1, '', 'Die Geschichte des Taschenrechners', ''),
 (63, 'pc', 'Personal Computer', '1975', '2008', 'Asus Eee PC 1000', 'pc.png', 'Personal Computer', 'taschenrechner', 'tablet', 1, '', 'Die Geschichte des PC\'s', 'PC, Laptop'),
 (64, 'tablet', 'Tablet', '1989', '2011', 'iPad 2', 'tablet.png', 'Tablet', 'pc', 'smartphone', 1, '', 'Die Geschichte des Tablets', ''),
 (65, 'smartphone', 'Smartphone', '1994', '1998', 'Nokia NSM-1NY', 'smartphone.png', 'Smartphone', 'tablet', 'smartwatch', 1, '', 'Die Geschichte des Smartphones', ''),
@@ -78,9 +74,14 @@ INSERT INTO `content` (`ID`, `IDurl`, `Titel`, `Jahrzahl`, `Objekt_Jahr`, `Objek
 (74, 'swafer', 'Wafer', '1960', '', '', 'wafer.png', 'Wafer', 'integrierterSpeicher', 'diskette', 1, '', 'Die Geschichte des Wafers', ''),
 (75, 'diskette', 'Diskette', '1969', '2002', 'Externes Laufwerk', 'diskette.png', 'Diskette', 'swafer', 'cd', 1, '', 'Die Geschichte  der Diskette', ''),
 (76, 'cd', 'CD - ROM', '1979', '2000', 'crd-8481B', 'cd.png', 'CD - ROM', 'diskette', 'usbstick', 1, '', 'Die Geschichte der CD-ROM', 'CD, DVD, Bluray'),
-(77, 'usbstick', 'USB - Stick', '1996', '', '16 mb', 'usbstick.png', 'USB - Stick', 'cd', NULL, 1, '', 'Die Geschichte des USB- Sticks', 'Universal serial Bus'),
-(78, 'relaisnachbau', 'Nachbau Relairechner', '2017', '', 'Nachbau Relaisrechner', 'relaisnachbau.png', 'Nachbau Relaisrechner', 'halbaddierer', 'roehren', 1, '', 'Nachbau eines Relaisrechners', ''),
-(79, 'transistornachbau', 'Nachbau Transistorrechner', '2017', '', 'Nachbau Transistorrechner', 'transistornachbau.png', 'Nachbau Transistorrechner', 'halbaddierer', 'roehren', 1, '', 'Nachbau eines Transistorrechners', '');
+(77, 'usbstick', 'USB - Stick', '1996', '', '16 mb', 'usbstick.png', 'USB - Stick', 'cd', 'bitRelaisNachbau', 1, '', 'Die Geschichte des USB- Sticks', 'Universal serial Bus'),
+(78, 'volladdiererRelaisNachbau', 'Nachbau Relairechner', '2017', '', 'Nachbau Relaisrechner', 'relaisnachbau.png', 'Nachbau Relaisrechner', 'halbaddierer', 'volladdiererTransistorNachbau', 1, '', 'Nachbau eines Relaisrechners', ''),
+(79, 'volladdiererTransistorNachbau', 'Nachbau Transistorrechner', '2017', '', 'Nachbau Transistorrechner', 'transistornachbau.png', 'Nachbau Transistorrechner', 'volladdiererRelaisNachbau', 'roehre', 1, '', 'Nachbau eines Transistorrechners', ''),
+(80, 'rechenschieber', 'Rechenschieber', '1632', 'ca 1950\r\n', 'Rechenschieber\r\n', '', '', 'abakus', 'pascaline\r\n', 1, '', '', 'Logarithmus'),
+(81, 'notRelaisNachbau', 'Nachbau NOT mit Relais', '2017', '2017', NULL, '', '', 'relais', 'halbleiter', 1, '', '', 'Relais, NOT'),
+(82, 'notTransistorNachbau', 'Nachbau NOT mit Transistoren', '2017', '2017', NULL, '', '', 'transistor', 'halbaddierer', 1, '', '', 'Transistor, NOT'),
+(83, 'bitRelaisNachbau', 'Nachbau Bit mit Relais', '2017', '2017', NULL, '', '', 'usbstick', 'bitTransistorNachbau', 1, '', '', 'Relais, Bit, Speicher'),
+(84, 'bitTransistorNachbau', 'Nachbau Bit mit Transistoren', '2017', '2017', NULL, '', '', 'bitRelaisNachbau', NULL, 1, '', '', 'Bit, Transistor, Speicher');
 
 --
 -- Indexes for dumped tables
@@ -101,9 +102,7 @@ ALTER TABLE `content`
 -- AUTO_INCREMENT for table `content`
 --
 ALTER TABLE `content`
-  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT COMMENT 'unique id', AUTO_INCREMENT=80;
-COMMIT;
-
+  MODIFY `ID` int(11) NOT NULL AUTO_INCREMENT COMMENT 'unique id', AUTO_INCREMENT=85;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

@@ -40,6 +40,10 @@ Date:  20.03.2018
                     "<img src='../expo_images/$bildpfad' class='expoimg' alt='$bildlegende' title='$bildlegende'/>" .
                     "</div>";
         }
+	function underConstruction() {
+    	echo "<div><img src='../img/ucMini.png' alt='teleworker' title='under Construction'/><br />Under Construciton</div>";
+	}
+
 ?>
 <html>
     <head>
