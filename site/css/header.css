@@ -16,3 +16,11 @@ license header dingens
 	color           : #FFF   ;
 	background-color: #002147;
 }
+
+.gradient { /* Gradient im Titel */
+	background     : linear-gradient(rgba(0,0,0,.2), rgba(0,33,71,.8));
+	background-size: cover ;
+	margin         : -1em 0;
+	padding        :  1em  ;
+}
+
