@@ -9,6 +9,11 @@
 Das Binärsystem (auch Zweiersystem oder Dualsystem genannt) ist ein Stellenwertsystem wie unser gewohntes Dezimalsystem.
     Die Darstellung von Zahlen haben jedoch nur zwei Ziffern. Die Ziffern sind 0 und 1.<br>
 </p>
+
+
+<img src='https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Leibniz_binary_system_1697.jpg/330px-Leibniz_binary_system_1697.jpg' alt='tabula' title='Entwurf des Dualsystems aus dem Jahre 1697' />
+
+
 <table class='tabelle'>
     <tr> <td>Dezimal</td> <td></td><td>Binäre Darstellung</td></tr>
 	<tr> <td> 0</td> <td>&#8702;</td> <td>    0</td> </tr> 
@@ -29,9 +34,10 @@ Das Binärsystem (auch Zweiersystem oder Dualsystem genannt) ist ein Stellenwert
 	<tr> <td>15</td> <td>&#8702;</td> <td> 1111</td> </tr> 
 	</table>
 
-<h3>Funktionsweise</h3>
+
+      <h3>Funktionsweise</h3>
 <p>
-Man kann im Binärsystem rechnen:<br>
+Man kann im Binärsystem ganz analog zum Zehnersystem rechnen:<br>
 </p>
 <p>Addition</p>
 <table class='tabelle'>
@@ -42,20 +48,33 @@ Man kann im Binärsystem rechnen:<br>
 </table>
       
       <p>Dabei bezeichnet die oberste Zeile den Übertrag (carry). Die folgende Tabelle zeigt dieselbe Rechnung im Dezimalsystem.</p>
+      
 <table class='tabelle'>
-	<tr> <td>               </td> <td>               </td> <td>1              </td> <td>1              </td> <td>+</td> </tr> 
-	<tr> <td>               </td> <td>               </td> <td>               </td> <td>3              </td> <td>=</td> </tr> 
-	<tr> <td>               </td> <td>               </td> <td>1              </td> <td>4              </td> <td> </td> </tr> 
+	<tr><td>1              </td> <td>1              </td> <td>+</td> </tr> 
+	<tr><td>               </td> <td>3              </td> <td>=</td> </tr> 
+	<tr><td>1              </td> <td>4              </td> <td> </td> </tr> 
 </table><br><br>
-
 
 
 <h3>Verwendung</h3>
 <p>
 Bei der Entwicklung von elektronischen Rechenmaschinen erlangte das Dualsystem grosse Bedeutung, denn in der Digitaltechnik werden Zahlen durch elektronische Zustände dargestellt.<br>
-Bevorzugt werden zwei komplementäre Zustände wie z. B. Strom an / Strom aus. Auf diese Weise konnten einfache Schaltungen realisiert werden.<br>
+      Bevorzugt werden zwei komplementäre Zustände wie z. B. Strom an / Strom aus.<br />
+      Auf diese Weise konnten zunächst einfache Schaltungen realisiert werden. Heute werden nicht mehr nur Additionen durchgeführt; es werden aufgrund des Binärsystems komplexe
+          Berechnungen durchgeführt. Beispiele:
+<ul>
+<li>Subtraktion, Multiplikation, Division</li>
+<li>Wurzelziehen und Logarithmen</li>
+<li>Suche Mattstellungen in Schachpositionen</li>
+<li>Finde den kürzesten Weg von A nach B auf einer Landkarte</li>
+<li>...</li>                                                                                                                                        
+</ul>
 </p>
+                                                                                                                                        
+
 <h3>Weitere Informationen</h3>
-<p>
+                                                                                                                                        
+<p> Das Dualsystem wurde zum ersten Mal von  Gottfried Wilhelm Leibniz bereits im Jahre 1697 beschrieben:
+                                                                                                                                        
     Weitere Informationen auf <a class="link" href="http://de.wikipedia.org/wiki/Dualsystem">Wikipedia/Dualsystem</a>
 </p>
