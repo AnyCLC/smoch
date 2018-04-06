@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 06, 2018 at 04:48 PM
+-- Generation Time: Apr 06, 2018 at 07:58 PM
 -- Server version: 5.7.21-0ubuntu0.17.10.1
 -- PHP Version: 7.1.15-0ubuntu0.17.10.1
 
@@ -68,16 +68,16 @@ INSERT INTO `content` (`ID`, `IDurl`, `Titel`, `Jahrzahl`, `Objekt_Jahr`, `Objek
 (68, 'lochkarte', 'Lochkarte', '1874', '', '', 'lochkarte.png', 'Lochkarte', 'amphore', 'magnetband', 1, '', 'Die Geschichte der Lochkarte', ''),
 (69, 'magnetband', 'Magnetband', '1930', '1990', 'Magnetband BASF', 'magnetband.png', 'Magnetband', 'lochkarte', 'kernspeicher', 1, '', 'Die Geschichte des Magnetbandes', ''),
 (70, 'kernspeicher', 'Kernspeicher', '1949', '', '', 'kernspeicher.png', 'Kernspeicher', 'magnetband', 'festplatte', 1, '', 'Die Geschichte des Kernspeichers', 'Speicher'),
-(71, 'festplatte', 'Festplatte', '1956', '1998', '', 'festplatte.png', 'Festplatte', 'kernspeicher', 'speicherchip', 1, '', 'Die Geschichte der Festplatte', 'HDD, SSD'),
-(72, 'speicherchip', 'Speicherchip', '1959', '', 'NEC Japan 8633 kb', 'speicherchip.png', 'Speicherchip', 'festplatte', 'integrierterSpeicher', 1, '', 'Die Geschichte des Speicherchips', ''),
-(73, 'integrierterSpeicher', 'Integrierter Schaltkreis', '1959', '', '', 'integrierter.png', 'Integrierter Schaltkreis', 'speicherchip', 'swafer', 1, '', 'Die Geschichte des integrierten Schaltkreises', ''),
-(74, 'swafer', 'Wafer', '1960', '', '', 'wafer.png', 'Wafer', 'integrierterSpeicher', 'diskette', 1, '', 'Die Geschichte des Wafers', ''),
+(71, 'festplatte', 'Festplatte', '1956', '1998', '', 'festplatte.png', 'Festplatte', 'kernspeicher', 'integrierterSpeicher', 1, '', 'Die Geschichte der Festplatte', 'HDD, SSD'),
+(72, 'speicherchip', 'Speicherchip', '1959', '', 'NEC Japan 8633 kb', 'speicherchip.png', 'Speicherchip', 'integrierterSpeicher', 'swafer', 1, '', 'Die Geschichte des Speicherchips', ''),
+(73, 'integrierterSpeicher', 'Integrierter Schaltkreis', '1959', '', '', 'integrierterSpeicher.png', 'Integrierter Schaltkreis', 'festplatte', 'speicherchip', 1, '', 'Die Geschichte des integrierten Schaltkreises', ''),
+(74, 'swafer', 'Wafer', '1960', '', '', 'wafer.png', 'Wafer', 'speicherchip', 'diskette', 1, '', 'Die Geschichte des Wafers', ''),
 (75, 'diskette', 'Diskette', '1969', '2002', 'Externes Laufwerk', 'diskette.png', 'Diskette', 'swafer', 'cd', 1, '', 'Die Geschichte  der Diskette', ''),
 (76, 'cd', 'CD - ROM', '1979', '2000', 'crd-8481B', 'cd.png', 'CD - ROM', 'diskette', 'usbstick', 1, '', 'Die Geschichte der CD-ROM', 'CD, DVD, Bluray'),
 (77, 'usbstick', 'USB - Stick', '1996', '', '16 mb', 'usbstick.png', 'USB - Stick', 'cd', 'bitRelaisNachbau', 1, '', 'Die Geschichte des USB- Sticks', 'Universal serial Bus'),
-(78, 'volladdiererRelaisNachbau', 'Nachbau Relaisrechner', '2017', '', 'Nachbau Relaisrechner', 'relaisnachbau.png', 'Nachbau Relaisrechner', 'halbaddierer', 'volladdiererTransistorNachbau', 1, '', 'Nachbau eines Relaisrechners', ''),
+(78, 'volladdiererRelaisNachbau', 'Nachbau Relaisrechner', '2017', '', 'Nachbau Relaisrechner', 'volladdiererRelaisNachbau.png', 'Nachbau Relaisrechner', 'halbaddierer', 'volladdiererTransistorNachbau', 1, '', 'Nachbau eines Relaisrechners', ''),
 (79, 'volladdiererTransistorNachbau', 'Nachbau Transistorrechner', '2017', '', 'Nachbau Transistorrechner', 'volladdiererTransistorNachbau.png', 'Nachbau Transistorrechner', 'volladdiererRelaisNachbau', 'roehre', 1, '', 'Nachbau eines Transistorrechners', ''),
-(80, 'rechenschieber', 'Rechenschieber', '1632', 'ca 1950\r\n', 'Rechenschieber\r\n', '', '', 'abakus', 'pascaline\r\n', 1, '', '', 'Logarithmus'),
+(80, 'rechenschieber', 'Rechenschieber', '1632', 'ca 1960\n', 'ARISTO Nr. 89\n', 'rechenschieber.png', 'Rechenschieber', 'abakus', 'pascaline\r\n', 1, '', 'Die Geschichte des Rechenschiebers eingebettet in die Geschichte des Computers.', 'Logarithmus'),
 (81, 'notRelaisNachbau', 'Nachbau NOT mit Relais', '2017', '2017', NULL, 'notRelaisNachbau.png', 'NOT Schaltung mit einem Relais', 'relais', 'halbleiter', 1, '', '', 'Relais, NOT'),
 (82, 'notTransistorNachbau', 'Nachbau NOT mit Transistoren', '2017', '2017', NULL, 'notTransistorNachbau.png', 'NOT Schaltung mit Transistoren', 'transistor', 'halbaddierer', 1, '', '', 'Transistor, NOT'),
 (83, 'bitRelaisNachbau', 'Nachbau Bit mit Relais', '2017', '2017', NULL, 'bitRelaisNachbau.png', 'Ein-Bit-Speicher mit Relais', 'usbstick', 'bitTransistorNachbau', 1, '', '', 'Relais, Bit, Speicher'),

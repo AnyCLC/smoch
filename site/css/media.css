@@ -1,5 +1,9 @@
 /* hide accessible text, display only '�' and '�' */
 
+/** 
+ * Hier sind nur die CSS-Regeln, welche Media-abhängig sind.
+ */
+
 /* assorted sundry in queries */
 /* smaller than */
 @media screen and (max-width: 30em) {

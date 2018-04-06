@@ -1,1 +1,2 @@
 <?php underConstruction(); ?>
+<?php includeImage()     ; ?>

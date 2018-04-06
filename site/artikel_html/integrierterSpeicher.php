@@ -1,4 +1,5 @@
 <h3> Aufbau </h3>
+<?php includeImage(); ?>
 <p> Ein Integrierter Schaltkreis besteht im Wesentlichen aus diversen elektronischen Komponenten auf kleinstem Raum. </p> <br>
 <br>
 <h3>Funktionsweise</h3><br>
