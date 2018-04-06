@@ -36,25 +36,3 @@
 	vertical-align: bottom;
 	float         : right ;
 }
-
-/* NOT smaller than */
-@media not screen and (max-width: 30em) {
-	img {
-		display: inline-block;
-		float  : right       ;
-		margin :          1em;
-	}
-
-	/* show just document-title */
-	.articletitle {
-		display: none;
-	}
-
-	/* footer */
-	#footwrapper .tel {
-		pointer-events: none   ;
-		cursor        : default;
-		color         : #FFFFFE;
-	}
-}
-

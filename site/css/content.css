@@ -36,6 +36,9 @@ h6 {font-size: 1.1em; margin-bottom  :     .5rem;}
 	list-style-type: square;
 }
 
+/** 
+ *  Tabellen innerhalb der Artikel. "class = 'tabelle'".
+ */
 .tabelle tr:first-child td {
 	font-weight     : bold;
 	background-color: #eef;
@@ -46,3 +49,4 @@ h6 {font-size: 1.1em; margin-bottom  :     .5rem;}
 .tabelle tr:nth-child(even) {
 	background-color: #aad;
 }
+
