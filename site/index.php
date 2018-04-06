@@ -43,9 +43,9 @@ Date:  20.03.2018
 ?>
 <html>
     <head>
-        <meta name="autor" content="<?php echo $autor ?>">
-        <meta name="description" content="<?php echo $descriptions?>">
-        <meta name="keywords" content="<?php echo $keywords?>">
+        <meta name="autor" content="<?php echo $autor; ?>">
+        <meta name="description" content="<?php echo $descriptions; ?>">
+        <meta name="keywords" content="<?php echo "$IDurl, $keywords"; ?>">
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="../css/main.css"   >
