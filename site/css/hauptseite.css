@@ -2,16 +2,4 @@
  * Nur auf der index.html Hauptseite, nicht auf den Exponat-Seiten.
  */
 
-.gradient {
-	background     : linear-gradient(rgba(0,0,0,.2), rgba(0,33,71,.8));
-	background-size: cover ;
-	margin         : -1em 0;
-	padding        :  1em  ;
-}
-
-/*
-.startlink {
-		
-		display: block;
-}
-*/
+/* im Moment leer. */

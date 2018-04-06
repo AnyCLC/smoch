@@ -59,9 +59,11 @@ Date:  20.03.2018
     </head>
     <body onscroll="stickyNavi()">
         <div id="headwrapper" onclick="window.location = '../index.html'">
+        	<div class="gradient">
                 <div class="articletitle"><?php echo $titel ?></div>
                 <div class="headtitle">S M O C H</div>
-            </div>
+        	</div>
+        </div>
         <div id="content">
             
             <div class="navwrapper">
