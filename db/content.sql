@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 06, 2018 at 04:21 PM
+-- Generation Time: Apr 06, 2018 at 04:48 PM
 -- Server version: 5.7.21-0ubuntu0.17.10.1
 -- PHP Version: 7.1.15-0ubuntu0.17.10.1
 
@@ -75,13 +75,13 @@ INSERT INTO `content` (`ID`, `IDurl`, `Titel`, `Jahrzahl`, `Objekt_Jahr`, `Objek
 (75, 'diskette', 'Diskette', '1969', '2002', 'Externes Laufwerk', 'diskette.png', 'Diskette', 'swafer', 'cd', 1, '', 'Die Geschichte  der Diskette', ''),
 (76, 'cd', 'CD - ROM', '1979', '2000', 'crd-8481B', 'cd.png', 'CD - ROM', 'diskette', 'usbstick', 1, '', 'Die Geschichte der CD-ROM', 'CD, DVD, Bluray'),
 (77, 'usbstick', 'USB - Stick', '1996', '', '16 mb', 'usbstick.png', 'USB - Stick', 'cd', 'bitRelaisNachbau', 1, '', 'Die Geschichte des USB- Sticks', 'Universal serial Bus'),
-(78, 'volladdiererRelaisNachbau', 'Nachbau Relairechner', '2017', '', 'Nachbau Relaisrechner', 'relaisnachbau.png', 'Nachbau Relaisrechner', 'halbaddierer', 'volladdiererTransistorNachbau', 1, '', 'Nachbau eines Relaisrechners', ''),
-(79, 'volladdiererTransistorNachbau', 'Nachbau Transistorrechner', '2017', '', 'Nachbau Transistorrechner', 'transistornachbau.png', 'Nachbau Transistorrechner', 'volladdiererRelaisNachbau', 'roehre', 1, '', 'Nachbau eines Transistorrechners', ''),
+(78, 'volladdiererRelaisNachbau', 'Nachbau Relaisrechner', '2017', '', 'Nachbau Relaisrechner', 'relaisnachbau.png', 'Nachbau Relaisrechner', 'halbaddierer', 'volladdiererTransistorNachbau', 1, '', 'Nachbau eines Relaisrechners', ''),
+(79, 'volladdiererTransistorNachbau', 'Nachbau Transistorrechner', '2017', '', 'Nachbau Transistorrechner', 'volladdiererTransistorNachbau.png', 'Nachbau Transistorrechner', 'volladdiererRelaisNachbau', 'roehre', 1, '', 'Nachbau eines Transistorrechners', ''),
 (80, 'rechenschieber', 'Rechenschieber', '1632', 'ca 1950\r\n', 'Rechenschieber\r\n', '', '', 'abakus', 'pascaline\r\n', 1, '', '', 'Logarithmus'),
-(81, 'notRelaisNachbau', 'Nachbau NOT mit Relais', '2017', '2017', NULL, '', '', 'relais', 'halbleiter', 1, '', '', 'Relais, NOT'),
-(82, 'notTransistorNachbau', 'Nachbau NOT mit Transistoren', '2017', '2017', NULL, '', '', 'transistor', 'halbaddierer', 1, '', '', 'Transistor, NOT'),
-(83, 'bitRelaisNachbau', 'Nachbau Bit mit Relais', '2017', '2017', NULL, '', '', 'usbstick', 'bitTransistorNachbau', 1, '', '', 'Relais, Bit, Speicher'),
-(84, 'bitTransistorNachbau', 'Nachbau Bit mit Transistoren', '2017', '2017', NULL, '', '', 'bitRelaisNachbau', NULL, 1, '', '', 'Bit, Transistor, Speicher');
+(81, 'notRelaisNachbau', 'Nachbau NOT mit Relais', '2017', '2017', NULL, 'notRelaisNachbau.png', 'NOT Schaltung mit einem Relais', 'relais', 'halbleiter', 1, '', '', 'Relais, NOT'),
+(82, 'notTransistorNachbau', 'Nachbau NOT mit Transistoren', '2017', '2017', NULL, 'notTransistorNachbau.png', 'NOT Schaltung mit Transistoren', 'transistor', 'halbaddierer', 1, '', '', 'Transistor, NOT'),
+(83, 'bitRelaisNachbau', 'Nachbau Bit mit Relais', '2017', '2017', NULL, 'bitRelaisNachbau.png', 'Ein-Bit-Speicher mit Relais', 'usbstick', 'bitTransistorNachbau', 1, '', '', 'Relais, Bit, Speicher'),
+(84, 'bitTransistorNachbau', 'Nachbau Bit mit Transistoren', '2017', '2017', NULL, 'bitTransistorNachbau.png', 'Ein-Bit-Speicher mit Transistoren', 'bitRelaisNachbau', NULL, 1, '', '', 'Bit, Transistor, Speicher');
 
 --
 -- Indexes for dumped tables
