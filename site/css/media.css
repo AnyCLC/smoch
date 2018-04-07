@@ -35,6 +35,13 @@
 			font-size   :  0.9em;
 	}
 
+	.zitat {
+			margin-left  : 1em;
+			margin-right : 1em;
+			padding-left : 1em;
+			padding-rigth: 1em;
+	}
+
 /* zeige nur artikel-titel */
 	.headtitle    {display: none;}
 	.articletitle {

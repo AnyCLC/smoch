@@ -31,6 +31,9 @@ Werbevideos, technischen Daten und Bildergalerien der angepriesenen Waren an pot
      
 <i>Quelle: <a href="https://de.wikipedia.org/wiki/USB-Stick">Wikipedia</a> (März 2018)</i>
 </p>
+
+<h3>Verwendung</h3>
+     <p>USB Speichersticks werden verwendet, um Daten zwischen Computern und anderen USB-fähigen Geräten auszutauschen, aber auch um Backups zu erstellen.</p>
      
 <h3>Weitere Informationen</h3>
 <p>

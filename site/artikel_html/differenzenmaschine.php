@@ -1,20 +1,4 @@
-<h3> Geschichte </h3>
-<h4> Johann Helfrich von Müller </h4>
-<?php includeImage(); ?>
 
-<p>
-Die erste Rechenmaschine wurde von Johan Helfrich von Müller fertiggestellt, worauf er ein Benutzerhandbuch verfasste, in dessen Anhang er einen Ausblick für zukünftige Verbesserungen darstellte.<br>
-Neben Andeutungen über die Nützlichkeit eines Druckwerks zur Dokumentation von Rechenergebnissen stellte er auch seine Gedanken über eine neuartige Maschine, das die Zahlenreihen mittels der Methode der Differenzen berechnen können sollte.<br>
-Es existiert kein Hinweis, dass es sich dabei um mehr als ein Konzept handelte. Vielmehr war dies ein Angebot von wegen: Gebt mir Geld, dann mache ich eine funktionsfähige Differenz-Rechenmaschine mit Drucker.
-</p>
-                                                                                                                             
-<h4> Charles Babbage </h4>
-<p>
-Die erste funktionsfähige Differenzmaschine wurde von Charles Babbage zwischen 1820 und 1822 gebaut.<br>
-Babbage kannte zu diesem Zeitpunkt, nach heutiger Lehrmeinung, die Überlegungen von Johann Helfrich von Müller nicht. Diese wurden ihm erst später von seinem Freund John Herschel ins Englische übersetzt.<br>
-Diese erste Differenzmaschine konnte mit zwei Differenzen bei einer Genauigkeit von sechs Stellen rechnen. <br>
-Babbage sah die Maschine als Teil-Modell einer noch zu bauenden, größeren Differenzmaschine an.<br>
-Das Modell hatte die Funktion einer Machbarkeitsstudie, um finanzielle Unterstützung für eine größere Maschine zu erhalten.</p>
 
 
 <h3> Aufbau </h3>
@@ -26,6 +10,8 @@ Das Modell hatte die Funktion einer Machbarkeitsstudie, um finanzielle Unterstü
      die nächste "extrapoliert" werden, wenn davon ausgegangen wird, dass die Reihe z. B. eine quadratische Funktion war.</p>
      <p>Im folgenden Beispiel sind sieben Messwerte gegeben. Was wird wohl der achte sein?</p>
      <table class='tabelle'>
+
+<?php includeImage(); ?>
 
      <tr><td>Ordinaler Wert (Messwert Nummer)</td>	<td>Messwert</td>	<td>Differenz</td>	<td>Differenz der Differenz</td></tr>
 <tr><td>1.</td><td>12</td><td></td><td></td></tr>
@@ -44,6 +30,23 @@ Das Modell hatte die Funktion einer Machbarkeitsstudie, um finanzielle Unterstü
      <h3>Verwendung</h3>
 <p>Die häufigste Nutzung der Differenzmaschinen war die Interpolation von Werten zwischen bekannten Stützstellen. Aber auch z. B. der Sinus konnte damit berechnet werden.</p>
 
+<h3> Geschichte </h3>
+<h4> Johann Helfrich von Müller </h4>
+<p>
+Die erste Rechenmaschine wurde von Johan Helfrich von Müller fertiggestellt, worauf er ein Benutzerhandbuch verfasste, in dessen Anhang er einen Ausblick für zukünftige Verbesserungen darstellte.<br>
+Neben Andeutungen über die Nützlichkeit eines Druckwerks zur Dokumentation von Rechenergebnissen stellte er auch seine Gedanken über eine neuartige Maschine, das die Zahlenreihen mittels der Methode der Differenzen berechnen können sollte.<br>
+Es existiert kein Hinweis, dass es sich dabei um mehr als ein Konzept handelte. Vielmehr war dies ein Angebot von wegen: Gebt mir Geld, dann mache ich eine funktionsfähige Differenz-Rechenmaschine mit Drucker.
+</p>
+                                                                                                                             
+<h4> Charles Babbage </h4>
+<p>
+Die erste funktionsfähige Differenzmaschine wurde von Charles Babbage zwischen 1820 und 1822 gebaut.<br>
+Babbage kannte zu diesem Zeitpunkt, nach heutiger Lehrmeinung, die Überlegungen von Johann Helfrich von Müller nicht. Diese wurden ihm erst später von seinem Freund John Herschel ins Englische übersetzt.<br>
+Diese erste Differenzmaschine konnte mit zwei Differenzen bei einer Genauigkeit von sechs Stellen rechnen. <br>
+Babbage sah die Maschine als Teil-Modell einer noch zu bauenden, größeren Differenzmaschine an.<br>
+Das Modell hatte die Funktion einer Machbarkeitsstudie, um finanzielle Unterstützung für eine größere Maschine zu erhalten.</p>
+
+    
 <h3> Fun Facts </h3>
 <p>
 Obwohl die Differenzmaschinen sehr vielseitig einsetzbar waren, wurden sie nie oder nur kurz eingesetzt. <br>
