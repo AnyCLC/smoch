@@ -5,7 +5,9 @@ Date:  20.03.2018
 -->
 <?php
     include_once './res/db_config.php';
-    $args = explode('/',$_SERVER['REQUEST_URI']);
+	include_once './res/functions.php';
+
+	$args = explode('/',$_SERVER['REQUEST_URI']);
     $IDurl = $args[sizeof($args) - 1];
     mysqli_query($db, "SET NAMES 'utf8'");
     $abfrage = 'SELECT * FROM `content` WHERE `IDurl` = "' . $IDurl .  '"';
@@ -25,26 +27,11 @@ Date:  20.03.2018
         $descriptions = $row['Descriptions' ];
         $keywords     = $row['Keywords'     ];
         $vorhanden    = $row['Vorhanden'    ];
-        $fehler       =  false;
-        
     } else {
-        $fehler       =  true;
-    }
-    if($fehler) {
         header ('Location: ../error.html');
     }
-    function includeImage() {
-        global $bildpfad;
-        global $bildlegende;
-            echo    "<div class='imgwrapper'>" .
-                    "<img src='../expo_images/$bildpfad' class='expoimg' alt='$bildlegende' title='$bildlegende'/>" .
-                    "</div>";
-        }
-	function underConstruction() {
-    	echo "<div><img src='../img/ucMini.png' alt='teleworker' title='under Construction'/><br />Under Construction</div>";
-	}
-
 ?>
+
 <html>
     <head>
         <meta name="autor" content="<?php echo $autor; ?>">
@@ -98,24 +85,7 @@ Date:  20.03.2018
                     ?>
 <?php
 /***************** Vorhandene Exponate in der Fußnote ****************************/
-if(! empty ($modellObj) || ! empty ($jahrzahlObj) || ! empty($vorhanden)) {
-    echo "<hr />\n";
-}
-if($vorhanden > 0) {
-    echo "<br />Hierzu können Sie ein Exponat im <b>SANTIS Museum of Computing History</b> betrachten.<br />\n";
-}
-if(! empty ($modellObj) && strlen($modellObj) > 0) {
-    if($vorhanden) {
-        echo "<br />Bestauenen Sie bei uns: ";
-    } else {
-        echo "<br />Abbildung zeigt bzw. Text beschreibt: ";
-    }
-  echo  "<b><span style='color: #036;'>" . $modellObj;
-    if(! empty($jahrzahlObj)) {
-        echo " aus dem Jahr $jahrzahlObj";
-            }
-    echo "</span></b>.<br />\n";
-    }
+istImMuseumText($modellObj, $jahrzahlObt, $vorhanden);
 /********************************************************************************/
 ?>
                 </div>
