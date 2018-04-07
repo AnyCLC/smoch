@@ -50,3 +50,12 @@ h6 {font-size: 1.1em; margin-bottom  :     .5rem;}
 	background-color: #aad;
 }
 
+
+.zitat { /* Z. B. Wikipedia*/
+		font-style   : oblique;
+		font-size    :     90%;
+		margin-left  :     3em;
+		margin-right :     3em;
+		padding-left :     3em;
+		padding-right:     3em;
+}

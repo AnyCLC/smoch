@@ -60,6 +60,10 @@ verlötet, die erheblich weniger Platz benötigten.</p>
 <i>Quelle: <a href="https://de.wikipedia.org/wiki/Dynamic_Random_Access_Memory">Wikipedia</a> März 2018</i>
 
 
+                                                                                                                                                 <h3>Fun Facts</h3>
+     <p>Wegen der vielen Beinchen werden Chips auch <i>Käfer</i> genannt.</p>
+
+
 <h3>Weitere Informationen</h3>
 <p>
 Im Museum sind daneben die folgenden Speicherchips vorhanden:
