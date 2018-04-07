@@ -90,7 +90,7 @@ istImMuseumText($modellObj, $jahrzahlObt, $vorhanden);
             <div class="adress">
                 <div class="centercolumn">
                     <p>
-                        <strong>SANTIS Training AG</strong>
+                        <strong><a href='https://www.santis-training.ch'>SANTIS Training AG</a></strong>
                         <br>Hohlstrasse 550
                         <br>CH-8048 Zürich
                     </p>
