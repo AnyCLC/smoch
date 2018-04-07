@@ -4,17 +4,11 @@ Autor: Nathan Péray
 Date:  20.03.2018
 -->
 <?php
-    include_once './res/db_config.php';
-	include_once './res/functions.php';
-
-	$args = explode('/',$_SERVER['REQUEST_URI']);
-    $IDurl = $args[sizeof($args) - 1];
-    mysqli_query($db, "SET NAMES 'utf8'");
-    $abfrage = 'SELECT * FROM `content` WHERE `IDurl` = "' . $IDurl .  '"';
-
-    $ergebnis = mysqli_query($db, $abfrage);
+    include_once 'res/db_config.php';
+	include_once 'res/functions.php';
+	include_once 'res/db_query.php' ;
   
-    if($row = mysqli_fetch_assoc($ergebnis)) {
+	if($row = getExponatRow()) {
         $titel        = $row['Titel'        ];
         $bildlegende  = $row['BildLegende'  ];
         $bildpfad     = $row['BildPfad'     ];
