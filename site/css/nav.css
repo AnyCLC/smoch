@@ -6,23 +6,13 @@ license header dingens
 	Author     : nathan.peray, daniel.frei
 */
 
-
-.arrow {
-	display: block;
-}
-
 /* navigation */
-.navwrapper {
+#navwrapper {
 	display  : block;
 	font-size:  120%;
 }
 
-.navlink {
-	display: block;
-	width  :  100%;
-}
-
-.topnav {
+.navtable {
 	display         : table                ;
 	position        : relative             ;
 	width           : 100%                 ;
@@ -31,54 +21,59 @@ license header dingens
 	background-color: #FFFFFE              ;
 }
 
-.navlast {
-	text-align: left;
-}
-
-.navtitle, .navjahr {
-	display     : table-cell    ;
-	padding-left: 1em           ;
-	border-left : 1px solid #FFF;
-}
-
 .navtitle {
-	text-align: left;
+		text-align: left;
+		padding: auto;
+		margin: auto;
 }
 
 .navjahr {
-	text-align: right;
+		text-align: center;
+		padding: auto;
+		margin: auto;
 }
 
+.nav {
+	display        : table-cell    ;
+	padding-left   : 0.5em           ;
+	padding-right  : 0.5em;
+	border-left    : 1px solid #FFF;
+	min-width      : 1em           ;
+	text-decoration: none          ;
+
+	min-width: 100%;
+/* Effeect! */
+	transition-duration: .2s   ;
+	transition-property: color, background-color;
+	background-color   : #002147;
+	color              : #FFFFFF;
+	font-size          :  1em   ;
+	vertical-align     : middle ;
+}
+
+/* Navigationspfeile */
+
+.navarrow {
+	min-width: 5em;
+	padding: 0em;
+	margin: 0em;
+}
+.navlast {
+		text-align: left;
+}
 .navnext {
 	text-align: right;
 }
 
-.navnext,
-.navlast {
-	display        : table-cell;
-	min-width      :  1em      ;
-	text-decoration: none      ;
-
-/* Effeect! */
-	transition-duration: .2s   ;
-	transition-property: color, background-color;
+.navnext > a {
+		position: relative;
+		top: 0;
+		left: 0;
+		min-width: 150px;
 }
 
-.navnext,
-.navtitle,
-.navjahr,
-.navlast {
-	background-color: #002147;
-	color           : #FFFFFF;
-	font-size       :  1em   ;
-	vertical-align  : middle ;
+.navarrow:hover {
+		background-color: #ddd   ;
+		color           : #002147;
+/*	cursor          : pointer    ; */
 }
-
-.navlast:hover,
-.navnext:hover {
-	background-color: transparent;
-	color           : #002147    ;
-	cursor          : pointer    ;
-}
-
-

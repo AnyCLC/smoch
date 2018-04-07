@@ -1,4 +1,4 @@
-/* hide accessible text, display only '�' and '�' */
+/* TODO: hide accessible text, display only '«' and '»' */
 
 /** 
  * Hier sind nur die CSS-Regeln, welche Media-abhängig sind.
@@ -7,13 +7,16 @@
 /* assorted sundry in queries */
 /* smaller than */
 @media screen and (max-width: 30em) {
-	body                       {font-size    :  90% ;}
-	img                        {width        : 100% ;}
-	.navlast                   {padding-left :   1em;}
-	.navnext                   {padding-right:   1em;}
-	.navlast, .navnext         {width        :  16% ;}
-	.navlast,.navnext,.navjahr {font-size    :  .9em;}
-	#articlewrapper            {padding      :  .5em;}
+	body             {font-size    :  90% ;}
+	img              {width        : 100% ;}
+	.startlink       {min-width    : 100% ;}
+	.navlast         {padding-left :   1em;}
+	.navnext         {padding-right:   1em;}
+	.nav             {
+			width        :  16%   ;
+			font-size    :    .9em;
+	}
+	#articlewrapper  {padding      :  .5em;}
 
 	/* entferne seiten titel */
 	.navtitle {
@@ -28,7 +31,7 @@
 	.startlink { 
 			text-align  : center;
 			display     : block ;
-			padding-left:    0em;
+			padding-left:  0.0em;
 			font-size   :  0.9em;
 	}
 
@@ -73,27 +76,27 @@
 
 /* bigger than */
 @media screen and (min-width: 45em) {
-	body               {font-size: 110%;}
-	.topnav            {height: 2em;}
-	.navlast           {padding-left: 2em;}
-	.navnext           {padding-right: 2em;}
-	.navlast, .navnext {width: 2.3em;}
+	body       {font-size    : 110%   ;}
+	.topnav    {height       :   2.0em;}
+	.nav       {width        :   2.3em;}
+	.navlast   {padding-left :   2.0em;}
+	.navnext   {padding-right:   2.0em;}
 
 /* big borderless */
 	body               {border-left: unset; border-right: unset;}
-	#content           {box-shadow: unset;}
-	#articlewrapper    {margin: 0 2em;}
+	#content           {box-shadow : unset;}
+	#articlewrapper    {margin     : 0 2em;}
 
 /* gap inbetween just if in desktop, cause ugly otherwise */
-	#headwrapper       {margin: 0 auto .5em;}
-	#footwrapper       {margin: 1em auto 0;}
-	.navwrapper        {margin-bottom: .5em;}
+	#headwrapper       {margin       : 0 auto .5em;}
+	#footwrapper       {margin       : 1em auto 0; }
+	.navwrapper        {margin-bottom: .5em;       }
 } /* end bigger than */
 
 
 @media print {
 /* article and nothing else */
-	#headwrapper, #footwrapper, .navnext, .navlast
+	#headwrapper, #footwrapper, .nav
 	{display: none;}
 
 	#articlewrapper {

@@ -2,4 +2,14 @@
  * Nur auf der index.html Hauptseite, nicht auf den Exponat-Seiten.
  */
 
-/* im Moment leer. */
+.startlink {
+		min-width: 50%;
+}
+.startlink:hover {
+		width: 50%;
+		background-color: #ddd   ;
+		color           : #002147;
+/*	cursor          : pointer    ; */
+}
+
+

@@ -42,38 +42,35 @@ Date:  20.03.2018
         <script src="../js/main.js"></script>
         <title><?php echo $titel ?></title>
     </head>
-    <body onscroll="stickyNavi()">
-        <div id="headwrapper" onclick="window.location = '../index.html'">
-        	<div class="gradient">
-                <div class="articletitle"><?php echo $titel ?></div>
-                <a href='../index.html' class="headtitle">S M O C H</a>
-        	</div>
-        </div>
-        <div id="content">
+
+ 	<body onscroll="stickyNavi()">
+ 		<div id="headwrapper" onclick="window.location = '../index.html'">
+			<div class="gradient">
+        		<div class="articletitle"><?php echo $titel ?></div>
+				<a href='../index.html' class="headtitle">S M O C H</a>
+			</div>
+		</div> <!-- end headwrapper -->
             
-            <div class="navwrapper">
-                <div class="topnav">
-                                    <?php
-                                    if (isset($vorher)) {
-                                        echo    "<div class='navlast'>
-                                                <a class='navlink' href=$vorher>&#171;</a>
-                                                </div>";
-                                    }
-                                    ?>
-                                    <a class="navtitle"><?php echo $titel ?></a>
-                                    <a class="navjahr"><?php echo $jahrzahl ?></a>
-                                    <?php 
-                                    if (isset($nachher)) {
-                                        echo    "<div class='navnext'>
-                                                <a class='navlink' href=$nachher>&#187;</a>
-                                                </div>";
-                                    }
-                                    ?>
-                    
-                </div>
-            </div>
-            <div id="contentwrapper">
-                <div id="articlewrapper">
+		<div id="navwrapper">
+			<div class='navtable'>
+<?php
+        if (isset($vorher)) {
+            echo    "<a class='nav navarrow navlast' href='$vorher'>&#171;</a>";
+        }
+?>
+		<span class="nav navtitle"><?php echo $titel ?></span>
+        <span class="nav navjahr"><?php echo $jahrzahl ?></span>
+<?php 
+        if (isset($nachher)) {
+            echo    "<a class='nav navarrow navnext' href='$nachher'>&#187;</a>";
+        }
+?>
+
+			</div> <!-- end navtable -->
+		</div> <!-- navwrapper -->
+
+                
+    	<div id="articlewrapper">
                     <?php
                     include_once './artikel_html/' . $IDurl . '.php';
                     ?>
@@ -82,14 +79,13 @@ Date:  20.03.2018
 istImMuseumText($modellObj, $jahrzahlObt, $vorhanden);
 /********************************************************************************/
 ?>
-                </div>
+		</div> <!-- end articlewrapper -->
                 
-            </div>
-        </div>
-        <div id="footwrapper">
-            <div class="adress">
-                <div class="centercolumn">
-                    <p>
+
+		<div id="footwrapper">
+    		<div class="adress">
+    		<div class="centercolumn">
+    		<p>
                         <strong><a href='https://www.santis-training.ch'>SANTIS Training AG</a></strong>
                         <br>Hohlstrasse 550
                         <br>CH-8048 Zürich

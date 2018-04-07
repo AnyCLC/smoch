@@ -1,0 +1,26 @@
+div.timelink {
+    position: relative; 
+}
+
+div.timelink > img {
+    max-width: 100%;
+    max-height: 300px;
+    min-height: 50px;
+}
+
+div.timelink > a {
+    display: block;
+    position: absolute;
+}
+
+div.timelink > a.myLink:hover {
+    background-color: rgba(100, 255, 200, 0.1);
+    border: 2px solid green;
+}
+
+div.timelink > a.myLink {
+    top: 0;
+    left: 0;
+    width: 34%;
+    height: 51%;
+}
