@@ -22,7 +22,7 @@ Um die Ausbeute zu maximieren, werden die Wafer in Reinräumen produziert.
 <h3>Funktionsweise</h3>
      <img src='../expo_images/wafer_mikroskop.jpg' alt='Wafer unter dem Mikroskopt' titel='Wafer enthalten hunderte von Rechen- oder Speicherchips' witdh='300' height='300' />
 <p>
-Die einzelnen rechteckigen Chips werden ausgesägt und in standardisierte Gehäuse eingelötet. Im Bild: Mikroskop-Bild des Wafers im "Santis Museum of Computing History".
+Die einzelnen rechteckigen Chips werden ausgesägt und in standardisierte Gehäuse eingelötet. Im Bild: Mikroskop-Bild des Wafers im "SANTIS Museum of Computing History".
 </p>
 <h3>Verwendung</h3>
 <p>
