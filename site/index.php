@@ -7,8 +7,8 @@ Date:  20.03.2018
     include_once 'res/db_config.php';
 	include_once 'res/functions.php';
 	include_once 'res/db_query.php' ;
-  
-	if($row = getExponatRow()) {
+	$IDurl = getIDurl();
+	if($row = getExponatRow($IDurl)) {
         $titel        = $row['Titel'        ];
         $bildlegende  = $row['BildLegende'  ];
         $bildpfad     = $row['BildPfad'     ];
@@ -46,7 +46,7 @@ Date:  20.03.2018
         <div id="headwrapper" onclick="window.location = '../index.html'">
         	<div class="gradient">
                 <div class="articletitle"><?php echo $titel ?></div>
-                <div class="headtitle">S M O C H</div>
+                <a href='../index.html' class="headtitle">S M O C H</a>
         	</div>
         </div>
         <div id="content">
