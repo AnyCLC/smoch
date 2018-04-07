@@ -103,7 +103,7 @@ istImMuseumText($modellObj, $jahrzahlObt, $vorhanden);
             <div class="hours">
                 <div class="centercolumn">
                     <p>
-                        <strong>Öffnungszeiten</strong>
+                        <strong>Öffnungszeiten (Mo. - Fr.)</strong>
                         <br>08:00 – 11:45 Uhr
                         <br>13:30 – 17:00 Uhr
                     </p>
