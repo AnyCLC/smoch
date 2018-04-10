@@ -3,7 +3,7 @@ license header dingens
 */
 /* 
 	Created on : 19.03.2018, 15:46:42
-	Author     : nathan.peray, daniel.frei
+	Author     : nathan.peray, daniel.frei, philipp.gresslyfreimann
 */
 
 /* navigation */
@@ -22,15 +22,15 @@ license header dingens
 }
 
 .navtitle {
-		text-align: left;
-		padding: auto;
-		margin: auto;
+	text-align: left;
+	padding: auto;
+	margin: auto;
 }
 
 .navjahr {
-		text-align: center;
-		padding: auto;
-		margin: auto;
+	text-align: center;
+	padding: auto;
+	margin: auto;
 }
 
 .nav {
@@ -54,41 +54,39 @@ license header dingens
 /* Navigationspfeile */
 
 .navarrow {
-    min-width: 4em;
-    padding: 0em;
-    margin: 0em;
-    color: rgba(0, 0, 0, 0);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
+	min-width: 4em;
+	padding: 0em;
+	margin: 0em;
+	color: rgba(0, 0, 0, 0);
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 .navarrow  span {
-    display: none;
-    width: 100%;
+	display: none;
+	width: 100%;
 }
 .navlast {
-    background-image: url(img/links.png);
+	background-image: url(img/links.png);
 }
 .navlast:hover {
-    background-image: url(img/linksH.png);
+	background-image: url(img/linksH.png);
 }
 .navnext {
-    background-image: url(img/rechts.png);
+	background-image: url(img/rechts.png);
 }
 .navnext:hover {
-    background-image: url(img/rechtsH.png);
+	background-image: url(img/rechtsH.png);
 }
 
 .navnext > a {
-		position: relative;
-		top: 0;
-		left: 0;
-		min-width: 150px;
+	position: relative;
+	top: 0;
+	left: 0;
+	min-width: 150px;
 }
 
 .navarrow:hover {
-		background-color: #ddd   ;
-		color           : #002147;
-/*	cursor          : pointer    ; */
+	background-color: #0056b8  ;
 }
