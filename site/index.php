@@ -55,14 +55,14 @@ Date:  20.03.2018
 			<div class='navtable'>
 <?php
         if (isset($vorher)) {
-            echo    "<a class='nav navarrow navlast' href='$vorher'>&#171;</a>";
+            echo    "<a class='nav navarrow navlast' href='$vorher'>&nbsp;<span>Zum vorangehenden Exponat</span></a>";
         }
 ?>
 		<span class="nav navtitle"><?php echo $titel ?></span>
         <span class="nav navjahr"><?php echo $jahrzahl ?></span>
 <?php 
         if (isset($nachher)) {
-            echo    "<a class='nav navarrow navnext' href='$nachher'>&#187;</a>";
+            echo  "<a class='nav navarrow navnext' href='$nachher'>&nbsp;<span>Zum nächsten Exponat.</span></a>";
         }
 ?>
 

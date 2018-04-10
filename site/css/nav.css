@@ -54,15 +54,30 @@ license header dingens
 /* Navigationspfeile */
 
 .navarrow {
-	min-width: 5em;
-	padding: 0em;
-	margin: 0em;
+    min-width: 4em;
+    padding: 0em;
+    margin: 0em;
+    color: rgba(0, 0, 0, 0);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.navarrow  span {
+    display: none;
+    width: 100%;
 }
 .navlast {
-		text-align: left;
+    background-image: url(img/links.png);
+}
+.navlast:hover {
+    background-image: url(img/linksH.png);
 }
 .navnext {
-	text-align: right;
+    background-image: url(img/rechts.png);
+}
+.navnext:hover {
+    background-image: url(img/rechtsH.png);
 }
 
 .navnext > a {
