@@ -6,34 +6,24 @@ Es gibt verschiedene Varianten der Festplatte.
 </p>
 <?php includeImage(); ?>
 
-<ul>
-<li>Die bekannteste ist die HDD (Hard Disk Drive). Sie besitzt eine rotierende Magnetscheibe die durch einen sich bewegenden Lesekopf ausgelesen wird, ähnlich wie bei einem Plattenspieler.</li>
-<li>In den Letzten Jaheren kam die SSD (Solid-State-Drive) immer mehr auf, Sie besitzt keine bewegenden Teile mehr, sie benutzt einen Flashspeicher. Dies entspricht im Grunde einem grossen USB-Stick.  </li>
-</ul>
-
-     <p>Die Vorteile der SSD gegenüber der HDD sind folgende:</p>
-     
-<ul>
-<li>Schnelleres Lesen und schnellere Abspeicherung der Daten.</li>
-<li>Die Daten sind sicherer, da es keinen Lesekopf gibt, der auf die Magnetscheibe prallen kann.</li>
-</ul>
-     
-<p>Die Nachteile sind:</p>
-<ul>
-     <li>Hoher Preis; wobei dieser langsam sinkt.</li>
-</ul>
+     <p>Die Festplatte wird auch Harddisk oder HDD (Hard Disk Drive) genannt. Sie besitzt eine rotierende Magnetscheibe die durch einen sich bewegenden Lese-/Schreibkopf wahlweise beschrieben oder ausgelesen werden kann; ähnlich wie bei einem Plattenspieler.</p>
 
 <h3>Funktionsweise</h3>
-<p>
-Die Nutzung der HDD oder SSD ist in den Grundzügen gleich.
-Es können Daten gespeichert und ausgelesen werden.</p>
+<p>Eine Festplatte ist im Wesetlichen eine magnetisierbare runde und harte Scheibe.<br />
+
+Darauf werden die Zustände Wahr/Falsch bzw. Eins/Null durch ummagnetisieren durch den Schreibkopf definiert bzw. den Lesekopf wieder herausgefunden.<br />
+
+    Damit das Betriebssystem «weiß», wo die Dateien und Verzeichnisse abgelegt sind, werden Festplatten auf spezielle Weise «formattiert»; dabei wird die Platte in eindeutig identifizierbare Spuren und Sektoren eingeteilt</p>
+
      
 <h3>Verwendung</h3>
 <p>
-Verwendet werden Festplatten als Speichermedium vieler Daten.
-Externe Festplatten dienen auch als Backupspeicher.
-</p>
-     
+Verwendet werden Festplatten als Speichermedium großer Datenmengen.
+Externe Festplatten dienen auch als Backupspeicher.<br />
+
+    Da im Gegensatz zu Magnetbändern die Platte fast Wahlweise gelesen und beschrieben werden kann, eignet sich die Festplatte für das Ablegen und verändern vieler kleinerer Dateien (z. B. Betriebssystem, Softwareentwicklung, ...). Da auf der HDD aber auch große Datenmengen und große Dateien gespeichert werden können, hat die Harddisk das Magnetband in vielen Anwendungsbereichen verdrängt.</p>
+
+                                                                                                                                               
 <h3>Weitere Informationen</h3>
 <p>
 Weitere Informationen finden Sie 

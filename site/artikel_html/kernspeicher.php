@@ -5,7 +5,7 @@ nichtflüchtiger Speicher mit wahlfreiem Zugriff von elektronischen Rechenmaschi
 Er besteht aus auf Drähten aufgefädelten hartmagnetischen Ringkernen, die durch 
 elektrische Ströme in den Drähten ummagnetisiert und ausgelesen werden können.<br />
 
-Das Vorzeichen der magnetischen Remanenz jedes einzelnen Rings repräsentiert derssen Speicherinhalt.
+     Das Vorzeichen der magnetischen Remanenz (= verbleibende Magnetisierung) jedes einzelnen Rings repräsentiert derssen Speicherinhalt.
 
 Kernspeicher wurden etwa von 1950 bis 1980 in den damals üblichen Rechenmaschinen eingesetzt. Heute gibt es nur noch vereinzelte Anwendungsfälle, z. B.
 in der Signaltechnik der Eisenbahn, wobei die Beschaffung von Ersatzteilen, selbst für einzelne „1 Bit“ Speicher zu einem großen Problem geworden ist.
