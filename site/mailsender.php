@@ -7,5 +7,5 @@
 	$message = "Name:".$Name."\n"."E-Mail:".$EMail."\n"."Nachricht:".$Text."wurde gesendet";
 	$headers = "from:".$EMail;
 	mail($to, $subject, $message, $headers);
-	header ("Location: Danke.html");
+	header ("Location: danke.html");
 ?>
