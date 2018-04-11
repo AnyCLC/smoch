@@ -24,22 +24,22 @@ function underConstruction() {
  */
 function istImMuseumText($modellObj, $jahrzahlObj, $vorhanden) {
     if(! empty ($modellObj) || ! empty ($jahrzahlObj) || ! empty($vorhanden)) {
-    echo "<hr />\n";
-}
-if($vorhanden > 0) {
-    echo "<br />Hierzu können Sie ein Exponat im <b>SANTIS Museum of Computing History</b> betrachten.<br />\n";
-}
-if(! empty ($modellObj) && strlen($modellObj) > 0) {
-    if($vorhanden) {
-        echo "<br />Bestauenen Sie bei uns: ";
-    } else {
-        echo "<br />Abbildung zeigt bzw. Text beschreibt: ";
+        echo "<hr />\n";
     }
-  echo  "<b><span style='color: #036;'>" . $modellObj;
-    if(! empty($jahrzahlObj)) {
-        echo " aus dem Jahr $jahrzahlObj";
-            }
-    echo "</span></b>.<br />\n";
+    if($vorhanden > 0) {
+        echo "<br />Hierzu können Sie ein Exponat im <b>SANTIS Museum of Computing History</b> betrachten.<br />\n";
+    }
+    if(! empty ($modellObj) && strlen($modellObj) > 0) {
+        if($vorhanden) {
+            echo "<br />Bestauenen Sie bei uns: ";
+        } else {
+            echo "<br />Abbildung zeigt bzw. Text beschreibt: ";
+        }
+        echo  "<b><span style='color: #036;'>" . $modellObj;
+        if(! empty($jahrzahlObj)) {
+            echo " aus dem Jahr $jahrzahlObj";
+        }
+        echo "</span></b>.<br />\n";
     }
 }
 

@@ -90,3 +90,9 @@ license header dingens
 .navarrow:hover {
 	background-color: #0056b8  ;
 }
+
+.sticky {
+		top     :  0px;
+		position:fixed;
+		width   : 100%;
+}

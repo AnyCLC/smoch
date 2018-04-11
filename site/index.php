@@ -76,7 +76,7 @@ Date:  20.03.2018
                     ?>
 <?php
 /***************** Vorhandene Exponate in der Fußnote ****************************/
-istImMuseumText($modellObj, $jahrzahlObt, $vorhanden);
+istImMuseumText($modellObj, $jahrzahlObj, $vorhanden);
 /********************************************************************************/
 ?>
 		</div> <!-- end articlewrapper -->
@@ -109,8 +109,6 @@ istImMuseumText($modellObj, $jahrzahlObt, $vorhanden);
                 <div class="centercolumn">
                     <p>
                         <a href="../kontakt.html">Kontakt</a>
-                        <br><a href="https://santis-training.ch">SANTIS Training AG</a>
-                        <br> :-D
                     </p>
                 </div>
             </div>

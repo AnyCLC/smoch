@@ -61,9 +61,10 @@
 /* NOT smaller than */
 @media not screen and (max-width: 30em) {
 	img {
-		display: inline-block;
-		float  : right       ;
-		margin :          1em;
+		display  : inline-block;
+		float    : right       ;
+		margin   :          1em;
+		max-width:          80%;
 	}
 
 	/* show just document-title */
