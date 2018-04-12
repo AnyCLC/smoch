@@ -61,3 +61,52 @@ h6 {font-size: 1.1em; margin-bottom  :     .5rem;}
 		padding-right:     3em;
 }
 
+
+
+
+/** 
+ * Hier sind nur die CSS-Regeln, welche Media-abhängig sind.
+ */
+
+/* assorted sundry in queries */
+/* smaller than */
+@media screen and (max-width: 30em) {
+
+	#articlewrapper  {padding      :  .5em;}
+
+	.zitat {
+			margin-left  : 1em;
+			margin-right : 1em;
+			padding-left : 1em;
+			padding-rigth: 1em;
+	}
+
+
+} /* end smaller than*/
+
+
+
+
+/* NOT smaller than */
+
+/* bigger than */
+@media screen and (min-width: 45em) {
+
+	#content           {box-shadow : unset;}
+	#articlewrapper    {margin     : 0 2em;}
+
+} /* end bigger than */
+
+
+@media print {
+/* article and nothing else */
+
+	#articlewrapper {
+		margin          : 0 -1em  !important;
+		background-color: #FFF    !important;
+		color           : #454545 !important;
+	}
+
+} /* end media print */
+
+

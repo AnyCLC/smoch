@@ -38,7 +38,6 @@ Date:  20.03.2018
         <link rel="stylesheet" type="text/css" href="../css/footer.css" >
         <link rel="stylesheet" type="text/css" href="../css/nav.css"    >
         <link rel="stylesheet" type="text/css" href="../css/content.css">
-        <link rel="stylesheet" type="text/css" href="../css/media.css"  >
         <script src="../js/main.js"></script>
         <title><?php echo $titel ?></title>
     </head>

@@ -50,3 +50,70 @@ a {
 	                 -12px 0   11px -13px lightgrey,
 	                  12px 0   11px -13px lightgrey;
 }
+
+
+/** 
+ * Hier sind nur die CSS-Regeln, welche Media-abhängig sind.
+ */
+
+/* assorted sundry in queries */
+/* smaller than */
+@media screen and (max-width: 30em) {
+	body             {font-size    :  90% ;}
+	img              {width        : 100% ;}
+	.startlink       {min-width    : 100% ;}
+
+
+	.startlink { 
+			text-align  : center;
+			display     : block ;
+			padding-left:  0.0em;
+			font-size   :  0.9em;
+	}
+
+/* zeige nur artikel-titel */
+
+	.articletitle {
+		float      : unset ;
+		white-space: nowrap;
+		display    : unset ;
+	}
+
+
+	
+
+} /* end smaller than*/
+
+
+
+
+/* NOT smaller than */
+@media not screen and (max-width: 30em) {
+	img {
+		display  : inline-block;
+		float    : right       ;
+		margin   :          1em;
+		max-width:          80%;
+	}
+
+	.articletitle {
+		display: none;
+	}
+
+
+} /* end: NOT smaller than */
+
+
+
+/* bigger than */
+@media screen and (min-width: 45em) {
+	body       {font-size    : 110%   ;}
+
+/* big borderless */
+	body               {border-left: unset; border-right: unset;}
+
+} /* end bigger than */
+
+
+
+

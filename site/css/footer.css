@@ -36,3 +36,43 @@
 	vertical-align: bottom;
 	float         : right ;
 }
+
+
+
+/** 
+ * Hier sind nur die CSS-Regeln, welche Media-abhängig sind.
+ */
+
+/* assorted sundry in queries */
+/* smaller than */
+@media screen and (max-width: 30em) {
+	#footwrapper .fax {display      : none;}
+	#footwrapper .etc {margin-bottom: .5em;}
+} /* end smaller than*/
+
+
+/* NOT smaller than */
+@media not screen and (max-width: 30em) {
+	#footwrapper .tel {
+		pointer-events: none   ;
+		cursor        : default;
+		color         : #FFFFFE;
+	}
+} /* end: NOT smaller than */
+
+
+
+/* bigger than */
+@media screen and (min-width: 45em) {
+	#footwrapper       {margin       : 1em auto 0; }
+} /* end bigger than */
+
+
+@media print {
+
+	#footwrapper 	{display: none;}
+
+
+} /* end media print */
+
+

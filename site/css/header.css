@@ -25,3 +25,32 @@ license header dingens
 }
 
 .gradient a { color: white; }
+
+/** 
+ * Hier sind nur die CSS-Regeln, welche Media-abhängig sind.
+ */
+
+/* assorted sundry in queries */
+/* smaller than */
+@media screen and (max-width: 30em) {
+	.headtitle    {display: none;}
+} /* end smaller than*/
+
+
+
+
+/* NOT smaller than */
+
+
+/* bigger than */
+@media screen and (min-width: 45em) {
+/* gap inbetween just if in desktop, cause ugly otherwise */
+	#headwrapper       {margin       : 0 auto .5em;}
+} /* end bigger than */
+
+
+@media print {
+	#headwrapper	{display: none;}
+} /* end media print */
+
+

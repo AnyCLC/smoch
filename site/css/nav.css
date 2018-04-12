@@ -94,5 +94,60 @@ license header dingens
 .sticky {
 		top     :  0px;
 		position:fixed;
-		width   : 100%;
+		width   : 99%;
 }
+
+
+/** 
+ * Hier sind nur die CSS-Regeln, welche Media-abhängig sind.
+ */
+
+/* assorted sundry in queries */
+/* smaller than */
+@media screen and (max-width: 30em) {
+	.navlast         {padding-left :   1em;}
+	.navnext         {padding-right:   1em;}
+	.nav             {
+			width        :  16%   ;
+			font-size    :    .9em;
+	}
+	/* entferne seiten titel */
+	.navtitle {
+		display      : none;
+		padding-right:    0;
+	}
+	.navjahr {
+		border-left : 1px solid #FFF;
+		text-align  : center        ;
+		padding-left:            0em;
+	}
+} /* end smaller than*/
+
+
+
+
+/* NOT smaller than */
+
+
+
+/* bigger than */
+@media screen and (min-width: 45em) {
+	.topnav     {height       :   2.0em;}
+	.nav        {width        :   2.3em;}
+	.navlast    {padding-left :   2.0em;}
+	.navnext    {padding-right:   2.0em;}
+
+	.navwrapper {margin-bottom: .5em;       }
+} /* end bigger than */
+
+
+@media print {
+/* article and nothing else */
+	.nav 	{display: none;}
+
+	.navtitle, .navjahr {
+		background-color: inherit !important;
+		color           : #703820 !important;
+		border-bottom   : 1px solid #703820;
+	}
+} /* end media print */
