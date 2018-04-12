@@ -91,10 +91,9 @@ license header dingens
 	background-color: #0056b8  ;
 }
 
-.sticky {
-		top     :  0px;
+.stickyNav {
+		top     :  0em;
 		position:fixed;
-		width   : 99%;
 }
 
 
