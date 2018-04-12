@@ -4,35 +4,35 @@ Autor: Nathan Péray
 Date:  20.03.2018
 -->
 <?php
-    include_once 'res/db_config.php';
+	include_once 'res/db_config.php';
 	include_once 'res/functions.php';
 	include_once 'res/db_query.php' ;
 	$IDurl = getIDurl();
 	if($row = getExponatRow($IDurl)) {
-        $titel        = $row['Titel'        ];
-        $bildlegende  = $row['BildLegende'  ];
-        $bildpfad     = $row['BildPfad'     ];
-        $jahrzahl     = $row['Jahrzahl'     ];
-        $jahrzahlObj  = $row['Objekt_Jahr'  ];
-        $modellObj    = $row['Objekt_Modell'];
-        $vorher       = $row['Vorher'       ];
-        $nachher      = $row['Nachher'      ];
-        $autor        = $row['Autor'        ];
-        $descriptions = $row['Descriptions' ];
-        $keywords     = $row['Keywords'     ];
-        $vorhanden    = $row['Vorhanden'    ];
-    } else {
-        header ('Location: ../error.html');
-    }
+		$titel        = $row['Titel'        ];
+		$bildlegende  = $row['BildLegende'  ];
+		$bildpfad     = $row['BildPfad'     ];
+		$jahrzahl     = $row['Jahrzahl'     ];
+		$jahrzahlObj  = $row['Objekt_Jahr'  ];
+		$modellObj    = $row['Objekt_Modell'];
+		$vorher       = $row['Vorher'       ];
+		$nachher      = $row['Nachher'      ];
+		$autor        = $row['Autor'        ];
+		$descriptions = $row['Descriptions' ];
+		$keywords     = $row['Keywords'     ];
+		$vorhanden    = $row['Vorhanden'    ];
+	} else {
+		header ('Location: ../error.html');
+	}
 ?>
 
 <html>
     <head>
-        <meta name="autor" content="<?php echo $autor; ?>">
-        <meta name="description" content="<?php echo $descriptions; ?>">
-        <meta name="keywords" content="<?php echo "$IDurl, $keywords"; ?>">
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="autor"       content="<?php echo $autor; ?>" />
+        <meta name="description" content="<?php echo $descriptions; ?>" />
+        <meta name="keywords"    content="<?php echo keyWordList($IDurl, $titel, $keywords);?>" />
+        <meta name="viewport"    content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" type="text/css" href="../css/main.css"   >
         <link rel="stylesheet" type="text/css" href="../css/header.css" >
         <link rel="stylesheet" type="text/css" href="../css/footer.css" >

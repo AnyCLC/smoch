@@ -43,5 +43,27 @@ function istImMuseumText($modellObj, $jahrzahlObj, $vorhanden) {
     }
 }
 
+/**
+ * @author git@gress.ly
+ * @date   2018-04-12
+ * Create a Keywordlist containing the IDUrl and a comma separated list of
+ * given keywords from the database.
+ * If the title ($title) differs from the $IDurl, the title is added to the
+ * keywords as well.
+ * @param IDurl   : string id of the "exponate"
+ * @param title   : Title in the database
+ * @param keywords: Keywords from the database
+ * @returns komma separated list of keywords
+ */
+function keyWordList($IDurl, $title, $keywords) {
+	$kwl = ucfirst($IDurl); // keywordlist
+	if(0 != (strcmp(strtolower($IDurl), strtolower($title)))) {
+		$kwl .= ", " . $title;
+	}
+	if(strlen($keywords) > 0) {
+		$kwl .=  ", " . $keywords;
+	}
+	return $kwl;
+} // end function: keyWordList
 
 ?>
