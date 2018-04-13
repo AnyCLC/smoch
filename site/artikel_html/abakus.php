@@ -15,7 +15,7 @@ Der Wert, der Zahlen läuft nach einem Stellenwertsystem.<br>
                                                                  <h3>Funktionsweise</h3>
 <p>
 Indem die Kugeln von der einen Seite der Spalte zur anderen verschoben werden, kann mit einem Abakus addiert, subtrahiert, multipliziert sowie dividiert werden.<br>
-Mann kann sogar die Quadrat- und Kubikwurzeln ziehen, was schon wesentlich komplexer ist, als das Rechnen mit den vier Grundoperatoren.</p>
+Man kann sogar die Quadrat- und Kubikwurzeln ziehen, was schon wesentlich komplexer ist, als das Rechnen mit den vier Grundoperatoren.</p>
                                                                  
 <h3>Verwendung</h3>
 <p>

@@ -14,7 +14,7 @@
 }
 
 .zitwarn::after {
-		content: "Der vorliegende Text verwendet womöglich falsche Quellenangaben oder gibt die Quellen nicht an. Der Text ist zur Zeit in Bearbeitung, wird bald ersetzt oder entfernt.";
+		content: "Die Quellenangaben im vorliegenden Text sind noch nicht verifiziert. Der Text ist zur Zeit in Bearbeitung und wird ersetzt oder entfernt.";
 }
 
 @keyframes blinker {
@@ -84,7 +84,7 @@ h6 {font-size: 1.1em; margin-bottom  :     .5rem;}
 }
 
 
-.zitat { /* Z. B. Wikipedia*/
+.zit { /* Z. B. Wikipedia*/
 	font-style   : oblique;
 	font-size    :     90%;
 	margin-left  :     3em;
@@ -96,6 +96,20 @@ h6 {font-size: 1.1em; margin-bottom  :     .5rem;}
 	background-color: #fafaff;
 }
 
+.zit.copy::after {
+		content: '»';
+}
+.zit.copy::before {
+		content: '«';
+}
+
+.zit.src {
+		margin-top: 0px;
+		padding-top: 0px;
+		background-color: transparent;
+		font-weight: bold;
+		border: none;
+}
 
 .museumsobjekt {
 	color: #622;
@@ -114,7 +128,7 @@ h6 {font-size: 1.1em; margin-bottom  :     .5rem;}
 
 	#articlewrapper  {padding      :  .5em;}
 
-	.zitat {
+	.zit {
 		margin-left  : 1em;
 		margin-right : 1em;
 		padding-left : 1em;

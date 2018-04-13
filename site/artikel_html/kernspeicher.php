@@ -1,7 +1,7 @@
 <div class='zitwarn'></div>
 
 <h3>Aufbau</h3>
-<p class='zitat'>
+<p class='zit copy'>
 Der Kernspeicher, Ringspeicher, Magnetkernspeicher oder auch Ferritkernspeicher (englisch magnetic-core memory oder englisch ferrite-core memory) ist eine frühe Form 
 nichtflüchtiger Speicher mit wahlfreiem Zugriff von elektronischen Rechenmaschinen.
 Er besteht aus auf Drähten aufgefädelten hartmagnetischen Ringkernen, die durch 
@@ -12,15 +12,15 @@ elektrische Ströme in den Drähten ummagnetisiert und ausgelesen werden können
 Kernspeicher wurden etwa von 1950 bis 1980 in den damals üblichen Rechenmaschinen eingesetzt. Heute gibt es nur noch vereinzelte Anwendungsfälle, z. B.
 in der Signaltechnik der Eisenbahn, wobei die Beschaffung von Ersatzteilen, selbst für einzelne „1 Bit“ Speicher zu einem großen Problem geworden ist.
 
-In allgemeinerem Sinn wird der Begriff aber auch für Arbeitsspeicher in anderen, neueren Techniken verwendet, im Sinne von „Speicher im Kern des Rechners“.
-<br>
+In allgemeinerem Sinn wird der Begriff aber auch für Arbeitsspeicher in anderen, neueren Techniken verwendet, im Sinne von „Speicher im Kern des Rechners“.</p>
+     <p class='zit src'>
      
-<i>Quelle: <a href="https://de.wikipedia.org/wiki/Kernspeicher">Wikipedia</a> (März 2018)</i>
+Quelle: <a href="https://de.wikipedia.org/wiki/Kernspeicher">Wikipedia</a> (März 2018)
 </p>
 <?php includeImage(); ?>
      
 <h3>Funktionsweise</h3>
-<p class='zitat'>
+<p class='zit copy'>
 Ein Kernspeicher besteht im Wesentlichen aus einer großen Anzahl von magnetisierbaren Ferrit-Ringen.
 
 Zum Lesen bzw. Beschreiben der Kerne verlaufen mindestens zwei elektrische und gegenseitig isolierte Drähte durch die Ringöffnungen.
@@ -43,11 +43,9 @@ der Größenordnung von einigen 100 mV.
 
 Zusätzlich zu den Kernspeichern sind für den Betrieb Leseverstärker notwendig, welche die geringen Spannungsimpulse auf der Leseleitung in passende logische
 Spannungspegel umwandeln. Zum Beschreiben sind 
-Stromquellen notwendig.
-<br>
-<i>Quelle: <a href="https://de.wikipedia.org/wiki/Kernspeicher">Wikipedia</a> (März 2018)</i>
-
-</p>
+Stromquellen notwendig.</p>
+     <p class='zit src'>Quelle: <a href="https://de.wikipedia.org/wiki/Kernspeicher">Wikipedia</a> (März 2018)</p>
+     
 <h3>Verwendung</h3>
 <p>
 Der Kernspeicher wird als Speicher benutzt, zum Beispiel als RAM oder Permanentspeicher.
