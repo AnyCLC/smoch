@@ -1,3 +1,5 @@
+<div class='zitwarn'></div>
+
 <h3> Geschichte </h3>
 <?php includeImage(); ?>
 <p> Ähnlich wie das<a href="smartphone"> Smartphone </a>Wurde das erste Tablet schon früh entwickelt.

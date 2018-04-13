@@ -1,3 +1,5 @@
+<div class='zitwarn'></div>
+
 <h3>Aufbau</h3>
 <p>
 Eine Festplatte ist ein Speichermedium, um grosse Datenmengen abzuspeichern.

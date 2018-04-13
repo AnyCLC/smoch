@@ -1,3 +1,5 @@
+<div class='zitwarn'></div>
+
 <h3>Aufbau</h3>
 <p>
 1886 wurden in Balimore (Maryland) Karten eingesetzt, die jeweils an den beiden  Längsseiten drei Lochreihen mit insgesamt 192 Lochpositionen hatten. Es wurde mit einer Lochzange gelocht.<br>

@@ -1,3 +1,5 @@
+<div class='zitwarn'></div>
+
 <h3>Aufbau</h3>
 <p>
 Das Magnetband ist ein alter Datenträger. Es besteht aus einer langen, schmalen Folie aus Kunststoff.<br>

@@ -1,3 +1,4 @@
+<div class='zitwarn'></div>
 
 <h3>Aufbau</h3>
 <?php includeImage(); ?>

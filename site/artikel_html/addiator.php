@@ -1,4 +1,6 @@
-<h3>Aufbau</h3>
+<div class='zitwarn'></div>
+
+     <h3>Aufbau</h3>
 <p>
 Die ersten Rechenmaschinen waren mechanisch. Die Addiermaschinen, die die Addition und die Subtraktion beherrschten, wurden auch Zweispeziesmaschinen genannt, waren bis in die 1970 Jahre sehr weit verbreitet. Dreispeziesmaschinen konnten auch noch multiplizieren und Vierspeziesmaschinen sogar noch dividieren.<br>
 Bei einer "mechanischen Rechenmaschine" darf der automatische Zehnerübertrag nur maschienenintern vorhanden sein und eine mechanische Rechenmaschine muss mit Zahnrädern arbeiten können.<br>

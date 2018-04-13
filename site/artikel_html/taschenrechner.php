@@ -1,3 +1,5 @@
+<div class='zitwarn'></div>
+
 <h3> Aufbau </h3>
 <p> Das Herzstück eines jeden Taschenrechners, stellt der Rechnerchip dar. Dazu kommen noch Tasten zur Eingabe und eine Stromquelle, z. B. eine Batterie oder Solarzelle.</p>
      

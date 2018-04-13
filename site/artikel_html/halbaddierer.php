@@ -1,3 +1,5 @@
+<div class='zitwarn'></div>
+
 <h3>Aufbau</h3>
 <p>
 Ein Halbaddierer (engl. half adder) ist ein Schaltnetz, das üblicherweise als digitale Schaltung realisiert wird. Er besteht aus zwei Eingängen und zwei Ausgängen.

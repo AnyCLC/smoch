@@ -1,3 +1,5 @@
+<div class='zitwarn'></div>
+
 <h3>Aufbau</h3>
 <p>
 Ein PC besteht aus diversen einzelnen Komponenten welche zusammengesetzt den PC darstellen. Unter anderem werden (in den aktuelleren PCs) eine Hauptplatine, ein Hauptprozessor, eine Prozessorkühlung etc. verwendet.

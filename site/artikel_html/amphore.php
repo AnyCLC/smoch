@@ -1,3 +1,4 @@
+<div class='zitwarn'></div>
 <h3>Aufbau</h3>
 <p>Eine Amphore oder auch Amphora (griech. für "zweihenkliges Tongefäss") ist ein Krug mit zwei Henkeln.
 	Sie besteht meistens aus Ton. Es existieren aber auch Amphoren aus Metall (Bronze, Silber, Gold).<br>

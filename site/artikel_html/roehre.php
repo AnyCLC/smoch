@@ -1,3 +1,4 @@
+<div class='zitwarn'></div>
 <h3>Aufbau</h3>
 <p>
 Eine Elektronenröhre ist ein aktives elektrisches Bauelement mit Elektroden, die sich in einem evakuierten oder gasgefüllten Kolben aus Glas, Stahl oder Keramik befinden. 

@@ -1,3 +1,5 @@
+<div class='zitwarn'></div>
+
 <h3> Aufbau </h3>
 <p>
 Ein USB-Stick (engl. Stick = Stab, Stock) bezeichnet allgemein ein kompakt gebautes elektronisches Gerät, das über den Universal Serial Bus (USB) mit einem anderen Gerät, beispielsweise einem PC  verbunden wird. 

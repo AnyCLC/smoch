@@ -3,6 +3,28 @@
  */
 
 
+.zitwarn {
+		color: #c00;
+		font-size: 200%;
+		background-color: #800;
+		border-color: #f00;
+		border-size: 5px;
+		border-style: solid;
+		animation: blinker 1s linear infinite;
+}
+
+.zitwarn::after {
+		content: "Der vorliegende Text verwendet womöglich falsche Quellenangaben oder gibt die Quellen nicht an. Der Text ist zur Zeit in Bearbeitung, wird bald ersetzt oder entfernt.";
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0.7;
+  }
+}
+
+
+
 .articlewrapper img {
 	width     :     50% ;
 	max-width :     20em;

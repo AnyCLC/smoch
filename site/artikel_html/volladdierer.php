@@ -1,4 +1,5 @@
-<h3>Volladdierer</h3>
+<div class='zitwarn'></div>
+
 <h3>Aufbau</h3>
 <p>
 Ein Volladdierer ist ein Schaltnetz, das üblicherweise als digitale Schaltung realisiert wird. Es besteht aus drei Eingängen  und zwei Ausgängen. 

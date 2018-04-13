@@ -1,3 +1,5 @@
+<div class='zitwarn'></div>
+
 <h3>Aufbau</h3>
 <p class='zitat'>
 Der Kernspeicher, Ringspeicher, Magnetkernspeicher oder auch Ferritkernspeicher (englisch magnetic-core memory oder englisch ferrite-core memory) ist eine frühe Form 

@@ -1,3 +1,4 @@
+<div class='zitwarn'></div>
 <h3>Aufbau</h3>
 <p>Ein Mobiltelephon, das Zugang zum Internet hat, wird als <b>Smartphone</b> bezeichnet.</p>
 

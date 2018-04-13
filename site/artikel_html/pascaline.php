@@ -1,5 +1,7 @@
-<?php includeImage(); ?>                                                                                                                                                             
+<div class='zitwarn'></div>
 
+
+<?php includeImage(); ?>
      <h3>Aufbau</h3>
      <p class='zitat'>Die Pascaline ist eine mechanische Rechenmaschine, die Metallwählscheiben aufwies, auf denen die gewünschten Nummern ausgewählt werden konnten. Dies waren ähnliche Scheiben, wie damals bei den Telefonen Verwendung fanden. Das Ergebnis erschien in den kleinen Kästchen über den Wählscheiben.
     Eine direkte Substraktion war nicht möglich, dafür musste die Komplementärmethode verwendet werden. (Zitat Wikipedia)</p>

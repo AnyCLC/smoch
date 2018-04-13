@@ -1,3 +1,5 @@
+<div class='zitwarn'></div>
+
 <h3>Aufbau</h3>
 <p>
 Die Diskette ist ein magnetischer tragbarer Datenträger mit einer Kapazität von 80 KB bis zu 3250 KB.

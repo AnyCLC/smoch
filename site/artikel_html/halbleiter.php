@@ -1,4 +1,6 @@
-<h3>Aufbau</h3>
+<div class='zitwarn'></div>
+
+
 <p>Bedeutung haben Halbleiter für die Elektrotechnik und insbesondere für die Elektronik, wobei die Möglichkeit, ihre elektrische Leitfähigkeit durch Dotierung zu beeinflussen, eine entscheidende Rolle spielt.</p>
 <?php includeImage(); ?>
 

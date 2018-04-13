@@ -1,3 +1,5 @@
+<div class='zitwarn'></div>
+
 <h3>Aufbau</h3>
 <p>
 Relais sind elektromechanische Bauteile, welche zwei Zustände haben können, nämlich "an" und "aus", welche für digitale Schaltungen 0 und 1 geeignet sind.<br>

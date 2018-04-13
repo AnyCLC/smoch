@@ -1,3 +1,5 @@
+<div class='zitwarn'></div>
+
 <h3>Aufbau</h3>
 
 <p>Der Transistor hat drei Metallstäbe; einer Rechts, einer Links und einer in der Mitte.<br />

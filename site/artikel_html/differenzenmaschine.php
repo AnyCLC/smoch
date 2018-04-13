@@ -1,5 +1,4 @@
-
-
+<div class='zitwarn'></div>
 
 <h3> Aufbau </h3>
      <p>Die Differenzmaschine ist eine rein mechanische Umsetzung. Sie kann (aufgrund des ihres mathematischen Algorithmus) rechnen und Lösungen bis zu 6 Stellen anzeigen.

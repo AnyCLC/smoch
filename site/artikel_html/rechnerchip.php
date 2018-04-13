@@ -1,3 +1,5 @@
+<div class='zitwarn'></div>
+
 <h3>Aufbau</h3>
 <p> Ein Rechnerchip ist ein integrierter Schaltkreis.	
 </p>

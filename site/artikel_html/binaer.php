@@ -1,3 +1,4 @@
+<div class='zitwarn'></div>
 <style>
     #articlewrapper td {
         text-align: right;
