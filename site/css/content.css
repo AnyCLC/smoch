@@ -2,6 +2,7 @@
  * CSS for content text.
  */
 
+
 .articlewrapper img {
 	width     :     50% ;
 	max-width :     20em;
@@ -19,6 +20,8 @@
 	width    : auto  ;
 	max-width:   65em;
 }
+
+
 /* Article */
 h3,h4,h5,h6 {
 	margin-bottom :  1em;
@@ -26,15 +29,19 @@ h3,h4,h5,h6 {
 	font-weight   : bold;
 	line-height   :  1.2;
 }
+
+
 h3 {font-size: 1.5em;}
 h4 {font-size: 1.3em; text-decoration: underline;}
 h5 {font-size: 1.2em; font-style     : italic   ;}
 h6 {font-size: 1.1em; margin-bottom  :     .5rem;}
 
+
 #articlewrapper ul {
 	padding-bottom :    2em;
 	list-style-type: square;
 }
+
 
 /** 
  *  Tabellen innerhalb der Artikel. "class = 'tabelle'".
@@ -43,32 +50,41 @@ h6 {font-size: 1.1em; margin-bottom  :     .5rem;}
 	font-weight     : bold;
 	background-color: #eef;
 }
+
+
 .tabelle tr:nth-child(odd) {
 	background-color: #ccf;
 }
+
+
 .tabelle tr:nth-child(even) {
 	background-color: #aad;
 }
 
 
 .zitat { /* Z. B. Wikipedia*/
-		font-style   : oblique;
-		font-size    :     90%;
-		margin-left  :     3em;
-		margin-right :     3em;
-		padding      :     1em;
-		border-style: solid;
-		border-color: #eaeaee;
-		border-size: 1px;
-		background-color: #fafaff;
+	font-style   : oblique;
+	font-size    :     90%;
+	margin-left  :     3em;
+	margin-right :     3em;
+	padding      :     1em;
+	border-style: solid;
+	border-color: #eaeaee;
+	border-size: 1px;
+	background-color: #fafaff;
 }
 
 
+.museumsobjekt {
+	color: #622;
+	font-weight: bold;
+}
 
 
 /** 
  * Hier sind nur die CSS-Regeln, welche Media-abhängig sind.
  */
+
 
 /* assorted sundry in queries */
 /* smaller than */
@@ -77,26 +93,21 @@ h6 {font-size: 1.1em; margin-bottom  :     .5rem;}
 	#articlewrapper  {padding      :  .5em;}
 
 	.zitat {
-			margin-left  : 1em;
-			margin-right : 1em;
-			padding-left : 1em;
-			padding-rigth: 1em;
+		margin-left  : 1em;
+		margin-right : 1em;
+		padding-left : 1em;
+		padding-rigth: 1em;
 	}
 
-
 } /* end smaller than*/
-
-
 
 
 /* NOT smaller than */
 
 /* bigger than */
 @media screen and (min-width: 45em) {
-
 	#content           {box-shadow : unset;}
 	#articlewrapper    {margin     : 0 2em;}
-
 } /* end bigger than */
 
 
@@ -108,7 +119,4 @@ h6 {font-size: 1.1em; margin-bottom  :     .5rem;}
 		background-color: #FFF    !important;
 		color           : #454545 !important;
 	}
-
 } /* end media print */
-
-
