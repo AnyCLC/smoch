@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost:3306
--- Generation Time: Apr 11, 2018 at 03:16 PM
+-- Generation Time: Apr 13, 2018 at 03:52 PM
 -- Server version: 5.7.21-0ubuntu0.17.10.1
 -- PHP Version: 7.1.15-0ubuntu0.17.10.1
 
@@ -51,7 +51,7 @@ INSERT INTO `content` (`ID`, `IDurl`, `Titel`, `Jahrzahl`, `Objekt_Jahr`, `Objek
 (49, 'abakus', 'Abakus', '-2500', 'ca 1970', 'Chinesischer Abakus', 'abakus.png', 'Abakus', NULL, 'rechenschieber', 1, '', 'Die Geschichte des Abakus', 'chinesischer Zählrahmen'),
 (50, 'pascaline', 'Pascaline', '1642', '1652', 'Pascaline', 'pascaline.png', 'Pascaline', 'rechenschieber', 'binaer', 0, '', 'Die Geschichte der Pascaline', 'Blaise Pascal, Mechanische Rechenmaschine'),
 (51, 'binaer', 'Binärsystem', '1697', '', '', 'binaer.png', 'Binärsystem', 'pascaline', 'differenzenmaschine', 1, 'Lisa Kalberer, Philipp Gressly Freimann', 'Die Geschichte des Binärsystems', 'Leibniz, Dualsystem'),
-(52, 'differenzenmaschine', 'Differenzenmaschine', '1822', '', 'Nachbildung im Da Vinci Museum Mailand', 'babbage.png', 'Differenzenmaschine', 'binaer', 'addiator', 0, '', 'Die Geschichte der Differenzmaschine', 'Babbage'),
+(52, 'differenzenmaschine', 'Differenzenmaschine', '1822', 'ca. 1970', 'Nachbildung aus den 70er Jahren des 20. Jahrhunderts im <i>Da Vinci Museum</i> Mailand', 'differenzenmaschine.png', 'Differenzenmaschine', 'binaer', 'addiator', 0, '', 'Die Geschichte der Differenzmaschine', 'Babbage'),
 (53, 'addiator', 'Mechanischer Rechner', '1847', 'ca. 1950', 'Addiator', 'zahlenschieber.png', 'Zahlenschieber', 'differenzenmaschine', 'relais', 1, '', 'Die Geschichte des menchanischen Rechners', 'mechanische Rechenmaschine'),
 (54, 'relais', 'Relais', '1835', '2017', 'Finder: Printrelais 6 V', 'relais.png', 'Relais', 'addiator', 'notRelaisNachbau', 1, '', 'Die Geschichte des Relais\'', ''),
 (55, 'halbleiter', 'Halbleiter', '1874', '', 'Element Silizium', 'halbleiter.png', 'Halbleiter', 'notRelaisNachbau', 'transistor', 1, '', 'Die  Geschichte von Halbleitern', 'Silizium, Transistor, Diode'),
