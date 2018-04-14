@@ -2,28 +2,25 @@
  * CSS for content text.
  */
 
-
 .zitwarn {
-		color: #c00;
-		font-size: 200%;
-		background-color: #800;
-		border-color: #f00;
-		border-size: 5px;
-		border-style: solid;
-		animation: blinker 1s linear infinite;
+	color           : #c00;
+	font-size       : 200%;
+	background-color: #800;
+	border-color    : #f00;
+	border-size     :  5px;
+	border-style    : solid;
+	animation       : blinker 1s linear infinite;
 }
 
 .zitwarn::after {
-		content: "Die Quellenangaben im vorliegenden Text sind noch nicht verifiziert. Der Text ist zur Zeit in Bearbeitung und wird ersetzt oder entfernt.";
+	content: "Die Quellenangaben im vorliegenden Text sind noch nicht verifiziert. Der Text ist zur Zeit in Bearbeitung und wird ersetzt oder entfernt.";
 }
 
 @keyframes blinker {
-  50% {
-    opacity: 0.7;
-  }
+	50% {
+		opacity: 0.7;
+	}
 }
-
-
 
 .articlewrapper img {
 	width     :     50% ;
@@ -35,14 +32,12 @@
 	position  : relative;
 }
 
-
 /* div for content */
 #content {
 	margin   : 0 auto;
 	width    : auto  ;
 	max-width:   65em;
 }
-
 
 /* Article */
 h3,h4,h5,h6 {
@@ -52,12 +47,10 @@ h3,h4,h5,h6 {
 	line-height   :  1.2;
 }
 
-
 h3 {font-size: 1.5em;}
 h4 {font-size: 1.3em; text-decoration: underline;}
 h5 {font-size: 1.2em; font-style     : italic   ;}
 h6 {font-size: 1.1em; margin-bottom  :     .5rem;}
-
 
 #articlewrapper ul {
 	padding-bottom :    2em;
@@ -73,42 +66,39 @@ h6 {font-size: 1.1em; margin-bottom  :     .5rem;}
 	background-color: #eef;
 }
 
-
 .tabelle tr:nth-child(odd) {
 	background-color: #ccf;
 }
-
 
 .tabelle tr:nth-child(even) {
 	background-color: #aad;
 }
 
-
 .zit { /* Z. B. Wikipedia*/
-	font-style   : oblique;
-	font-size    :     90%;
-	margin-left  :     3em;
-	margin-right :     3em;
-	padding      :     1em;
-	border-style: solid;
-	border-color: #eaeaee;
-	border-size: 1px;
+	font-style   : oblique   ;
+	font-size    :        90%;
+	margin-left  :        3em;
+	margin-right :        3em;
+	padding      :        1em;
+	border-style : solid     ;
+	border-color :    #eaeaee;
+	border-size  :        1px;
 	background-color: #fafaff;
 }
 
 .zit.copy::after {
-		content: '»';
+	content: '»';
 }
 .zit.copy::before {
-		content: '«';
+	content: '«';
 }
 
 .zit.src {
-		margin-top: 0px;
-		padding-top: 0px;
-		background-color: transparent;
-		font-weight: bold;
-		border: none;
+	margin-top: 0px;
+	padding-top: 0px;
+	background-color: transparent;
+	font-weight: bold;
+	border: none;
 }
 
 .museumsobjekt {
@@ -120,7 +110,6 @@ h6 {font-size: 1.1em; margin-bottom  :     .5rem;}
 /** 
  * Hier sind nur die CSS-Regeln, welche Media-abhängig sind.
  */
-
 
 /* assorted sundry in queries */
 /* smaller than */

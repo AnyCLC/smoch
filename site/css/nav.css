@@ -1,7 +1,7 @@
 /*
 license header dingens
 */
-/* 
+/*
 	Created on : 19.03.2018, 15:46:42
 	Author     : nathan.peray, daniel.frei, philipp.gresslyfreimann
 */
@@ -42,7 +42,7 @@ license header dingens
 	text-decoration: none          ;
 
 	min-width: 100%;
-/* Effeect! */
+	/* Effeect! */
 	transition-duration: .2s   ;
 	transition-property: color, background-color;
 	background-color   : #002147;
@@ -54,37 +54,41 @@ license header dingens
 /* Navigationspfeile */
 
 .navarrow {
-	min-width: 4em;
-	padding: 0em;
-	margin: 0em;
-	color: rgba(0, 0, 0, 0);
-	background-size: contain;
-	background-repeat: no-repeat;
-	background-position: center;
+	min-width          :              4em;
+	padding            :              0em;
+	margin             :              0em;
+	color              : rgba(0, 0, 0, 0);
+	background-size    : contain         ;
+	background-repeat  : no-repeat       ;
+	background-position: center          ;
 }
 
 .navarrow  span {
 	display: none;
-	width: 100%;
+	width  : 100%;
 }
+
 .navlast {
 	background-image: url(img/links.png);
 }
+
 .navlast:hover {
 	background-image: url(img/linksH.png);
 }
+
 .navnext {
 	background-image: url(img/rechts.png);
 }
+
 .navnext:hover {
 	background-image: url(img/rechtsH.png);
 }
 
 .navnext > a {
-	position: relative;
-	top: 0;
-	left: 0;
-	min-width: 150px;
+	position : relative;
+	top      :      0px;
+	left     :      0px;
+	min-width:    150px;
 }
 
 .navarrow:hover {
@@ -107,8 +111,8 @@ license header dingens
 	.navlast         {padding-left :   1em;}
 	.navnext         {padding-right:   1em;}
 	.nav             {
-			width        :  16%   ;
-			font-size    :    .9em;
+		width        :  16%   ;
+		font-size    :    .9em;
 	}
 	/* entferne seiten titel */
 	.navtitle {
@@ -123,11 +127,7 @@ license header dingens
 } /* end smaller than*/
 
 
-
-
 /* NOT smaller than */
-
-
 
 /* bigger than */
 @media screen and (min-width: 45em) {
@@ -136,7 +136,7 @@ license header dingens
 	.navlast    {padding-left :   2.0em;}
 	.navnext    {padding-right:   2.0em;}
 
-	.navwrapper {margin-bottom: .5em;       }
+	.navwrapper {margin-bottom: .5em;   }
 } /* end bigger than */
 
 

@@ -7,7 +7,6 @@
  * Author     : nathan.peray, daniel.frei
  */
 
-
 /* Footer */
 #footwrapper a {
 	color: #FFFFFE;
@@ -31,12 +30,12 @@
 	width         : 28%;
 	vertical-align: top;
 }
+
 .impressum {
 	font-size     :    80%;
 	vertical-align: bottom;
 	float         : right ;
 }
-
 
 
 /** 
@@ -69,10 +68,5 @@
 
 
 @media print {
-
 	#footwrapper 	{display: none;}
-
-
 } /* end media print */
-
-

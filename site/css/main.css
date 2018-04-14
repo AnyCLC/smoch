@@ -1,7 +1,7 @@
 /*
 license header dingens
 */
-/* 
+/*
 	Created on : 19.03.2018, 15:46:42
 	Author     : nathan.peray, daniel.frei
 */
@@ -10,7 +10,7 @@ html, body {
 	color           : #FFF                ;
 	background-color: #FFFFFE             ;
 	font-family     : 'Roboto', sans-serif;
-	line-height     :                  1.5; /* 1.5 px ???? */
+	line-height     :                  1.5;
 }
 
 a {
@@ -63,7 +63,6 @@ a {
 	img              {width        : 100% ;}
 	.startlink       {min-width    : 100% ;}
 
-
 	.startlink { 
 			text-align  : center;
 			display     : block ;
@@ -72,19 +71,13 @@ a {
 	}
 
 /* zeige nur artikel-titel */
-
 	.articletitle {
 		float      : unset ;
 		white-space: nowrap;
 		display    : unset ;
 	}
 
-
-	
-
 } /* end smaller than*/
-
-
 
 
 /* NOT smaller than */
@@ -100,20 +93,17 @@ a {
 		display: none;
 	}
 
-
 } /* end: NOT smaller than */
-
 
 
 /* bigger than */
 @media screen and (min-width: 45em) {
-	body       {font-size    : 110%   ;}
+	body {font-size    : 110%   ;}
 
 /* big borderless */
-	body               {border-left: unset; border-right: unset;}
+	body {
+		border-left : unset;
+		border-right: unset;
+	}
 
 } /* end bigger than */
-
-
-
-

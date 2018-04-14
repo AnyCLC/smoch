@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <!--
-Autor: Nathan Péray
-Date:  20.03.2018
+	Autor: Nathan Péray
+	Date:  20.03.2018
 -->
 <?php
 	include_once 'res/db_config.php';
@@ -27,94 +27,93 @@ Date:  20.03.2018
 ?>
 
 <html>
-    <head>
-        <meta charset="UTF-8">
-        <meta name="autor"       content="<?php echo $autor; ?>" />
-        <meta name="description" content="<?php echo $descriptions; ?>" />
-        <meta name="keywords"    content="<?php echo keyWordList($IDurl, $titel, $keywords);?>" />
-        <meta name="viewport"    content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="../css/main.css"   >
-        <link rel="stylesheet" type="text/css" href="../css/header.css" >
-        <link rel="stylesheet" type="text/css" href="../css/footer.css" >
-        <link rel="stylesheet" type="text/css" href="../css/nav.css"    >
-        <link rel="stylesheet" type="text/css" href="../css/content.css">
-        <script src="../js/main.js"></script>
-        <title><?php echo $titel ?></title>
-    </head>
+	<head>
+		<meta charset="UTF-8">
+		<meta name="autor"       content="<?php echo $autor; ?>" />
+		<meta name="description" content="<?php echo $descriptions; ?>" />
+		<meta name="keywords"    content="<?php echo keyWordList($IDurl, $titel, $keywords);?>" />
+		<meta name="viewport"    content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="../css/main.css"   >
+		<link rel="stylesheet" type="text/css" href="../css/header.css" >
+		<link rel="stylesheet" type="text/css" href="../css/footer.css" >
+		<link rel="stylesheet" type="text/css" href="../css/nav.css"    >
+		<link rel="stylesheet" type="text/css" href="../css/content.css">
+		<script src="../js/main.js"></script>
+		<title><?php echo $titel ?></title>
+	</head>
 
- 	<body onscroll="stickyNavi()">
- 		<div id="headwrapper" onclick="window.location = '../index.html'">
+	<body onscroll="stickyNavi()">
+		<div id="headwrapper" onclick="window.location = '../index.html'">
 			<div class="gradient">
-        		<div class="articletitle"><?php echo $titel ?></div>
+			<div class="articletitle"><?php echo $titel ?></div>
 				<a href='../index.html' class="headtitle">S M O C H</a>
 			</div>
 		</div> <!-- end headwrapper -->
-            
+
 		<div id="navwrapper">
 			<div class='navtable'>
 <?php
-        if (isset($vorher)) {
-            echo    "<a class='nav navarrow navlast' href='$vorher'>&nbsp;<span>Zum vorangehenden Exponat</span></a>";
-        }
+if (isset($vorher)) {
+	echo "				<a class='nav navarrow navlast' href='$vorher'>&nbsp;<span>Zum vorangehenden Exponat</span></a>";
+}
 ?>
-		<span class="nav navtitle"><?php echo $titel ?></span>
-        <span class="nav navjahr"><?php echo $jahrzahl ?></span>
+				<span class="nav navtitle"><?php echo $titel    ?></span>
+				<span class="nav navjahr" ><?php echo $jahrzahl ?></span>
 <?php 
-        if (isset($nachher)) {
-            echo  "<a class='nav navarrow navnext' href='$nachher'>&nbsp;<span>Zum nächsten Exponat.</span></a>";
-        }
+if (isset($nachher)) {
+	echo "				<a class='nav navarrow navnext' href='$nachher'>&nbsp;<span>Zum nächsten Exponat.</span></a>";
+}
 ?>
 
 			</div> <!-- end navtable -->
 		</div> <!-- navwrapper -->
 
-                
-    	<div id="articlewrapper">
-                    <?php
-                    include_once './artikel_html/' . $IDurl . '.php';
-                    ?>
+		<div id="articlewrapper">
+
+        <!-- vvvvvvvvvvvvvvvvvvvvvvvvvv CONTENT: vvvvvvvvvvvvvvvvvvvvvvvvvvvv -->
+<?php
+	include_once './artikel_html/' . $IDurl . '.php';
+?>
+
+	<!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+
 <?php
 /***************** Vorhandene Exponate in der Fußnote ****************************/
 istImMuseumText($modellObj, $jahrzahlObj, $vorhanden);
 /********************************************************************************/
 ?>
 		</div> <!-- end articlewrapper -->
-                
 
 		<div id="footwrapper">
-    		<div class="adress">
-    		<div class="centercolumn">
-    		<p>
-                        <strong><a href='https://www.santis-training.ch'>SANTIS Training AG</a></strong>
-                        <br>Hohlstrasse 550
-                        <br>CH-8048 Zürich
-                    </p>
-                    <p>
-                        Tel: <a href="tel:+41 044 316 10 10" class="tel">+41 044 316 10 10</a>
-                        <br><a class="fax">Fax: +41 044 316 10 11</a>
-                    </p>
-                </div>
-            </div>
-            <div class="hours">
-                <div class="centercolumn">
-                    <p>
-                        <strong>Öffnungszeiten (Mo. - Fr.)</strong>
-                        <br>08:00 – 11:45 Uhr
-                        <br>13:30 – 17:00 Uhr
-                    </p>
-                </div>
-            </div>
-            <div class="etc">
-                <div class="centercolumn">
-                    <p>
-                        <a href="../kontakt.html">Kontakt</a>
-                    </p>
-                </div>
-            </div>
-            <div class="impressum">
-                Copyright © 2018, <a href="https://www.santis-training.ch/">SANTIS Training AG</a>
-            </div>
-        </div>
-    </body>
-</html>
+			<div class="adress">
+				<div class="centercolumn">
+					<p>
+						<strong><a href='https://www.santis-training.ch'>SANTIS Training AG</a></strong>
+						<br>Hohlstrasse 550
+						<br>CH-8048 Zürich
+					</p>
+					<p>Tel.: <a href="tel:+41 044 316 10 10" class="tel">+41 (0)44 316 10 10</a>
+				</div>
+			</div> <!-- end adress -->
 
+			<div class="hours">
+				<div class="centercolumn">
+					<p>
+						<strong>Öffnungszeiten (Mo. - Fr.)</strong>
+						<br>08:00 – 11:45 Uhr
+						<br>13:30 – 17:00 Uhr
+					</p>
+				</div>
+			</div> <!-- end opening hours --> 
+
+			<div class="etc">
+				<div class="centercolumn">
+					<p><a href="../kontakt.html">Kontakt</a></p>
+				</div>
+			</div> <!-- end etc -->
+			<div class="impressum">
+				Copyright © 2018, <a href="https://www.santis-training.ch/">SANTIS Training AG</a>
+			</div> <!-- end impressum -->
+		</div>
+	</body>
+</html>

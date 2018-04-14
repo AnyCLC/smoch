@@ -20,7 +20,7 @@ function underConstruction() {
 }
 
 
-/** 
+/**
  * Text für vorhandene Exponate.
  */
 function istImMuseumText($modellObj, $jahrzahlObj, $vorhanden) {
@@ -69,4 +69,6 @@ function keyWordList($IDurl, $title, $keywords) {
 	return $kwl;
 } // end function: keyWordList
 
+
+/* END PHP */
 ?>

@@ -3,13 +3,12 @@
  */
 
 .startlink {
-		min-width: 50%;
+	min-width: 50%;
 }
+
 .startlink:hover {
-		width: 50%;
-		background-color: #ddd   ;
-		color           : #002147;
-/*	cursor          : pointer    ; */
+	width: 50%;
+	background-color: #ddd   ;
+	color           : #002147;
+	/* cursor          : pointer    ;*/
 }
-
-
