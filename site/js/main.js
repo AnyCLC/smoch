@@ -16,3 +16,7 @@ function stickyNavi() {
 		nav.classList.remove("stickyNav");
 	}
 }
+
+// Use if user scrolls or changes window size:
+window.addEventListener('scroll', () => { stickyNavi(); });
+window.addEventListener('resize', () => { stickyNavi(); });

@@ -42,7 +42,7 @@
 		<title><?php echo $titel ?></title>
 	</head>
 
-	<body onscroll="stickyNavi()">
+	<body>
 		<div id="headwrapper" onclick="window.location = '../index.html'">
 			<div class="gradient">
 			<div class="articletitle"><?php echo $titel ?></div>
