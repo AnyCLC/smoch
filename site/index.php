@@ -108,7 +108,7 @@ istImMuseumText($modellObj, $jahrzahlObj, $vorhanden);
 
 			<div class="etc">
 				<div class="centercolumn">
-					<p><a href="../kontakt.html">Kontakt</a></p>
+					<p><a href="../kontakt/index.php">Kontakt</a></p>
 				</div>
 			</div> <!-- end etc -->
 			<div class="impressum">
