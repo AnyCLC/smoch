@@ -31,8 +31,8 @@ Date:  20.03.2018
         <div id="content">
             <div class="navwrapper">
                 <div class="topnav">
-                    <a class="navtitle startlink" href="./index.html" alt="">ERROR 404</a>
-                    <a class="navjahr startlink" href="./index.html" alt="">Zurück zur Startseite</a>
+                    <a class="navtitle startlink" href="./index.php" alt="">ERROR 404</a>
+                    <a class="navjahr startlink" href="./index.php" alt="">Zurück zur Startseite</a>
                 </div>
             </div>
             <div id="contentwrapper">
@@ -48,36 +48,9 @@ Date:  20.03.2018
                 </div>
             </div>
         </div>
-        <div id="footwrapper">
-            <div class="adress">
-                <p>
-                    <strong>SANTIS Training AG</strong>
-                    <br>Hohlstrasse 550
-                    <br>CH-8048 Zürich
-                </p>
-                <p>
-                    Tel: <a href="tel:+41 044 316 10 10" class="tel">+41 044 316 10 10</a>
-                    <br><a class="fax">Fax: +41 044 316 10 11</a>
-                </p>
-            </div>
-            <div class="hours"> 
-                <p>
-                    <strong>Öffnungszeiten (Mo. - Fr.)</strong>
-                    <br>08:00 – 11:45 Uhr
-                    <br>13:30 – 17:00 Uhr
-                </p>
-            </div>
-            <!-- div class="etc">
-                <p>
-                    <strong>Das irgendwas Rest</strong>
-                    <br>blah something
-                    <br>undso weiter
-                </p>
-            </div -->
-            <div class="impressum">
-                Copyright © 2018, <a href="https://www.santis-training.ch/">SANTIS Training AG</a>
-            </div>
-        </div>
+
+<?php include_once 'footwrapper.php'; ?>
+      
         <script>splash();</script>
     </body>
 </html>
