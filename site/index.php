@@ -1,119 +1,33 @@
-<!DOCTYPE html>
-<!--
-	Autor: Nathan Péray
-	Date:  20.03.2018
--->
 <?php
-	include_once 'res/db_config.php';
-	include_once 'res/functions.php';
-	include_once 'res/db_query.php' ;
-	$IDurl = getIDurl();
-	if($row = getExponatRow($IDurl)) {
-		$titel        = $row['Titel'        ];
-		$bildlegende  = $row['BildLegende'  ];
-		$bildpfad     = $row['BildPfad'     ];
-		$jahrzahl     = $row['Jahrzahl'     ];
-		$jahrzahlObj  = $row['Objekt_Jahr'  ];
-		$modellObj    = $row['Objekt_Modell'];
-		$vorher       = $row['Vorher'       ];
-		$nachher      = $row['Nachher'      ];
-		$autor        = $row['Autor'        ];
-		$descriptions = $row['Descriptions' ];
-		$keywords     = $row['Keywords'     ];
-		$vorhanden    = $row['Vorhanden'    ];
-	} else {
-		header ('Location: ../error.html');
-	}
-?>
+/**
+ *	Autor : Ph. Gressly Freimann
+ *  Update: 2018-04-16
+ */
 
-<html>
-	<head>
-		<meta charset="UTF-8">
-		<meta name="autor"       content="<?php echo $autor; ?>" />
-		<meta name="description" content="<?php echo $descriptions; ?>" />
-		<meta name="keywords"    content="<?php echo keyWordList($IDurl, $titel, $keywords);?>" />
-		<meta name="viewport"    content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="../css/main.css"   >
-		<link rel="stylesheet" type="text/css" href="../css/header.css" >
-		<link rel="stylesheet" type="text/css" href="../css/footer.css" >
-		<link rel="stylesheet" type="text/css" href="../css/nav.css"    >
-		<link rel="stylesheet" type="text/css" href="../css/content.css">
-		<script src="../js/main.js"></script>
-		<title><?php echo $titel ?></title>
-	</head>
-
-	<body>
-		<div id="headwrapper" onclick="window.location = '../index.html'">
-			<div class="gradient">
-			<div class="articletitle"><?php echo $titel ?></div>
-				<a href='../index.html' class="headtitle">S M O C H</a>
-			</div>
-		</div> <!-- end headwrapper -->
-
-		<div id="navwrapper">
-			<div class='navtable'>
-<?php
-if (isset($vorher)) {
-	echo "				<a class='nav navarrow navlast' href='$vorher'>&nbsp;<span>Zum vorangehenden Exponat</span></a>";
+$args = explode('/',$_SERVER['REQUEST_URI']);
+$last_arg =  $args[sizeof($args) - 1];
+// Handle Museumsobjekt
+if(preg_match("/index.php\/[a-z0-9]+/i", $_SERVER['REQUEST_URI'])) {
+	include_once "content.php";
+	die;
 }
-?>
-				<span class="nav navtitle"><?php echo $titel    ?></span>
-				<span class="nav navjahr" ><?php echo $jahrzahl ?></span>
-<?php 
-if (isset($nachher)) {
-	echo "				<a class='nav navarrow navnext' href='$nachher'>&nbsp;<span>Zum nächsten Exponat.</span></a>";
+
+// handle default (ending on index.php):
+if(preg_match("/.*index.php$/i", $_SERVER['REQUEST_URI'])) {
+	include_once "main.php";
+	die;
 }
+
+// ending on "index.php/" (SLASH at the end)
+if(preg_match("/index.php\/$/i", $_SERVER['REQUEST_URI'])) {
+	header('Location: ..');
+	die;
+}
+
+// ending on slash '/'. Redirect to index.php without /
+if(preg_match("/.*\//i", $_SERVER['REQUEST_URI'])) {
+		header('Location: ./index.php');
+        die;
+}
+
 ?>
-
-			</div> <!-- end navtable -->
-		</div> <!-- navwrapper -->
-
-		<div id="articlewrapper">
-
-        <!-- vvvvvvvvvvvvvvvvvvvvvvvvvv CONTENT: vvvvvvvvvvvvvvvvvvvvvvvvvvvv -->
-<?php
-	include_once './artikel_html/' . $IDurl . '.php';
-?>
-
-	<!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
-
-<?php
-/***************** Vorhandene Exponate in der Fußnote ****************************/
-istImMuseumText($modellObj, $jahrzahlObj, $vorhanden);
-/********************************************************************************/
-?>
-		</div> <!-- end articlewrapper -->
-
-		<div id="footwrapper">
-			<div class="adress">
-				<div class="centercolumn">
-					<p>
-						<strong><a href='https://www.santis-training.ch'>SANTIS Training AG</a></strong>
-						<br>Hohlstrasse 550
-						<br>CH-8048 Zürich
-					</p>
-					<p>Tel.: <a href="tel:+41 044 316 10 10" class="tel">+41 (0)44 316 10 10</a>
-				</div>
-			</div> <!-- end adress -->
-
-			<div class="hours">
-				<div class="centercolumn">
-					<p>
-						<strong>Öffnungszeiten (Mo. - Fr.)</strong>
-						<br>08:00 – 11:45 Uhr
-						<br>13:30 – 17:00 Uhr
-					</p>
-				</div>
-			</div> <!-- end opening hours --> 
-
-			<div class="etc">
-				<div class="centercolumn">
-					<p><a href="../kontakt/index.php">Kontakt</a></p>
-				</div>
-			</div> <!-- end etc -->
-			<div class="impressum">
-				Copyright © 2018, <a href="https://www.santis-training.ch/">SANTIS Training AG</a>
-			</div> <!-- end impressum -->
-		</div>
-	</body>
-</html>

@@ -8,11 +8,11 @@ Date:  20.03.2018
         <meta http-equiv="content-type" content="text/html; charset=utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"> <!--Fix für html width-->
         <meta name="language" content="de-de">
-        <link rel="stylesheet" type="text/css" href="./css/main.css"   >
-        <link rel="stylesheet" type="text/css" href="./css/header.css" >
-        <link rel="stylesheet" type="text/css" href="./css/footer.css" >
-        <link rel="stylesheet" type="text/css" href="./css/nav.css"    >
-        <link rel="stylesheet" type="text/css" href="./css/hauptseite.css">
+		<link rel="stylesheet" type="text/css" href="css/main.css"   >
+		<link rel="stylesheet" type="text/css" href="css/header.css" >
+		<link rel="stylesheet" type="text/css" href="css/footer.css" >
+		<link rel="stylesheet" type="text/css" href="css/nav.css"    >
+		<link rel="stylesheet" type="text/css" href="css/hauptseite.css">
         <script src="./js/main.js"></script>
         <title>SMOCH</title>
     </head>
@@ -41,39 +41,8 @@ Date:  20.03.2018
                     </p>
         </div>
 
+ <?php include_once 'footwrapper.php'; ?>
 
-						<div id="footwrapper">
-            <div class="adress">
-                <div class="centercolumn">
-                    <p>
-                        <strong><a href='https://www.santis-training.ch'>SANTIS Training AG</a></strong>
-                        <br>Hohlstrasse 550
-                        <br>CH-8048 Zürich
-                    </p>
-                    <p>
-                        Tel.: <a href="tel:+41 044 316 10 10" class="tel">+41 (0)44 316 10 10</a>
-                    </p>
-                </div>
-            </div>
-            <div class="hours">
-                <div class="centercolumn">
-                    <p>
-                        <strong>Öffnungszeiten (Mo. - Fr.)</strong>
-                        <br>08:00 – 11:45 Uhr
-                        <br>13:30 – 17:00 Uhr
-                    </p>
-                </div>
-            </div>
-            <div class="etc">
-                <div class="centercolumn">
-                    <p>
-                        <a href="kontakt/index.php">Kontakt</a>
-                    </p>
-                </div>
-            </div>
-            <div class="impressum">
-                Copyright © 2018, <a href="https://www.santis-training.ch/">SANTIS Training AG</a>
-            </div>
-        </div>
+
     </body>
 </html>
