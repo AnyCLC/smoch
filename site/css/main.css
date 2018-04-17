@@ -41,7 +41,9 @@ a {
 }
 
 #articlewrapper {
-	margin          :               0    ;
+        display         :               block;
+        max-width       :                85em;
+	margin          :                auto;
 	padding         :          .5em 1.5em;
 	background-color: #FFFFFE            ;
 	color           : #703820            ;

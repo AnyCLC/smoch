@@ -131,15 +131,11 @@ h6 {font-size: 1.1em; margin-bottom  :     .5rem;}
 /* bigger than */
 @media screen and (min-width: 45em) {
 	#content           {box-shadow : unset;}
-<<<<<<< HEAD
 	#articlewrapper    {
                             margin     :  auto;
                             
         } 
         
-=======
-	#articlewrapper    {margin     : 0 2em;}
->>>>>>> master
 } /* end bigger than */
 
 
