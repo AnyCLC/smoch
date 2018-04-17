@@ -13,6 +13,8 @@ Date:  20.03.2018
 		<link rel="stylesheet" type="text/css" href="css/footer.css" >
 		<link rel="stylesheet" type="text/css" href="css/nav.css"    >
 		<link rel="stylesheet" type="text/css" href="css/hauptseite.css">
+		<link rel="icon"       href="img/favicon.ico"/>
+
 		<script src="./js/main.js"></script>
 		<title>SMOCH</title>
 	</head>
