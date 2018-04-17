@@ -10,7 +10,9 @@ license header dingens
 #navwrapper {
 	display  : block;
 	font-size:  120%;
-        margin: auto;
+        margin   :  auto;
+        width: 100%;
+        vertical-align: middle;
 }
 
 .navtable {
@@ -23,9 +25,9 @@ license header dingens
 }
 
 .navtitle {
-	text-align: left;
-	padding: auto;
-	margin: auto;
+	text-align : left;
+	padding    : auto;
+	margin     : auto;
 }
 
 .navjahr {
@@ -90,6 +92,7 @@ license header dingens
 	top      :      0px;
 	left     :      0px;
 	min-width:    150px;
+        margin   :     auto;
 }
 
 .navarrow:hover {
@@ -99,6 +102,7 @@ license header dingens
 .stickyNav {
 		top     :  0em;
 		position:fixed;
+                width   : 100%;
 }
 
 

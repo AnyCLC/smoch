@@ -67,7 +67,9 @@ if (isset($nachher)) {
 
 			</div> <!-- end navtable -->
 		</div> <!-- navwrapper -->
-
+<script>
+    setTopDistance();
+</script>
 		<div id="articlewrapper">
 
         <!-- vvvvvvvvvvvvvvvvvvvvvvvvvv CONTENT: vvvvvvvvvvvvvvvvvvvvvvvvvvvv -->

@@ -11,6 +11,8 @@ html, body {
 	background-color: #FFFFFE             ;
 	font-family     : 'Roboto', sans-serif;
 	line-height     :                  1.5;
+        max-width       :                100em;
+        margin          :                 auto;
 }
 
 a {

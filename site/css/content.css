@@ -34,7 +34,6 @@
 
 /* div for content */
 #content {
-	margin   : 0 auto;
 	width    : auto  ;
 	max-width:   65em;
 }
@@ -132,7 +131,10 @@ h6 {font-size: 1.1em; margin-bottom  :     .5rem;}
 /* bigger than */
 @media screen and (min-width: 45em) {
 	#content           {box-shadow : unset;}
-	#articlewrapper    {margin     : 0 2em;}
+	#articlewrapper    {
+                            margin     :  auto;
+                            
+        } 
         
 } /* end bigger than */
 
@@ -142,7 +144,7 @@ h6 {font-size: 1.1em; margin-bottom  :     .5rem;}
 
 	#articlewrapper {
 		margin          : 0 -1em  !important;
-		background-color: #FFF    !important;
+		background-color: #eee    !important;
 		color           : #454545 !important;
 	}
 } /* end media print */
