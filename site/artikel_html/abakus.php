@@ -19,9 +19,9 @@ Indem die Kugeln von der einen Seite der Spalte zur anderen verschoben werden, k
 Man kann sogar die Quadrat- und Kubikwurzeln ziehen, was schon wesentlich komplexer ist, als das Rechnen mit den vier Grundoperatoren.</p>
                                                                  
 <h3>Verwendung</h3>
-<p>
+<p class='zit copy'>
 Der Abakus (lat. für die Tafel, das Brett) ist ein 3000 Jahre altes Rechenhilfsmittel und wurde vor allem bei kleinen Geschäften verwendet, da er leicht zu bedienen war.
-</p>
+<p class ='zitsrc'> Wickipedia 2018 </p></p>
 
                                                                  <h3>Fun Facts</h3>
 <p class='zit copy'>Da man höhere Rechenoperationen, mit den römischen Zahlen nicht durchführen konnte, gab es im Römischen Reich eine leicht abgewandelte Version des Abakus.</p>
