@@ -11,11 +11,11 @@ Es gibt verschiedene Varianten der Festplatte.
      <p>Die Festplatte wird auch Harddisk oder HDD (Hard Disk Drive) genannt. Sie besitzt eine rotierende Magnetscheibe die durch einen sich bewegenden Lese-/Schreibkopf wahlweise beschrieben oder ausgelesen werden kann; ähnlich wie bei einem Plattenspieler.</p>
 
 <h3>Funktionsweise</h3>
-<p>Eine Festplatte ist im Wesetlichen eine magnetisierbare runde und harte Scheibe.<br />
+<p>Eine Festplatte ist im Wesentlichen eine magnetisierbare runde und harte Scheibe.<br />
 
 Darauf werden die Zustände Wahr/Falsch bzw. Eins/Null durch ummagnetisieren durch den Schreibkopf definiert bzw. den Lesekopf wieder herausgefunden.<br />
 
-    Damit das Betriebssystem «weiß», wo die Dateien und Verzeichnisse abgelegt sind, werden Festplatten auf spezielle Weise «formattiert»; dabei wird die Platte in eindeutig identifizierbare Spuren und Sektoren eingeteilt</p>
+    Damit das Betriebssystem «weiß», wo die Dateien und Verzeichnisse abgelegt sind, werden Festplatten auf spezielle Weise «formattiert»; dabei wird die Platte in eindeutig identifizierbare Spuren und Sektoren eingeteilt.</p>
 
      
 <h3>Verwendung</h3>

@@ -1,13 +1,13 @@
 <div class='zitwarn'></div>
 <h3>Aufbau</h3>
-<p>Ein Mobiltelephon, das Zugang zum Internet hat, wird als <b>Smartphone</b> bezeichnet.</p>
+<p>Ein Mobiltelefon, das Zugang zum Internet hat, wird als <b>Smartphone</b> bezeichnet.</p>
 
 <h3>Verwendung</h3>
 <p>Smartphones werden hauptsächlich als Zeitvertrieb und zum Spielen eingesetzt.</p>
 
 <h3> Geschichte </h3><br>
 <p> Das erste Smarphone wurde 1994, von BellSouth und IBM lanciert, 
-und als "Personal Comunicator" Simon vertrieben. Die grossen Erfolge auf dem Markt blieben jedoch aus. 
+und als "Personal Communicator" Simon vertrieben. Die grossen Erfolge auf dem Markt blieben jedoch aus. 
 So hatten auch andere Geräte einen schweren Stand auf dem Markt. Erst im Jahr 2007 als Apple das erste iPhone lanciert hatte,
 konnte die Gattung der Smartphones ihren Durchbruch feiern. </p> <br>
 <?php includeImage(); ?>

@@ -58,17 +58,18 @@ Man kann im Binärsystem ganz analog zum Zehnersystem rechnen:<br>
 
 
 <h3>Verwendung</h3>
-<p>
-Bei der Entwicklung von elektronischen Rechenmaschinen erlangte das Dualsystem grosse Bedeutung, denn in der Digitaltechnik werden Zahlen durch elektronische Zustände dargestellt.<br>
-      Bevorzugt werden zwei komplementäre Zustände wie z. B. Strom an / Strom aus.<br />
-      Auf diese Weise konnten zunächst einfache Schaltungen realisiert werden. Heute werden nicht mehr nur Additionen durchgeführt; es werden aufgrund des Binärsystems komplexe
+<p class = 'zit copy'>
+Bei der Entwicklung von elektronischen Rechenmaschinen erlangte das Dualsystem grosse Bedeutung, denn in der Digitaltechnik werden Zahlen durch elektronische Zustände dargestellt.<br></p>
+<p class='zit src'> WIkipedia 2018 </p>
+     <p> Bevorzugt werden zwei komplementäre Zustände wie z. B. Strom an / Strom aus.<br />
+      Auf diese Weise konnten zunächst einfache Schaltungen realisiert werden. Heute werden nicht mehr nur Additionen durchgeführt, es werden aufgrund des Binärsystems komplexe
           Berechnungen durchgeführt. Beispiele:
 <ul>
 <li>Subtraktion, Multiplikation, Division</li>
 <li>Wurzelziehen und Logarithmen</li>
 <li>Suche Mattstellungen in Schachpositionen</li>
 <li>Finde den kürzesten Weg von A nach B auf einer Landkarte</li>
-<li>...</li>                                                                                                                                        
+<li>...</li>                                                             
 </ul>
 </p>
                                                                                                                                         
