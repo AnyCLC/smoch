@@ -39,9 +39,7 @@ a {
 }
 
 #articlewrapper {
-        display         :               block;
-        max-width       :                85em;
-	margin          :                auto;
+	margin          :               0    ;
 	padding         :          .5em 1.5em;
 	background-color: #FFFFFE            ;
 	color           : #703820            ;
