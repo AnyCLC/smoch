@@ -1,8 +1,9 @@
 <div class='zitwarn'></div>
      
 <h3>Aufbau</h3>
+<p class='zit copy'>Der Abakus besteht aus einem Rahmen und aus mehreren Kugeln, meistens aus Holz oder Glasperlen.<br></p>
+<p class ='zitsrc'> Wickipedia 2018 </p>
 <p>
-Der Abakus besteht aus einem Rahmen und aus mehreren Kugeln; meistens aus Holz oder Glasperlen.<br>
 Der Abakus, der älteren Generation, bestand aus Steinen.<br>
 Die Variante mit den Kugeln wird auch <i>russischer Abakus</i> genannt, weil er dort das erste Mal vorkam.<br>
 Das verwandte Rechenbrett bestand aus Münzen oder Rechensteinen.<br>
