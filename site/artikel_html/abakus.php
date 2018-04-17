@@ -24,8 +24,8 @@ Der Abakus (lat. für die Tafel, das Brett) ist ein 3000 Jahre altes Rechenhilfs
 </p>
 
                                                                  <h3>Fun Facts</h3>
-                                                                 <p>Da man höhere Rechenoperationen, mit den römischen Zahlen nicht durchführen konnte, gab es im Römischen Reich eine leicht abgewandelte Version des Abakus.</p>
-
+<p class='zit copy'>Da man höhere Rechenoperationen, mit den römischen Zahlen nicht durchführen konnte, gab es im Römischen Reich eine leicht abgewandelte Version des Abakus.</p>
+<p class ='zitsrc'> Wickipedia 2018 </p>
                                                                  <h3>Weitere Informationen</h3>
 <p>
 Weitere Informationen auf <a class="link" href="http://de.wikipedia.org/wiki/Abakus_%28Rechenhilfsmittel%29">Wikipedia/Abakus</a>
