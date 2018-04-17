@@ -18,11 +18,12 @@ function stickyNavi() {
 		nav.classList.remove("stickyNav");
 	}
 	// make it the same width as the headwrapper
-	var headwrapper = document.getElementById('headwrapper');
-	var width       = headwrapper.offsetWidth;
+	var headwrapper    = document.getElementById('headwrapper');
+	var width          = headwrapper.offsetWidth;
 	nav.style["width"] = width + "px";
 }
 
 // Use if user scrolls or changes window size:
 window.addEventListener('scroll', () => { stickyNavi(); });
 window.addEventListener('resize', () => { setTopDistance(); stickyNavi(); });
+window.addEventListener('load'  , () => { setTopDistance();});
