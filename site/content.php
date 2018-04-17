@@ -1,4 +1,4 @@
-`<!DOCTYPE html>
+<!DOCTYPE html>
 <!--
 	Autor: Nathan Péray
 	Date:  20.03.2018
@@ -70,7 +70,7 @@ if (isset($nachher)) {
 
 		<div id="articlewrapper">
 
-<!-- vvvvvvvvvvvvvvvvvvvvvvvvvv CONTENT: vvvvvvvvvvvvvvvvvvvvvvvvvvvv -->
+	<!-- vvvvvvvvvvvvvvvvvvvvvvvvvv CONTENT: vvvvvvvvvvvvvvvvvvvvvvvvvvvv -->
 <?php
 	include_once './artikel_html/' . $IDurl . '.php';
 ?>
