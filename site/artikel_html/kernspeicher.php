@@ -2,17 +2,18 @@
 
 <h3>Aufbau</h3>
 <p class='zit copy'>
-Der Kernspeicher, Ringspeicher, Magnetkernspeicher oder auch Ferritkernspeicher (englisch magnetic-core memory oder englisch ferrite-core memory) ist eine frühe Form 
-nichtflüchtiger Speicher mit wahlfreiem Zugriff von elektronischen Rechenmaschinen.
-Er besteht aus auf Drähten aufgefädelten hartmagnetischen Ringkernen, die durch 
-elektrische Ströme in den Drähten ummagnetisiert und ausgelesen werden können.<br />
+Der Kernspeicher, Magnetkernspeicher oder auch Ferritkernspeicher (englisch magnetic-core memory oder englisch ferrite-core memory) 
+ist eine frühe Form nichtflüchtiger Speicher mit wahlfreiem Zugriff von elektronischen Rechenmaschinen. 
+Er besteht aus auf Drähten aufgefädelten hartmagnetischen Ringkernen (englisch cores), 
+die durch elektrische Ströme in den Drähten ummagnetisiert und ausgelesen werden können.<br />
 
-     Das Vorzeichen der magnetischen Remanenz (= verbleibende Magnetisierung) jedes einzelnen Rings repräsentiert derssen Speicherinhalt.
+     Das Vorzeichen der magnetischen Remanenz der einzelnen Ringkerne repräsentiert deren Speicherinhalt.
 
-Kernspeicher wurden etwa von 1950 bis 1980 in den damals üblichen Rechenmaschinen eingesetzt. Heute gibt es nur noch vereinzelte Anwendungsfälle, z. B.
-in der Signaltechnik der Eisenbahn, wobei die Beschaffung von Ersatzteilen, selbst für einzelne „1 Bit“ Speicher zu einem großen Problem geworden ist.
+Kernspeicher wurden etwa von 1950 bis 1980 in den damals üblichen Rechenmaschinen eingesetzt. 
+Heute (2018) gibt es nur noch vereinzelte Anwendungsfälle, z. B. in der Signaltechnik der Eisenbahn. 
+Die Beschaffung von Ersatzteilen dafür, selbst für einzelne „1 Bit“-Speicher, ist schwierig.
 
-In allgemeinerem Sinn wird der Begriff aber auch für Arbeitsspeicher in anderen, neueren Techniken verwendet, im Sinne von „Speicher im Kern des Rechners“.</p>
+In allgemeinerer Bedeutung, „Speicher im Kern des Rechners“, wird die Bezeichnung aber auch für Arbeitsspeicher in anderen, neueren Technologien verwendet.</p>
      <p class='zit src'>
      
 Quelle: <a href="https://de.wikipedia.org/wiki/Kernspeicher">Wikipedia</a> (März 2018)
