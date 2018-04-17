@@ -58,7 +58,7 @@ if (isset($vorher)) {
 }
 ?>
 				<span class="nav navtitle"><?php echo $titel    ?></span>
-				<span class="nav navjahr" ><?php echo $jahrzahl ?></span>
+        <span class="nav navjahr" ><?php echo "&nbsp" .  $jahrzahl . "&nbsp;"; ?></span>
 <?php 
 if (isset($nachher)) {
 	echo "				<a class='nav navarrow navnext' href='$nachher'>&nbsp;<span>Zum nächsten Exponat.</span></a>";
