@@ -61,10 +61,10 @@ Kilometern.
 Je nachdem, wie die CD erstellt wird, entstehen die Pits. Bei der industriellen Herstellung werden zunächst auf photochemischem Wege ein Glas-Master und
 darauf dann auf galvanischem Wege ein oder auch mehrere Stamper (Negativ) gefertigt. Anschließend wird damit in Presswerken per Spritzverfahren eine Polycarbonatscheibe geprägt und die Reflexions- und Schutzschicht angefügt.
 
-Eine CD besteht zum größten Teil aus Polycarbonat. Die Reflexionsschicht darüber besteht aus einer im Vakuum aufgedampften Aluminiumschicht.
+Eine CD besteht demnach zum größten Teil aus Polycarbonat. Die Reflexionsschicht darüber besteht aus einer im Vakuum aufgedampften Aluminiumschicht.
 
 Zwischen dem Aufdruck (Grafik und Text) und der Aluminiumschicht (Dicke der Reflexionsschicht: 50 bis 100
-nm) befindet sich noch eine Schutzlackschicht, um das Aluminium vor äußeren Einflüssen zu schützen. Der Abschluss ist der Aufdruck, der mit dem Siebdruckverfahren(bis zu sechs Farben) aufgebracht wird. Alternativ kann hier auch das Offsetdruckverfahren eingesetzt werden.
+nm) befindet sich noch eine Schutzlackschicht, um das Aluminium vor äußeren Einflüssen zu schützen. Der Abschluss ist der Aufdruck, der mit dem Siebdruckverfahren (bis zu sechs Farben) aufgebracht wird. Alternativ kann hier auch das Offsetdruckverfahren eingesetzt werden.
 <br><br>
 <i>Quelle: <a href="https://de.wikipedia.org/wiki/Compact_Disc">Wikipedia</a> (März 2018) </i>
 </p>
