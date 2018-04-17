@@ -6,12 +6,7 @@ var navTopDistance = 0;
 function stickyNavi() {
 	var scroll = window.pageYOffset;
 	var nav    = document.getElementById("navwrapper");
-<<<<<<< HEAD
-        // make it the same width as the headwrapper
-	if (scroll > navTopDistance) {
-=======
 	if (scroll > nav.offsetTop) {
->>>>>>> master
 		// make it sticky:
 		nav.classList.add("stickyNav");
 		// make it the same width as the headwrapper
