@@ -46,7 +46,7 @@
 	<body>
 		<div id="headwrapper" onclick="window.location = '../index.php'">
 			<div class="gradient">
-			<div class="articletitle"><?php echo $titel ?></div>
+				<div class="articletitle"><?php echo $titel ?></div>
 				<a href='../index.php' class="headtitle">S M O C H</a>
 			</div>
 		</div> <!-- end headwrapper -->
