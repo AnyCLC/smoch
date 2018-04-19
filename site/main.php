@@ -28,8 +28,8 @@ Date:  20.03.2018
 
 		<div id="navwrapper">
 			<div class="navtable">
-				<a class="nav navleft startlink" href="index.php/abakus">Rechnen</a>
-				<a class="nav navright startlink" href="index.php/amphore">Speichern</a>
+				<a class="nav navleft  startlink" href="index.php/amphore">Speichern</a>
+				<a class="nav navright startlink" href="index.php/abakus" >Rechnen</a>
 			</div>
 		</div>
 
