@@ -3,33 +3,60 @@
 <html>
 	<head>
 		<title>Kontakt</title>
-            <link rel="icon" href="layout/img/Favicon.png" type="image/x-icon" />
-			<meta charset  ="utf-8"                                            />
-			<meta name     ="author"
-			      content  ="BASIS 2014"                                       />
-			<meta name     ="description"
-			      content  ="Kontakt"                                          />
-			<meta name     ="keywords"
-			      content  ="Kontakt"                                          />
+      
+		<meta charset  ="utf-8"      />
+		<meta name     ="author"
+		      content  ="BASIS 2014" />
+		<meta name     ="description"
+		      content  ="Kontakt"    />
+		<meta name     ="keywords"
+		      content  ="Kontakt"    />
 
-			<link rel      ="stylesheet"
-			      href     ="layout/CSS.css"                                   />
+		<link rel="stylesheet" type="text/css" href="../css/main.css"   >
+		<link rel="stylesheet" type="text/css" href="../css/header.css" >
+		<link rel="stylesheet" type="text/css" href="../css/footer.css" >
+		<link rel="stylesheet" type="text/css" href="../css/content.css">
+		<link rel      ="icon"
+		      href     ="../img/favicon.ico" type="image/x-icon" />
 	</head>
 
 <body>
-    <div class="titel"><h2>Kontakt</h2></div>
-    <img class="logo" alt="Logo SANTIS Museum of Computer History" src="layout/img/Logo.png"/>
-	<a href="../index.html"><img class="home"  alt="Haus" src="layout/img/Home.png"  />      </a>
-    <div class="hauptblock">
+	<div id='headwrapper'>
+    	<div class='gradient'>
+			<div class='articletitle'>Kontakt</div>
+		</div>
+	</div> <!-- end headwrapper-->
+
+	<div id='navwrapper'>
+		<a href="../index.php"><img class="home"  title='Link zu Hauptseite' alt="Haus" src="../img/Home.png"  /></a>
+    </div>
+
+      
+	<div id="articlewrapper">
+        <img src="layout/img/mail.png" width='32' title='mail' alt="Briefumschlag"/>
 		<form action="mailsender.php">
-			<textarea  class="textkt3" name="textT" cols="50" rows="5">Ihre Nachricht</textarea><br/>
-            <textarea  class="textkt1" name="textN" cols="50" rows="5">Name, Vorname</textarea><br/>
-            <textarea  class="textkt2" name="textE" cols="50" rows="5">E-Mail Adresse</textarea><br/>
+
+<table>
+	<tr>
+		<td>Name, Vorname</td>
+		<td><intput type='text' name='textN' /></td>
+	</tr>
+	<tr>
+		<td>E-Mail</td>
+		<td><intput type='email' name='textE' /></td>
+	</tr>
+	<tr>
+		<td>Nachricht</td>
+		<td><textarea name='textT' cols='50' rows='5'></textarea></td>
+	</tr>
+</table>
 			<input     class="submit" type="submit" value="Senden"/>
 		</form>
-        <img src="layout/img/mail.png" class="mail" alt="Briefumschlag"/>
 	</div>
-	<footer> Copyright: &copy; 2014 SANTIS-Training AG &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a class="link" href="impressum.html">Impressum</a></footer>
-</body>
+
+      
+<?php include_once '../footwrapper.php'; ?>
+
+	</body>
 
 </html>
