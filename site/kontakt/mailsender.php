@@ -11,5 +11,5 @@
 	$message = "Name:".$Name."\n"."E-Mail:".$EMail."\n"."Nachricht:".$Text."wurde gesendet";
 	$headers = "from:".$EMail;
 	mail($to, $subject, $message, $headers);
-	header ("Location: danke.html");
+	header ("Location: Danke.php");
 ?>
