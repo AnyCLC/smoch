@@ -85,7 +85,7 @@ istImMuseumText($modellObj, $jahrzahlObj, $vorhanden);
 ?>
 		</div> <!-- end articlewrapper -->
 
-<?php include_once 'footwrapper.php'; ?>
+<?php $isContent = true; include_once 'footwrapper.php'; ?>
 
 	</body>
 </html>

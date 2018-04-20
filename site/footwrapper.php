@@ -21,11 +21,13 @@
                 </div>
             </div>
             <div class="etc">
+<?php if(! $isKontakt) { ?>
                 <div class="centercolumn">
                     <p>
-                        <a href="kontakt/index.php">Kontakt</a>
+                        <a href="<?php if($isContent) {echo "../";} ?>kontakt/index.php">Kontakt</a>
                     </p>
                 </div>
+<?php } ?>
             </div>
             <div class="impressum">
                 Copyright © 2018, <a href="https://www.santis-training.ch/">SANTIS Training AG</a>

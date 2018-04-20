@@ -49,7 +49,7 @@ Date:  20.03.2018
 		      Besuchen Sie uns noch heute in Zürich Altstetten.</p>
 		</div>
 
- <?php include_once 'footwrapper.php'; ?>
+<?php $isContent=false; include_once 'footwrapper.php'; ?>
 
 
 	</body>

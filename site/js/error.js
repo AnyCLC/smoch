@@ -15,7 +15,7 @@ var i = 0;
 var j = 0;
 
 function splash() {
-	output = document.getElementById("errorOut");
+	qoutput = document.getElementById("errorOut");
 	if (i < firstArray.length) {
 		out = out + firstArray[i];
 		qoutput.innerHTML = out;
@@ -29,10 +29,10 @@ function splash() {
 function failed() {
 	clearInterval(interval);
 	interval = setInterval(failed, 100);
-	output = document.getElementById("errorOut");
+	qoutput = document.getElementById("errorOut");
 	if (j < secArray.length) {
 		out = out + secArray[j];
-		output.innerHTML = out;
+		qoutput.innerHTML = out;
 		j++;
 	}
 }

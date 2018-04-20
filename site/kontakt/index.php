@@ -13,6 +13,7 @@
 		      content  ="Kontakt"    />
 
 		<link rel="stylesheet" type="text/css" href="../css/main.css"   >
+		<link rel="stylesheet" type="text/css" href="../css/nav.css"    >
 		<link rel="stylesheet" type="text/css" href="../css/header.css" >
 		<link rel="stylesheet" type="text/css" href="../css/footer.css" >
 		<link rel="stylesheet" type="text/css" href="../css/content.css">
@@ -21,14 +22,18 @@
 	</head>
 
 <body>
+      <style>
+      .articletitle {display: block;}
+      </style>
 	<div id='headwrapper'>
     	<div class='gradient'>
 			<div class='articletitle'>Kontakt</div>
 		</div>
 	</div> <!-- end headwrapper-->
 
+    <style>#navwrapper {height: 92px; background-color: #002147;}</style>
 	<div id='navwrapper'>
-		<a href="../index.php"><img class="home"  title='Link zu Hauptseite' alt="Haus" src="../img/Home.png"  /></a>
+		<a href="../index.php"><img title='Link zu Hauptseite' alt="Haus" src="../img/Home.png"  /></a>
     </div>
 
       
@@ -49,13 +54,14 @@
 		<td>Nachricht</td>
 		<td><textarea name='textT' cols='50' rows='5'></textarea></td>
 	</tr>
+      <tr><td></td><td>			<input     class="submit" type="submit" value="Senden"/>
+</td></tr>
 </table>
-			<input     class="submit" type="submit" value="Senden"/>
 		</form>
 	</div>
 
       
-<?php include_once '../footwrapper.php'; ?>
+<?php $isKontakt=true; include_once '../footwrapper.php'; ?>
 
 	</body>
 

@@ -14,7 +14,7 @@ if(preg_match("/index.php\/[a-z0-9]+/i", $_SERVER['REQUEST_URI'])) {
 
 // handle default (ending on index.php):
 if(preg_match("/.*index.php$/i", $_SERVER['REQUEST_URI'])) {
-	include_once "main.php";
+    include_once "main.php";
 	die;
 }
 
