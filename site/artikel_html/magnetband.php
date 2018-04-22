@@ -19,7 +19,7 @@ Magnetbänder waren die ersten maschinellen Datenträger, die die Massenspeicher
      <p class='zit copy'>Das Prinzip eines Magnetspeichers im Allgemeinen ist es, durch die unterschiedliche Ausrichtung unzähliger kleiner Magnetnadeln binäre Information zu speichern. Dabei sind die Informationen "dauerthaft" gespeichert, d.h. so lange, bis es zu einer Neuausrichtung der Magnetnadeln kommt.</p>
 <p class='zit src'><a href='http://datentraeger-museum.de'>datentraeger-museum.de</a></p>
 
-     <p>Magnetbänder speicherten Musik- und Bilddaten analog, wohingegen Texte und Datentsrutkuren <a href='https://smoch.santis-basis.ch/index.php/binaersystem'>binär</a> abgelegt wurden.</p>
+     <p>Magnetbänder speicherten Musik- und Bilddaten analog, wohingegen Texte und Datentsrutkuren <a href='https://smoch.santis-basis.ch/index.php/binaer'>binär</a> abgelegt wurden.</p>
   
 <h3>Verwendung</h3>
 <p class='zit copy'>Magnetbänder gibt es in sehr vielen Formaten und sie dienen auch heute noch der digitalen Konservierung von Video-, Audio- und allgemein digitalen Informationen für die elektronische Datenverarbeitung. </p>
