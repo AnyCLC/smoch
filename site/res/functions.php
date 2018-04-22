@@ -32,7 +32,7 @@ function istImMuseumText($modellObj, $jahrzahlObj, $vorhanden) {
 	}
 	if(! empty ($modellObj) && strlen($modellObj) > 0) {
 		if($vorhanden) {
-			echo "<br />Bestauenen Sie bei uns: ";
+			echo "<br />Bestauenen Sie bei uns in Zürich-Altstetten noch heute: ";
 		} else {
 			echo "<br />Abbildung zeigt bzw. Text beschreibt: ";
 		}
