@@ -52,10 +52,9 @@ h5 {font-size: 1.2em; font-style     : italic   ;}
 h6 {font-size: 1.1em; margin-bottom  :     .5rem;}
 
 #articlewrapper ul {
-	padding-bottom :    2em;
+	padding-bottom :    0em;
 	list-style-type: square;
 }
-
 
 /** 
  *  Tabellen innerhalb der Artikel. "class = 'tabelle'".

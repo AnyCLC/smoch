@@ -10,9 +10,16 @@
 <p>Durch die Öffnung am oberen Ende konnten Waren (Esswaren, Getränke, ...) eingefüllt aber auch wieder hinausgenommen werden.</p>
 	 
 <h3>Verwendung</h3>
-<p>Amphoren wurden in der Antike als Speicher- und Transportgefäss für z. B. Wein, Oliven, Milch und Honig benutzt.
-	Je nach Inhalt war das	Volumen unterschiedlich. Das Fassungsvermögen betrug zwischen 5 und 50 Liter.<br>
-	Heute werden Amphoren als Vasen benutzt. Eine grosse Rolle spielt die Amphore bei der Herstellung spezieller Weine, wie z. B. "Amphorenwein".</p>
+<p class='zit copy'>
+Amphoren wurden in der Antike als Vorrats- und Transportgefäße unter anderem für Öl, Oliven und Wein[3] sowie für Honig, Milch, Getreide, Garum, 
+Südfrüchte wie Datteln und anderes benutzt. Sie wurden in jenen Regionen hergestellt, in denen die Transportgüter erzeugt wurden, also etwa dort, 
+wo Wein- oder Olivenanbau stattfand. Je nach Inhalt ist das Volumen unterschiedlich, Fassungsvermögen betragen zwischen 5 und 50 Liter. 
+<p class='zit src'>
+<p class='zit copy'>
+Heute werden Amphoren nur mehr zu Zierzwecken, beispielsweise als Vase, hergestellt. 
+Eine besondere Rolle spielt die Amphore bis heute bei der Herstellung spezieller Weine, dem sogenannten „Amphorenwein“.
+<p class='zit src'>
+<i>Quelle: <a href="https://de.wikipedia.org/wiki/Amphore">Wikipedia</a> April 2018</i>
 	 
 <h3>Fun Facts</h3>
 <img src='../expo_images/krug.png' alt='Plastiknachbildung einer Amphore' title='Krug aus dem 3D-Drucker' />
