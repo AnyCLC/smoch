@@ -7,11 +7,11 @@
 <br>
 <h3>Funktionsweise</h3>
 <p class="zit copy"> 
-Ein Taschenrechner ist eine tragbare, handliche elektronische Rechenmaschine, mit deren Hilfe numerische Berechnungen ausgeführt werden können. 
-Einige neuere technisch-wissenschaftliche Taschenrechner beherrschen auch symbolische Mathematik mittels eines Computeralgebrasystems (CAS), können also etwa Gleichungen umstellen oder lösen.
-Praktisch alle heutigen Taschenrechner verwenden elektronische Integrierte Schaltungen und LC-Displays als Anzeige und werden von einer Batterie oder Solarzelle mit Strom versorgt. 
-[[Datei:Casio cm602.jpg|mini|Casio Mini von 1972, einer der ersten erschwinglichen Taschenrechner für Konsumenten]] <br>
-</p><p class="zit src">Zitat: Wikipedia 2018
+Ein Taschenrechner ist eine tragbare, handliche elektronische Rechenmaschine, mit deren Hilfe numerische Berechnungen ausgeführt werden können. Einige neuere technisch-wissenschaftliche Taschenrechner beherrschen auch symbolische Mathematik mittels eines Computeralgebrasystems (CAS), können also etwa Gleichungen umstellen oder lösen.
+
+Praktisch alle heutigen Taschenrechner verwenden elektronische Integrierte Schaltungen und LC-Displays als Anzeige und werden von einer Batterie oder Solarzelle mit Strom versorgt.
+</p><p class="zit src">
+<i>Quelle: <a href="https://de.wikipedia.org/wiki/Taschenrechner">Wikipedia</a> (April 2018)</i>
 </p>
      
 <h3>Verwendung</h3>
