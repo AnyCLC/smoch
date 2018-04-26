@@ -7,9 +7,9 @@ Ein PC besteht aus diversen einzelnen Komponenten welche zusammengesetzt den PC 
      
 <?php includeImage(); ?>
 <h3>Funktionsweise</h3>
-<p>
+<p class='zit copy'>
 Ein Personal Computer (engl. zu dt. „persönlicher“ bzw. „privater Rechner“, kurz PC) ist ein Mehrzweckcomputer, dessen Größe und Fähigkeiten ihn für den individuellen persönlichen Gebrauch im Alltag nutzbar machen; im Unterschied zu vorherigen Computermodellen beschränkt sich die Nutzung nicht mehr auf Computerexperten, Techniker oder Wissenschaftler.
-</p>
+<p class='zit src'>
 <h3>Verwendung</h3>
 <p>
 Die Ursprünge des Computers liegen weit zurück. So wurde der erste Computer, Zuse Z1, schon 1937 entwickelt. Nebst der, mit heute verglichen, schwachen Leistung, verbrauchten diese Geräte so viel Platz und waren gerne mal mehrere 10 Meter lang. So dauerte es bis ins Jahr 1975, bis die ersten PCs (Personal Computer) entwickelt wurden.
