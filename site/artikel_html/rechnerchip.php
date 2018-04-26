@@ -10,7 +10,7 @@
 <p> Die Funktion eines Rechnerchips, unterscheidet sich je nach Modell. Grundsätzlich wird mit der Hilfe von Transistoren, eine elektrische Spannung, von einem Eingang, zu einem Ausgang geschickt.</p>
 <h3>Verwendung</h3>
 <p>
-Der Rechnerchip wird in unter anderem in der Computer Technik verwendet.
+Der Rechnerchip wird in unter anderem in der Computertechnik verwendet.
 </p>
 
 <h3>Weitere Informationen</h3><br>
@@ -23,6 +23,3 @@ Im Museum sind die folgenden Rechnerchips vorhanden:
 </table>
 </p>
 
-<p>
-	<a class="link" href="http://de.wikipedia.org/wiki/Integrierter_Schaltkreis">integrierter Schaltkreis</a>.
-</p>

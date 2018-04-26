@@ -31,20 +31,20 @@
 
 <h3> Geschichte </h3>
 <h4> Johann Helfrich von Müller </h4>
-<p>
+<p class="zit copy">
 Nach Fertigstellung seiner Rechenmaschine[12] verfasste Johann Helfrich Müller 1786 ein Benutzerhandbuch, in dessen Anhang er einen Ausblick für zukünftige Verbesserungen darstellte.[13]<br>
 Neben Andeutungen über die Nützlichkeit eines Druckwerks zur Dokumentation von Rechenergebnissen stellte er auch seine Gedanken über eine neuartige Maschine dar, die Zahlenreihen mittels der Methode der Differenzen berechnen können sollte.[13][14]<br>
 Es gibt keinen Hinweis darauf, dass es sich bei der Beschreibung von Müller um mehr als ein Konzept handelte. Vielmehr ist die Beschreibung als Angebot zu sehen, bei entsprechender Finanzierung eine solche Maschine einschließlich eines Druckers zu konstruieren und zu fertigen.
 </p>
- <i>Zitat:<a href="https://de.wikipedia.org/wiki/Differenzmaschine">Wikipedia</i>                                                                                                                            
+ <p class="zit src">Zitat: Wikipedia 2018</p>                                                                                                                            
 <h4> Charles Babbage </h4>
-<p>
+<p class="zit copy">
 Die erste funktionsfähige Differenzmaschine wurde von Charles Babbage zwischen 1820 und 1822 gebaut.[15]<br>
 Babbage kannte zu diesem Zeitpunkt, nach heutiger Lehrmeinung, die Überlegungen von Johann Helfrich von Müller nicht,[9]:126–127 diese wurden ihm erst später von seinem Freund John Herschel ins Englische übersetzt.<br>
 Diese erste Differenzmaschine konnte mit zwei Differenzen bei einer Genauigkeit von sechs Stellen rechnen. <br>
 Babbage sah die Maschine als Teil-Modell einer noch zu bauenden, größeren Differenzmaschine an.<br>
 Das Modell hatte die Funktion einer Machbarkeitsstudie, um finanzielle Unterstützung für eine größere Maschine zu erhalten.</p>
- <i>Zitat:<a href="https://de.wikipedia.org/wiki/Differenzmaschine">Wikipedia</i>    
+ <p class="zit src">Zitat: Wikipedia 2018</p>    
 
     
 <h3> Fun Facts </h3>

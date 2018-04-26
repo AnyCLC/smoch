@@ -4,7 +4,7 @@
 <?php includeImage(); ?>
 <p> Ähnlich wie das<a href="smartphone"> Smartphone </a>Wurde das erste Tablet schon früh entwickelt.
 	Schon im Jahr 1989 erschienen die ersten Tablets auf dem Markt. Da der mobile Internetzugang damals noch fehlte,
-	beschränkte sich die Funktion der Tablets auf Adressen- und Kalenderfunktionen. Dem entsprechend,
+	beschränkte sich die Funktion der Tablets auf Adressen- und Kalenderfunktionen. Dementsprechend,
 	blieb der grosse Erfolg auf dem Markt aus. Im Jahr 2010 brachte Apple das erste iPad auf den Markt. </p><br>
 
 <h3>Fun Facts</h3>
@@ -14,4 +14,3 @@
 	Einige Hersteller begannen damit, Convertibles herzustellen. So wurde mit hilfe eines 360grad Scharnieres 
 	oder einer abnehmbaren Tastatur, ein "2 in 1" Gerät realisiert. Diese konnte man als Notebook oder Tablet verwenden.
 	</p>
-<a href='https://de.wikipedia.org/wiki/Tabletcomputer'>Wikipedia/Tablet</a>
