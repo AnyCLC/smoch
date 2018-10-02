@@ -1,6 +1,6 @@
 <?php
 
-$db = mysqli_connect("localhost", "smochuser", "1234"        , "smoch");
+$db = mysqli_connect("localhost", "root", ""        , "smoch");
 if(!$db)
 {
 	exit("Verbindungsfehler: " . mysqli_connect_error());
