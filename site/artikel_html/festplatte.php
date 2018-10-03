@@ -24,7 +24,7 @@
 <p>Die Funktionsweise einer Festplatte ist bei HDD oder SSD in den Grundzügen gleich. Es werden Daten gespeichert, und sie können wieder ausgelesen werden.</p>
 
 <h3>Verwendung</h3>
-<p>Verwendet werden Festplatten als Speichermedium vieler Daten. Externe Festplatten dienen auch als Backupspeicher.test</p>
+<p>Verwendet werden Festplatten als Speichermedium vieler Daten. Externe Festplatten dienen auch als Backupspeicher.</p>
 
 <h3>Weitere Informationen</h3>
 <p>
